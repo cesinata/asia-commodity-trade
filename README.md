@@ -36,6 +36,16 @@ US dollars at current prices.
    (HS 190230) were worth US$178.3 million in 2015 and US$437.2 million in 2025. Volume rose from
    110.4 to 216.4 thousand tonnes. *Source: `data/marts/mart_wheat_product_exports.csv`.*
 
+## In progress: Tableau Public dashboards
+Each dashboard is being rebuilt as a Tableau Public workbook from the same tables in
+`data/marts/`, with filters by year and partner country. Links will be added here when they
+are published. The build plan is in [tableau/README.md](tableau/README.md).
+
+| Workbook | Sheets | Status |
+|---|---|---|
+| Indonesia's wheat trade | Key figures, import volume, supplier shares, Australia and United States shares, flour and noodle exports, comparison of reported trade | In progress |
+| Coal exports: Australia and Indonesia | Key figures, export volume, average export value, destinations, share sent to China, comparison of reported trade | In progress |
+
 ## How it works
 ```text
 UN Comtrade API -> src/fetch.py -> data/raw/ (stays on your computer)
