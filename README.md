@@ -8,12 +8,18 @@ trade statistics published by UN Comtrade.
 | Indonesia's wheat trade | How much wheat does Indonesia import, from which countries, and how much flour and noodles does it export? |
 | Coal exports: Australia and Indonesia | How do the two countries compare on export volume, average export value and destination markets? |
 
-**Live dashboards:**
-[Indonesia's wheat trade](https://cesinata.github.io/asia-commodity-trade/wheat/) ·
-[Coal exports: Australia and Indonesia](https://cesinata.github.io/asia-commodity-trade/coal/) ·
-[All dashboards](https://cesinata.github.io/asia-commodity-trade/)
+**Live site: [cesinata.github.io/asia-commodity-trade](https://cesinata.github.io/asia-commodity-trade/)**
 
-![The Indonesia's wheat trade dashboard: key figures, wheat imports by year and supplier shares in 2025](docs/assets/screenshot-wheat.png)
+<table>
+<tr>
+<td width="50%"><a href="https://cesinata.github.io/asia-commodity-trade/wheat/"><img src="docs/assets/screenshot-wheat.png" alt="Top of the Indonesia's wheat trade dashboard: title, introduction and key figures for 2025"></a></td>
+<td width="50%"><a href="https://cesinata.github.io/asia-commodity-trade/coal/"><img src="docs/assets/screenshot-coal.png" alt="Top of the Coal exports: Australia and Indonesia dashboard: title, introduction and key figures for 2025"></a></td>
+</tr>
+<tr>
+<td align="center"><a href="https://cesinata.github.io/asia-commodity-trade/wheat/">Indonesia's wheat trade</a></td>
+<td align="center"><a href="https://cesinata.github.io/asia-commodity-trade/coal/">Coal exports: Australia and Indonesia</a></td>
+</tr>
+</table>
 
 ## Findings
 Figures are rounded from the tables in `data/marts/`. Volumes are in tonnes; values are in
@@ -78,12 +84,7 @@ A free key comes from comtradedeveloper.un.org (product "comtrade - v1").
 - The dashboards describe what changed. They do not explain why.
 
 ## Data and licence
-Source: UN Comtrade, United Nations Statistics Division. Raw downloads are not included in
-this repository. It contains aggregated tables and charts only.
-
-## AI assistance
-An AI assistant (Claude) helped write the pipeline code, the SQL and the page layout. I ran
-the pipeline, reviewed the checks and am responsible for the results.
+Source: UN Comtrade, United Nations Statistics Division. Raw downloads are not included in this repository. It contains aggregated tables and charts only.
 
 ## Origin
 This project extends an analysis I made for the Satria Data 2021 statistics competition.
