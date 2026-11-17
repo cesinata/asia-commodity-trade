@@ -1,0 +1,8131 @@
+{
+ "meta": {
+  "story": "coal",
+  "source": "UN Comtrade, United Nations Statistics Division",
+  "data_retrieved": "2026-11-17",
+  "page_built": "2026-11-17",
+  "first_year": 2015,
+  "latest_year": 2025
+ },
+ "tables": {
+  "mart_coal_exports_year": [
+   {
+    "reporter": "AUS",
+    "year": 2015,
+    "million_tonnes": 387.849253,
+    "value_usd_billion": 28.418514,
+    "usd_per_tonne": 73.272061,
+    "value_share_without_weight": 0.0
+   },
+   {
+    "reporter": "AUS",
+    "year": 2016,
+    "million_tonnes": 390.898533,
+    "value_usd_billion": 29.57976,
+    "usd_per_tonne": 75.671198,
+    "value_share_without_weight": 0.0
+   },
+   {
+    "reporter": "AUS",
+    "year": 2017,
+    "million_tonnes": 373.016589,
+    "value_usd_billion": 43.807014,
+    "usd_per_tonne": 117.439854,
+    "value_share_without_weight": 0.0
+   },
+   {
+    "reporter": "AUS",
+    "year": 2018,
+    "million_tonnes": 386.146114,
+    "value_usd_billion": 49.730887,
+    "usd_per_tonne": 128.787746,
+    "value_share_without_weight": 0.0
+   },
+   {
+    "reporter": "AUS",
+    "year": 2019,
+    "million_tonnes": 395.959858,
+    "value_usd_billion": 44.371665,
+    "usd_per_tonne": 112.061016,
+    "value_share_without_weight": 0.0
+   },
+   {
+    "reporter": "AUS",
+    "year": 2020,
+    "million_tonnes": 370.779716,
+    "value_usd_billion": 30.163011,
+    "usd_per_tonne": 81.350218,
+    "value_share_without_weight": 0.0
+   },
+   {
+    "reporter": "AUS",
+    "year": 2021,
+    "million_tonnes": 366.512021,
+    "value_usd_billion": 46.598545,
+    "usd_per_tonne": 127.140564,
+    "value_share_without_weight": 0.0
+   },
+   {
+    "reporter": "AUS",
+    "year": 2022,
+    "million_tonnes": 338.831959,
+    "value_usd_billion": 98.238239,
+    "usd_per_tonne": 289.932035,
+    "value_share_without_weight": 0.0
+   },
+   {
+    "reporter": "AUS",
+    "year": 2023,
+    "million_tonnes": 353.029801,
+    "value_usd_billion": 67.642315,
+    "usd_per_tonne": 191.605114,
+    "value_share_without_weight": 0.0
+   },
+   {
+    "reporter": "AUS",
+    "year": 2024,
+    "million_tonnes": 361.95839,
+    "value_usd_billion": 56.507604,
+    "usd_per_tonne": 156.116299,
+    "value_share_without_weight": 0.0
+   },
+   {
+    "reporter": "AUS",
+    "year": 2025,
+    "million_tonnes": 355.643272,
+    "value_usd_billion": 41.409604,
+    "usd_per_tonne": 116.435785,
+    "value_share_without_weight": 0.0
+   },
+   {
+    "reporter": "IDN",
+    "year": 2015,
+    "million_tonnes": 366.970401,
+    "value_usd_billion": 15.998961,
+    "usd_per_tonne": 43.597415,
+    "value_share_without_weight": 0.0
+   },
+   {
+    "reporter": "IDN",
+    "year": 2016,
+    "million_tonnes": 368.909221,
+    "value_usd_billion": 14.511754,
+    "usd_per_tonne": 39.336923,
+    "value_share_without_weight": 0.0
+   },
+   {
+    "reporter": "IDN",
+    "year": 2017,
+    "million_tonnes": 389.530328,
+    "value_usd_billion": 20.473293,
+    "usd_per_tonne": 52.558919,
+    "value_share_without_weight": 0.0
+   },
+   {
+    "reporter": "IDN",
+    "year": 2018,
+    "million_tonnes": 429.061428,
+    "value_usd_billion": 23.963532,
+    "usd_per_tonne": 55.851053,
+    "value_share_without_weight": 0.0
+   },
+   {
+    "reporter": "IDN",
+    "year": 2019,
+    "million_tonnes": 459.13652,
+    "value_usd_billion": 21.72808,
+    "usd_per_tonne": 47.323789,
+    "value_share_without_weight": 0.0
+   },
+   {
+    "reporter": "IDN",
+    "year": 2020,
+    "million_tonnes": 406.882441,
+    "value_usd_billion": 16.457698,
+    "usd_per_tonne": 40.448289,
+    "value_share_without_weight": 0.0
+   },
+   {
+    "reporter": "IDN",
+    "year": 2021,
+    "million_tonnes": 433.660855,
+    "value_usd_billion": 31.508252,
+    "usd_per_tonne": 72.656436,
+    "value_share_without_weight": 0.0
+   },
+   {
+    "reporter": "IDN",
+    "year": 2022,
+    "million_tonnes": 466.573696,
+    "value_usd_billion": 54.627384,
+    "usd_per_tonne": 117.082005,
+    "value_share_without_weight": 0.0
+   },
+   {
+    "reporter": "IDN",
+    "year": 2023,
+    "million_tonnes": 521.102998,
+    "value_usd_billion": 42.849526,
+    "usd_per_tonne": 82.228516,
+    "value_share_without_weight": 0.0
+   },
+   {
+    "reporter": "IDN",
+    "year": 2024,
+    "million_tonnes": 557.755757,
+    "value_usd_billion": 37.83061,
+    "usd_per_tonne": 67.826481,
+    "value_share_without_weight": 0.0
+   },
+   {
+    "reporter": "IDN",
+    "year": 2025,
+    "million_tonnes": 523.997729,
+    "value_usd_billion": 30.209214,
+    "usd_per_tonne": 57.651421,
+    "value_share_without_weight": 0.0
+   }
+  ],
+  "mart_coal_buyers": [
+   {
+    "reporter": "AUS",
+    "year": 2015,
+    "partner": "JPN",
+    "partner_name": "Japan",
+    "million_tonnes": 125.676182,
+    "share": 0.324034,
+    "rank_in_year": 1,
+    "usd_per_tonne": 73.098644
+   },
+   {
+    "reporter": "AUS",
+    "year": 2015,
+    "partner": "CHN",
+    "partner_name": "China",
+    "million_tonnes": 71.228184,
+    "share": 0.183649,
+    "rank_in_year": 2,
+    "usd_per_tonne": 66.640007
+   },
+   {
+    "reporter": "AUS",
+    "year": 2015,
+    "partner": "KOR",
+    "partner_name": "Rep. of Korea",
+    "million_tonnes": 59.655052,
+    "share": 0.15381,
+    "rank_in_year": 3,
+    "usd_per_tonne": 65.484041
+   },
+   {
+    "reporter": "AUS",
+    "year": 2015,
+    "partner": "IND",
+    "partner_name": "India",
+    "million_tonnes": 47.819288,
+    "share": 0.123293,
+    "rank_in_year": 4,
+    "usd_per_tonne": 85.774895
+   },
+   {
+    "reporter": "AUS",
+    "year": 2015,
+    "partner": "S19",
+    "partner_name": "Other Asia, nes",
+    "million_tonnes": 29.985316,
+    "share": 0.077312,
+    "rank_in_year": 5,
+    "usd_per_tonne": 69.127441
+   },
+   {
+    "reporter": "AUS",
+    "year": 2015,
+    "partner": "NLD",
+    "partner_name": "Netherlands",
+    "million_tonnes": 7.008065,
+    "share": 0.018069,
+    "rank_in_year": 6,
+    "usd_per_tonne": 95.027305
+   },
+   {
+    "reporter": "AUS",
+    "year": 2015,
+    "partner": "BRA",
+    "partner_name": "Brazil",
+    "million_tonnes": 6.583076,
+    "share": 0.016973,
+    "rank_in_year": 7,
+    "usd_per_tonne": 87.129674
+   },
+   {
+    "reporter": "AUS",
+    "year": 2015,
+    "partner": "MYS",
+    "partner_name": "Malaysia",
+    "million_tonnes": 6.166362,
+    "share": 0.015899,
+    "rank_in_year": 8,
+    "usd_per_tonne": 64.245621
+   },
+   {
+    "reporter": "AUS",
+    "year": 2015,
+    "partner": "THA",
+    "partner_name": "Thailand",
+    "million_tonnes": 3.776672,
+    "share": 0.009737,
+    "rank_in_year": 9,
+    "usd_per_tonne": 63.143666
+   },
+   {
+    "reporter": "AUS",
+    "year": 2015,
+    "partner": "FRA",
+    "partner_name": "France",
+    "million_tonnes": 3.700153,
+    "share": 0.00954,
+    "rank_in_year": 10,
+    "usd_per_tonne": 94.031921
+   },
+   {
+    "reporter": "AUS",
+    "year": 2015,
+    "partner": "MEX",
+    "partner_name": "Mexico",
+    "million_tonnes": 3.625751,
+    "share": 0.009348,
+    "rank_in_year": 11,
+    "usd_per_tonne": 58.579613
+   },
+   {
+    "reporter": "AUS",
+    "year": 2015,
+    "partner": "IDN",
+    "partner_name": "Indonesia",
+    "million_tonnes": 2.181566,
+    "share": 0.005625,
+    "rank_in_year": 12,
+    "usd_per_tonne": 87.697101
+   },
+   {
+    "reporter": "AUS",
+    "year": 2015,
+    "partner": "CHL",
+    "partner_name": "Chile",
+    "million_tonnes": 2.150712,
+    "share": 0.005545,
+    "rank_in_year": 13,
+    "usd_per_tonne": 63.909219
+   },
+   {
+    "reporter": "AUS",
+    "year": 2015,
+    "partner": "TUR",
+    "partner_name": "T\u00fcrkiye",
+    "million_tonnes": 1.982391,
+    "share": 0.005111,
+    "rank_in_year": 14,
+    "usd_per_tonne": 92.928358
+   },
+   {
+    "reporter": "AUS",
+    "year": 2015,
+    "partner": "GBR",
+    "partner_name": "United Kingdom",
+    "million_tonnes": 1.742914,
+    "share": 0.004494,
+    "rank_in_year": 15,
+    "usd_per_tonne": 95.801586
+   },
+   {
+    "reporter": "AUS",
+    "year": 2015,
+    "partner": "POL",
+    "partner_name": "Poland",
+    "million_tonnes": 1.355148,
+    "share": 0.003494,
+    "rank_in_year": 16,
+    "usd_per_tonne": 100.26941
+   },
+   {
+    "reporter": "AUS",
+    "year": 2015,
+    "partner": "ESP",
+    "partner_name": "Spain",
+    "million_tonnes": 1.347941,
+    "share": 0.003475,
+    "rank_in_year": 17,
+    "usd_per_tonne": 88.493911
+   },
+   {
+    "reporter": "AUS",
+    "year": 2015,
+    "partner": "SWE",
+    "partner_name": "Sweden",
+    "million_tonnes": 1.304008,
+    "share": 0.003362,
+    "rank_in_year": 18,
+    "usd_per_tonne": 100.828671
+   },
+   {
+    "reporter": "AUS",
+    "year": 2015,
+    "partner": "VNM",
+    "partner_name": "Viet Nam",
+    "million_tonnes": 1.297347,
+    "share": 0.003345,
+    "rank_in_year": 19,
+    "usd_per_tonne": 77.798676
+   },
+   {
+    "reporter": "AUS",
+    "year": 2015,
+    "partner": "BEL",
+    "partner_name": "Belgium",
+    "million_tonnes": 1.275278,
+    "share": 0.003288,
+    "rank_in_year": 20,
+    "usd_per_tonne": 97.649783
+   },
+   {
+    "reporter": "AUS",
+    "year": 2015,
+    "partner": "DEU",
+    "partner_name": "Germany",
+    "million_tonnes": 1.21996,
+    "share": 0.003145,
+    "rank_in_year": 21,
+    "usd_per_tonne": 94.482602
+   },
+   {
+    "reporter": "AUS",
+    "year": 2015,
+    "partner": "UKR",
+    "partner_name": "Ukraine",
+    "million_tonnes": 0.984678,
+    "share": 0.002539,
+    "rank_in_year": 22,
+    "usd_per_tonne": 100.40618
+   },
+   {
+    "reporter": "AUS",
+    "year": 2015,
+    "partner": "ZAF",
+    "partner_name": "South Africa",
+    "million_tonnes": 0.90621,
+    "share": 0.002337,
+    "rank_in_year": 23,
+    "usd_per_tonne": 93.880716
+   },
+   {
+    "reporter": "AUS",
+    "year": 2015,
+    "partner": "ITA",
+    "partner_name": "Italy",
+    "million_tonnes": 0.830456,
+    "share": 0.002141,
+    "rank_in_year": 24,
+    "usd_per_tonne": 103.817094
+   },
+   {
+    "reporter": "AUS",
+    "year": 2015,
+    "partner": "PHL",
+    "partner_name": "Philippines",
+    "million_tonnes": 0.825224,
+    "share": 0.002128,
+    "rank_in_year": 25,
+    "usd_per_tonne": 59.733086
+   },
+   {
+    "reporter": "AUS",
+    "year": 2015,
+    "partner": "ARG",
+    "partner_name": "Argentina",
+    "million_tonnes": 0.795589,
+    "share": 0.002051,
+    "rank_in_year": 26,
+    "usd_per_tonne": 92.892566
+   },
+   {
+    "reporter": "AUS",
+    "year": 2015,
+    "partner": "NCL",
+    "partner_name": "New Caledonia",
+    "million_tonnes": 0.780604,
+    "share": 0.002013,
+    "rank_in_year": 27,
+    "usd_per_tonne": 70.559615
+   },
+   {
+    "reporter": "AUS",
+    "year": 2015,
+    "partner": "HKG",
+    "partner_name": "China, Hong Kong SAR",
+    "million_tonnes": 0.488244,
+    "share": 0.001259,
+    "rank_in_year": 28,
+    "usd_per_tonne": 62.860663
+   },
+   {
+    "reporter": "AUS",
+    "year": 2015,
+    "partner": "SVN",
+    "partner_name": "Slovenia",
+    "million_tonnes": 0.210039,
+    "share": 0.000542,
+    "rank_in_year": 29,
+    "usd_per_tonne": 89.267327
+   },
+   {
+    "reporter": "AUS",
+    "year": 2015,
+    "partner": "ISR",
+    "partner_name": "Israel",
+    "million_tonnes": 0.172353,
+    "share": 0.000444,
+    "rank_in_year": 30,
+    "usd_per_tonne": 66.433332
+   },
+   {
+    "reporter": "AUS",
+    "year": 2015,
+    "partner": "ROU",
+    "partner_name": "Romania",
+    "million_tonnes": 0.160477,
+    "share": 0.000414,
+    "rank_in_year": 31,
+    "usd_per_tonne": 77.451523
+   },
+   {
+    "reporter": "AUS",
+    "year": 2015,
+    "partner": "FLK",
+    "partner_name": "Falkland Isds (Malvinas)",
+    "million_tonnes": 0.121627,
+    "share": 0.000314,
+    "rank_in_year": 32,
+    "usd_per_tonne": 80.575908
+   },
+   {
+    "reporter": "AUS",
+    "year": 2015,
+    "partner": "PAK",
+    "partner_name": "Pakistan",
+    "million_tonnes": 0.11,
+    "share": 0.000284,
+    "rank_in_year": 33,
+    "usd_per_tonne": 100.041991
+   },
+   {
+    "reporter": "AUS",
+    "year": 2015,
+    "partner": "NGA",
+    "partner_name": "Nigeria",
+    "million_tonnes": 0.088004,
+    "share": 0.000227,
+    "rank_in_year": 34,
+    "usd_per_tonne": 31.130585
+   },
+   {
+    "reporter": "AUS",
+    "year": 2015,
+    "partner": "ARE",
+    "partner_name": "United Arab Emirates",
+    "million_tonnes": 0.069538,
+    "share": 0.000179,
+    "rank_in_year": 35,
+    "usd_per_tonne": 53.008254
+   },
+   {
+    "reporter": "AUS",
+    "year": 2015,
+    "partner": "NZL",
+    "partner_name": "New Zealand",
+    "million_tonnes": 0.069052,
+    "share": 0.000178,
+    "rank_in_year": 36,
+    "usd_per_tonne": 73.746655
+   },
+   {
+    "reporter": "AUS",
+    "year": 2015,
+    "partner": "USA",
+    "partner_name": "USA",
+    "million_tonnes": 0.055027,
+    "share": 0.000142,
+    "rank_in_year": 37,
+    "usd_per_tonne": 53.60463
+   },
+   {
+    "reporter": "AUS",
+    "year": 2015,
+    "partner": "MMR",
+    "partner_name": "Myanmar",
+    "million_tonnes": 0.052247,
+    "share": 0.000135,
+    "rank_in_year": 38,
+    "usd_per_tonne": 57.276609
+   },
+   {
+    "reporter": "AUS",
+    "year": 2015,
+    "partner": "GTM",
+    "partner_name": "Guatemala",
+    "million_tonnes": 0.048236,
+    "share": 0.000124,
+    "rank_in_year": 39,
+    "usd_per_tonne": 45.220437
+   },
+   {
+    "reporter": "AUS",
+    "year": 2015,
+    "partner": "OMN",
+    "partner_name": "Oman",
+    "million_tonnes": 0.000167,
+    "share": 0.0,
+    "rank_in_year": 40,
+    "usd_per_tonne": 67.976048
+   },
+   {
+    "reporter": "AUS",
+    "year": 2015,
+    "partner": "CYP",
+    "partner_name": "Cyprus",
+    "million_tonnes": 8.2e-05,
+    "share": 0.0,
+    "rank_in_year": 41,
+    "usd_per_tonne": 915.929903
+   },
+   {
+    "reporter": "AUS",
+    "year": 2015,
+    "partner": "EGY",
+    "partner_name": "Egypt",
+    "million_tonnes": 3.4e-05,
+    "share": 0.0,
+    "rank_in_year": 42,
+    "usd_per_tonne": 730.471976
+   },
+   {
+    "reporter": "AUS",
+    "year": 2015,
+    "partner": "FJI",
+    "partner_name": "Fiji",
+    "million_tonnes": 0.0,
+    "share": 0.0,
+    "rank_in_year": 43,
+    "usd_per_tonne": 630.252101
+   },
+   {
+    "reporter": "AUS",
+    "year": 2015,
+    "partner": "SGP",
+    "partner_name": "Singapore",
+    "million_tonnes": 0.0,
+    "share": 0.0,
+    "rank_in_year": 44,
+    "usd_per_tonne": 31580.0
+   },
+   {
+    "reporter": "AUS",
+    "year": 2016,
+    "partner": "JPN",
+    "partner_name": "Japan",
+    "million_tonnes": 121.869811,
+    "share": 0.311768,
+    "rank_in_year": 1,
+    "usd_per_tonne": 71.282341
+   },
+   {
+    "reporter": "AUS",
+    "year": 2016,
+    "partner": "CHN",
+    "partner_name": "China",
+    "million_tonnes": 75.173378,
+    "share": 0.192309,
+    "rank_in_year": 2,
+    "usd_per_tonne": 74.444389
+   },
+   {
+    "reporter": "AUS",
+    "year": 2016,
+    "partner": "KOR",
+    "partner_name": "Rep. of Korea",
+    "million_tonnes": 51.137312,
+    "share": 0.13082,
+    "rank_in_year": 3,
+    "usd_per_tonne": 68.250181
+   },
+   {
+    "reporter": "AUS",
+    "year": 2016,
+    "partner": "IND",
+    "partner_name": "India",
+    "million_tonnes": 48.269832,
+    "share": 0.123484,
+    "rank_in_year": 4,
+    "usd_per_tonne": 93.245003
+   },
+   {
+    "reporter": "AUS",
+    "year": 2016,
+    "partner": "S19",
+    "partner_name": "Other Asia, nes",
+    "million_tonnes": 36.089292,
+    "share": 0.092324,
+    "rank_in_year": 5,
+    "usd_per_tonne": 66.812182
+   },
+   {
+    "reporter": "AUS",
+    "year": 2016,
+    "partner": "NLD",
+    "partner_name": "Netherlands",
+    "million_tonnes": 9.482724,
+    "share": 0.024259,
+    "rank_in_year": 6,
+    "usd_per_tonne": 101.323909
+   },
+   {
+    "reporter": "AUS",
+    "year": 2016,
+    "partner": "MYS",
+    "partner_name": "Malaysia",
+    "million_tonnes": 6.847742,
+    "share": 0.017518,
+    "rank_in_year": 7,
+    "usd_per_tonne": 60.274567
+   },
+   {
+    "reporter": "AUS",
+    "year": 2016,
+    "partner": "BRA",
+    "partner_name": "Brazil",
+    "million_tonnes": 6.461555,
+    "share": 0.01653,
+    "rank_in_year": 8,
+    "usd_per_tonne": 92.860397
+   },
+   {
+    "reporter": "AUS",
+    "year": 2016,
+    "partner": "VNM",
+    "partner_name": "Viet Nam",
+    "million_tonnes": 3.975349,
+    "share": 0.01017,
+    "rank_in_year": 9,
+    "usd_per_tonne": 72.175443
+   },
+   {
+    "reporter": "AUS",
+    "year": 2016,
+    "partner": "FRA",
+    "partner_name": "France",
+    "million_tonnes": 3.868874,
+    "share": 0.009897,
+    "rank_in_year": 10,
+    "usd_per_tonne": 107.88586
+   },
+   {
+    "reporter": "AUS",
+    "year": 2016,
+    "partner": "CHL",
+    "partner_name": "Chile",
+    "million_tonnes": 3.640823,
+    "share": 0.009314,
+    "rank_in_year": 11,
+    "usd_per_tonne": 66.569384
+   },
+   {
+    "reporter": "AUS",
+    "year": 2016,
+    "partner": "THA",
+    "partner_name": "Thailand",
+    "million_tonnes": 3.583187,
+    "share": 0.009167,
+    "rank_in_year": 12,
+    "usd_per_tonne": 58.141276
+   },
+   {
+    "reporter": "AUS",
+    "year": 2016,
+    "partner": "MEX",
+    "partner_name": "Mexico",
+    "million_tonnes": 2.710375,
+    "share": 0.006934,
+    "rank_in_year": 13,
+    "usd_per_tonne": 48.336861
+   },
+   {
+    "reporter": "AUS",
+    "year": 2016,
+    "partner": "IDN",
+    "partner_name": "Indonesia",
+    "million_tonnes": 2.651354,
+    "share": 0.006783,
+    "rank_in_year": 14,
+    "usd_per_tonne": 82.123084
+   },
+   {
+    "reporter": "AUS",
+    "year": 2016,
+    "partner": "TUR",
+    "partner_name": "T\u00fcrkiye",
+    "million_tonnes": 1.580462,
+    "share": 0.004043,
+    "rank_in_year": 15,
+    "usd_per_tonne": 98.250574
+   },
+   {
+    "reporter": "AUS",
+    "year": 2016,
+    "partner": "POL",
+    "partner_name": "Poland",
+    "million_tonnes": 1.466514,
+    "share": 0.003752,
+    "rank_in_year": 16,
+    "usd_per_tonne": 109.627356
+   },
+   {
+    "reporter": "AUS",
+    "year": 2016,
+    "partner": "PHL",
+    "partner_name": "Philippines",
+    "million_tonnes": 1.378713,
+    "share": 0.003527,
+    "rank_in_year": 17,
+    "usd_per_tonne": 68.188371
+   },
+   {
+    "reporter": "AUS",
+    "year": 2016,
+    "partner": "SWE",
+    "partner_name": "Sweden",
+    "million_tonnes": 1.369266,
+    "share": 0.003503,
+    "rank_in_year": 18,
+    "usd_per_tonne": 104.247176
+   },
+   {
+    "reporter": "AUS",
+    "year": 2016,
+    "partner": "GBR",
+    "partner_name": "United Kingdom",
+    "million_tonnes": 1.226535,
+    "share": 0.003138,
+    "rank_in_year": 19,
+    "usd_per_tonne": 97.42926
+   },
+   {
+    "reporter": "AUS",
+    "year": 2016,
+    "partner": "ESP",
+    "partner_name": "Spain",
+    "million_tonnes": 1.202929,
+    "share": 0.003077,
+    "rank_in_year": 20,
+    "usd_per_tonne": 103.74105
+   },
+   {
+    "reporter": "AUS",
+    "year": 2016,
+    "partner": "ZAF",
+    "partner_name": "South Africa",
+    "million_tonnes": 1.087459,
+    "share": 0.002782,
+    "rank_in_year": 21,
+    "usd_per_tonne": 111.640163
+   },
+   {
+    "reporter": "AUS",
+    "year": 2016,
+    "partner": "NCL",
+    "partner_name": "New Caledonia",
+    "million_tonnes": 1.054548,
+    "share": 0.002698,
+    "rank_in_year": 22,
+    "usd_per_tonne": 68.166183
+   },
+   {
+    "reporter": "AUS",
+    "year": 2016,
+    "partner": "ITA",
+    "partner_name": "Italy",
+    "million_tonnes": 0.846061,
+    "share": 0.002164,
+    "rank_in_year": 23,
+    "usd_per_tonne": 104.732291
+   },
+   {
+    "reporter": "AUS",
+    "year": 2016,
+    "partner": "DEU",
+    "partner_name": "Germany",
+    "million_tonnes": 0.836614,
+    "share": 0.00214,
+    "rank_in_year": 24,
+    "usd_per_tonne": 86.917826
+   },
+   {
+    "reporter": "AUS",
+    "year": 2016,
+    "partner": "USA",
+    "partner_name": "USA",
+    "million_tonnes": 0.645897,
+    "share": 0.001652,
+    "rank_in_year": 25,
+    "usd_per_tonne": 77.877316
+   },
+   {
+    "reporter": "AUS",
+    "year": 2016,
+    "partner": "ARG",
+    "partner_name": "Argentina",
+    "million_tonnes": 0.603632,
+    "share": 0.001544,
+    "rank_in_year": 26,
+    "usd_per_tonne": 106.549943
+   },
+   {
+    "reporter": "AUS",
+    "year": 2016,
+    "partner": "SVN",
+    "partner_name": "Slovenia",
+    "million_tonnes": 0.362917,
+    "share": 0.000928,
+    "rank_in_year": 27,
+    "usd_per_tonne": 89.673022
+   },
+   {
+    "reporter": "AUS",
+    "year": 2016,
+    "partner": "HKG",
+    "partner_name": "China, Hong Kong SAR",
+    "million_tonnes": 0.360684,
+    "share": 0.000923,
+    "rank_in_year": 28,
+    "usd_per_tonne": 63.48209
+   },
+   {
+    "reporter": "AUS",
+    "year": 2016,
+    "partner": "UKR",
+    "partner_name": "Ukraine",
+    "million_tonnes": 0.313782,
+    "share": 0.000803,
+    "rank_in_year": 29,
+    "usd_per_tonne": 87.586235
+   },
+   {
+    "reporter": "AUS",
+    "year": 2016,
+    "partner": "BEL",
+    "partner_name": "Belgium",
+    "million_tonnes": 0.231485,
+    "share": 0.000592,
+    "rank_in_year": 30,
+    "usd_per_tonne": 86.227881
+   },
+   {
+    "reporter": "AUS",
+    "year": 2016,
+    "partner": "HRV",
+    "partner_name": "Croatia",
+    "million_tonnes": 0.104308,
+    "share": 0.000267,
+    "rank_in_year": 31,
+    "usd_per_tonne": 84.537792
+   },
+   {
+    "reporter": "AUS",
+    "year": 2016,
+    "partner": "IRN",
+    "partner_name": "Iran",
+    "million_tonnes": 0.094482,
+    "share": 0.000242,
+    "rank_in_year": 32,
+    "usd_per_tonne": 110.868525
+   },
+   {
+    "reporter": "AUS",
+    "year": 2016,
+    "partner": "EGY",
+    "partner_name": "Egypt",
+    "million_tonnes": 0.077017,
+    "share": 0.000197,
+    "rank_in_year": 33,
+    "usd_per_tonne": 86.119783
+   },
+   {
+    "reporter": "AUS",
+    "year": 2016,
+    "partner": "NZL",
+    "partner_name": "New Zealand",
+    "million_tonnes": 0.074556,
+    "share": 0.000191,
+    "rank_in_year": 34,
+    "usd_per_tonne": 68.947564
+   },
+   {
+    "reporter": "AUS",
+    "year": 2016,
+    "partner": "ROU",
+    "partner_name": "Romania",
+    "million_tonnes": 0.060703,
+    "share": 0.000155,
+    "rank_in_year": 35,
+    "usd_per_tonne": 86.740425
+   },
+   {
+    "reporter": "AUS",
+    "year": 2016,
+    "partner": "MMR",
+    "partner_name": "Myanmar",
+    "million_tonnes": 0.053109,
+    "share": 0.000136,
+    "rank_in_year": 36,
+    "usd_per_tonne": 38.460995
+   },
+   {
+    "reporter": "AUS",
+    "year": 2016,
+    "partner": "ARE",
+    "partner_name": "United Arab Emirates",
+    "million_tonnes": 0.05191,
+    "share": 0.000133,
+    "rank_in_year": 37,
+    "usd_per_tonne": 46.600443
+   },
+   {
+    "reporter": "AUS",
+    "year": 2016,
+    "partner": "FIN",
+    "partner_name": "Finland",
+    "million_tonnes": 0.051792,
+    "share": 0.000132,
+    "rank_in_year": 38,
+    "usd_per_tonne": 113.096656
+   },
+   {
+    "reporter": "AUS",
+    "year": 2016,
+    "partner": "OMN",
+    "partner_name": "Oman",
+    "million_tonnes": 0.001481,
+    "share": 4e-06,
+    "rank_in_year": 39,
+    "usd_per_tonne": 561.544017
+   },
+   {
+    "reporter": "AUS",
+    "year": 2016,
+    "partner": "CYP",
+    "partner_name": "Cyprus",
+    "million_tonnes": 5.8e-05,
+    "share": 0.0,
+    "rank_in_year": 40,
+    "usd_per_tonne": 716.588745
+   },
+   {
+    "reporter": "AUS",
+    "year": 2016,
+    "partner": "SGP",
+    "partner_name": "Singapore",
+    "million_tonnes": 1e-05,
+    "share": 0.0,
+    "rank_in_year": 41,
+    "usd_per_tonne": 214.455446
+   },
+   {
+    "reporter": "AUS",
+    "year": 2017,
+    "partner": "JPN",
+    "partner_name": "Japan",
+    "million_tonnes": 117.44331,
+    "share": 0.314847,
+    "rank_in_year": 1,
+    "usd_per_tonne": 107.730179
+   },
+   {
+    "reporter": "AUS",
+    "year": 2017,
+    "partner": "CHN",
+    "partner_name": "China",
+    "million_tonnes": 83.406903,
+    "share": 0.223601,
+    "rank_in_year": 2,
+    "usd_per_tonne": 108.406623
+   },
+   {
+    "reporter": "AUS",
+    "year": 2017,
+    "partner": "KOR",
+    "partner_name": "Rep. of Korea",
+    "million_tonnes": 48.831121,
+    "share": 0.130909,
+    "rank_in_year": 3,
+    "usd_per_tonne": 108.073873
+   },
+   {
+    "reporter": "AUS",
+    "year": 2017,
+    "partner": "IND",
+    "partner_name": "India",
+    "million_tonnes": 44.33122,
+    "share": 0.118845,
+    "rank_in_year": 4,
+    "usd_per_tonne": 158.806314
+   },
+   {
+    "reporter": "AUS",
+    "year": 2017,
+    "partner": "S19",
+    "partner_name": "Other Asia, nes",
+    "million_tonnes": 31.69884,
+    "share": 0.08498,
+    "rank_in_year": 5,
+    "usd_per_tonne": 101.695431
+   },
+   {
+    "reporter": "AUS",
+    "year": 2017,
+    "partner": "NLD",
+    "partner_name": "Netherlands",
+    "million_tonnes": 7.042243,
+    "share": 0.018879,
+    "rank_in_year": 6,
+    "usd_per_tonne": 188.283776
+   },
+   {
+    "reporter": "AUS",
+    "year": 2017,
+    "partner": "MYS",
+    "partner_name": "Malaysia",
+    "million_tonnes": 6.295057,
+    "share": 0.016876,
+    "rank_in_year": 7,
+    "usd_per_tonne": 87.2645
+   },
+   {
+    "reporter": "AUS",
+    "year": 2017,
+    "partner": "BRA",
+    "partner_name": "Brazil",
+    "million_tonnes": 5.789218,
+    "share": 0.01552,
+    "rank_in_year": 8,
+    "usd_per_tonne": 165.738807
+   },
+   {
+    "reporter": "AUS",
+    "year": 2017,
+    "partner": "VNM",
+    "partner_name": "Viet Nam",
+    "million_tonnes": 4.038573,
+    "share": 0.010827,
+    "rank_in_year": 9,
+    "usd_per_tonne": 117.085843
+   },
+   {
+    "reporter": "AUS",
+    "year": 2017,
+    "partner": "THA",
+    "partner_name": "Thailand",
+    "million_tonnes": 3.91354,
+    "share": 0.010492,
+    "rank_in_year": 10,
+    "usd_per_tonne": 70.80877
+   },
+   {
+    "reporter": "AUS",
+    "year": 2017,
+    "partner": "IDN",
+    "partner_name": "Indonesia",
+    "million_tonnes": 3.119689,
+    "share": 0.008363,
+    "rank_in_year": 11,
+    "usd_per_tonne": 109.157893
+   },
+   {
+    "reporter": "AUS",
+    "year": 2017,
+    "partner": "FRA",
+    "partner_name": "France",
+    "million_tonnes": 2.778822,
+    "share": 0.00745,
+    "rank_in_year": 12,
+    "usd_per_tonne": 187.977266
+   },
+   {
+    "reporter": "AUS",
+    "year": 2017,
+    "partner": "CHL",
+    "partner_name": "Chile",
+    "million_tonnes": 2.200987,
+    "share": 0.005901,
+    "rank_in_year": 13,
+    "usd_per_tonne": 96.846102
+   },
+   {
+    "reporter": "AUS",
+    "year": 2017,
+    "partner": "PHL",
+    "partner_name": "Philippines",
+    "million_tonnes": 1.66554,
+    "share": 0.004465,
+    "rank_in_year": 14,
+    "usd_per_tonne": 88.401948
+   },
+   {
+    "reporter": "AUS",
+    "year": 2017,
+    "partner": "ZAF",
+    "partner_name": "South Africa",
+    "million_tonnes": 1.194706,
+    "share": 0.003203,
+    "rank_in_year": 15,
+    "usd_per_tonne": 200.664355
+   },
+   {
+    "reporter": "AUS",
+    "year": 2017,
+    "partner": "POL",
+    "partner_name": "Poland",
+    "million_tonnes": 1.160257,
+    "share": 0.00311,
+    "rank_in_year": 16,
+    "usd_per_tonne": 194.592728
+   },
+   {
+    "reporter": "AUS",
+    "year": 2017,
+    "partner": "NCL",
+    "partner_name": "New Caledonia",
+    "million_tonnes": 1.04719,
+    "share": 0.002807,
+    "rank_in_year": 17,
+    "usd_per_tonne": 89.462151
+   },
+   {
+    "reporter": "AUS",
+    "year": 2017,
+    "partner": "GBR",
+    "partner_name": "United Kingdom",
+    "million_tonnes": 0.934771,
+    "share": 0.002506,
+    "rank_in_year": 18,
+    "usd_per_tonne": 163.550005
+   },
+   {
+    "reporter": "AUS",
+    "year": 2017,
+    "partner": "BEL",
+    "partner_name": "Belgium",
+    "million_tonnes": 0.918098,
+    "share": 0.002461,
+    "rank_in_year": 19,
+    "usd_per_tonne": 168.82225
+   },
+   {
+    "reporter": "AUS",
+    "year": 2017,
+    "partner": "ESP",
+    "partner_name": "Spain",
+    "million_tonnes": 0.869891,
+    "share": 0.002332,
+    "rank_in_year": 20,
+    "usd_per_tonne": 197.27698
+   },
+   {
+    "reporter": "AUS",
+    "year": 2017,
+    "partner": "SWE",
+    "partner_name": "Sweden",
+    "million_tonnes": 0.790176,
+    "share": 0.002118,
+    "rank_in_year": 21,
+    "usd_per_tonne": 190.246864
+   },
+   {
+    "reporter": "AUS",
+    "year": 2017,
+    "partner": "TUR",
+    "partner_name": "T\u00fcrkiye",
+    "million_tonnes": 0.570453,
+    "share": 0.001529,
+    "rank_in_year": 22,
+    "usd_per_tonne": 166.022325
+   },
+   {
+    "reporter": "AUS",
+    "year": 2017,
+    "partner": "DEU",
+    "partner_name": "Germany",
+    "million_tonnes": 0.409364,
+    "share": 0.001097,
+    "rank_in_year": 23,
+    "usd_per_tonne": 187.812388
+   },
+   {
+    "reporter": "AUS",
+    "year": 2017,
+    "partner": "ARG",
+    "partner_name": "Argentina",
+    "million_tonnes": 0.38795,
+    "share": 0.00104,
+    "rank_in_year": 24,
+    "usd_per_tonne": 180.774918
+   },
+   {
+    "reporter": "AUS",
+    "year": 2017,
+    "partner": "SVN",
+    "partner_name": "Slovenia",
+    "million_tonnes": 0.385132,
+    "share": 0.001032,
+    "rank_in_year": 25,
+    "usd_per_tonne": 217.462079
+   },
+   {
+    "reporter": "AUS",
+    "year": 2017,
+    "partner": "ITA",
+    "partner_name": "Italy",
+    "million_tonnes": 0.328872,
+    "share": 0.000882,
+    "rank_in_year": 26,
+    "usd_per_tonne": 240.705358
+   },
+   {
+    "reporter": "AUS",
+    "year": 2017,
+    "partner": "HKG",
+    "partner_name": "China, Hong Kong SAR",
+    "million_tonnes": 0.292492,
+    "share": 0.000784,
+    "rank_in_year": 27,
+    "usd_per_tonne": 84.429229
+   },
+   {
+    "reporter": "AUS",
+    "year": 2017,
+    "partner": "UKR",
+    "partner_name": "Ukraine",
+    "million_tonnes": 0.245031,
+    "share": 0.000657,
+    "rank_in_year": 28,
+    "usd_per_tonne": 155.885635
+   },
+   {
+    "reporter": "AUS",
+    "year": 2017,
+    "partner": "IRN",
+    "partner_name": "Iran",
+    "million_tonnes": 0.177846,
+    "share": 0.000477,
+    "rank_in_year": 29,
+    "usd_per_tonne": 160.45446
+   },
+   {
+    "reporter": "AUS",
+    "year": 2017,
+    "partner": "ROU",
+    "partner_name": "Romania",
+    "million_tonnes": 0.153505,
+    "share": 0.000412,
+    "rank_in_year": 30,
+    "usd_per_tonne": 148.458216
+   },
+   {
+    "reporter": "AUS",
+    "year": 2017,
+    "partner": "ARE",
+    "partner_name": "United Arab Emirates",
+    "million_tonnes": 0.152545,
+    "share": 0.000409,
+    "rank_in_year": 31,
+    "usd_per_tonne": 62.77923
+   },
+   {
+    "reporter": "AUS",
+    "year": 2017,
+    "partner": "NZL",
+    "partner_name": "New Zealand",
+    "million_tonnes": 0.112896,
+    "share": 0.000303,
+    "rank_in_year": 32,
+    "usd_per_tonne": 77.769248
+   },
+   {
+    "reporter": "AUS",
+    "year": 2017,
+    "partner": "USA",
+    "partner_name": "USA",
+    "million_tonnes": 0.104305,
+    "share": 0.00028,
+    "rank_in_year": 33,
+    "usd_per_tonne": 133.158758
+   },
+   {
+    "reporter": "AUS",
+    "year": 2017,
+    "partner": "MMR",
+    "partner_name": "Myanmar",
+    "million_tonnes": 0.083503,
+    "share": 0.000224,
+    "rank_in_year": 34,
+    "usd_per_tonne": 67.105046
+   },
+   {
+    "reporter": "AUS",
+    "year": 2017,
+    "partner": "AUT",
+    "partner_name": "Austria",
+    "million_tonnes": 0.07675,
+    "share": 0.000206,
+    "rank_in_year": 35,
+    "usd_per_tonne": 168.537908
+   },
+   {
+    "reporter": "AUS",
+    "year": 2017,
+    "partner": "PAK",
+    "partner_name": "Pakistan",
+    "million_tonnes": 0.051425,
+    "share": 0.000138,
+    "rank_in_year": 36,
+    "usd_per_tonne": 68.584847
+   },
+   {
+    "reporter": "AUS",
+    "year": 2017,
+    "partner": "TLS",
+    "partner_name": "Timor-Leste",
+    "million_tonnes": 0.014314,
+    "share": 3.8e-05,
+    "rank_in_year": 37,
+    "usd_per_tonne": 115.001624
+   },
+   {
+    "reporter": "AUS",
+    "year": 2017,
+    "partner": "SGP",
+    "partner_name": "Singapore",
+    "million_tonnes": 2.3e-05,
+    "share": 0.0,
+    "rank_in_year": 38,
+    "usd_per_tonne": 482.900435
+   },
+   {
+    "reporter": "AUS",
+    "year": 2017,
+    "partner": "EGY",
+    "partner_name": "Egypt",
+    "million_tonnes": 2e-05,
+    "share": 0.0,
+    "rank_in_year": 39,
+    "usd_per_tonne": 704.811717
+   },
+   {
+    "reporter": "AUS",
+    "year": 2017,
+    "partner": "PNG",
+    "partner_name": "Papua New Guinea",
+    "million_tonnes": 6e-06,
+    "share": 0.0,
+    "rank_in_year": 40,
+    "usd_per_tonne": 1265.434007
+   },
+   {
+    "reporter": "AUS",
+    "year": 2017,
+    "partner": "MNG",
+    "partner_name": "Mongolia",
+    "million_tonnes": 4e-06,
+    "share": 0.0,
+    "rank_in_year": 41,
+    "usd_per_tonne": 163.32275
+   },
+   {
+    "reporter": "AUS",
+    "year": 2017,
+    "partner": "NRU",
+    "partner_name": "Naoero",
+    "million_tonnes": 2e-06,
+    "share": 0.0,
+    "rank_in_year": 42,
+    "usd_per_tonne": 1207.6675
+   },
+   {
+    "reporter": "AUS",
+    "year": 2017,
+    "partner": "KAZ",
+    "partner_name": "Kazakhstan",
+    "million_tonnes": 0.0,
+    "share": 0.0,
+    "rank_in_year": 43,
+    "usd_per_tonne": 19246.0
+   },
+   {
+    "reporter": "AUS",
+    "year": 2018,
+    "partner": "JPN",
+    "partner_name": "Japan",
+    "million_tonnes": 116.7337,
+    "share": 0.302304,
+    "rank_in_year": 1,
+    "usd_per_tonne": 121.564581
+   },
+   {
+    "reporter": "AUS",
+    "year": 2018,
+    "partner": "CHN",
+    "partner_name": "China",
+    "million_tonnes": 89.17729,
+    "share": 0.230942,
+    "rank_in_year": 2,
+    "usd_per_tonne": 118.761334
+   },
+   {
+    "reporter": "AUS",
+    "year": 2018,
+    "partner": "IND",
+    "partner_name": "India",
+    "million_tonnes": 50.05276,
+    "share": 0.129621,
+    "rank_in_year": 3,
+    "usd_per_tonne": 163.217711
+   },
+   {
+    "reporter": "AUS",
+    "year": 2018,
+    "partner": "KOR",
+    "partner_name": "Rep. of Korea",
+    "million_tonnes": 47.9051,
+    "share": 0.12406,
+    "rank_in_year": 4,
+    "usd_per_tonne": 114.51808
+   },
+   {
+    "reporter": "AUS",
+    "year": 2018,
+    "partner": "S19",
+    "partner_name": "Other Asia, nes",
+    "million_tonnes": 32.57415,
+    "share": 0.084357,
+    "rank_in_year": 5,
+    "usd_per_tonne": 118.828245
+   },
+   {
+    "reporter": "AUS",
+    "year": 2018,
+    "partner": "NLD",
+    "partner_name": "Netherlands",
+    "million_tonnes": 7.477463,
+    "share": 0.019364,
+    "rank_in_year": 6,
+    "usd_per_tonne": 185.908355
+   },
+   {
+    "reporter": "AUS",
+    "year": 2018,
+    "partner": "MYS",
+    "partner_name": "Malaysia",
+    "million_tonnes": 7.009932,
+    "share": 0.018154,
+    "rank_in_year": 7,
+    "usd_per_tonne": 112.671462
+   },
+   {
+    "reporter": "AUS",
+    "year": 2018,
+    "partner": "VNM",
+    "partner_name": "Viet Nam",
+    "million_tonnes": 6.954339,
+    "share": 0.01801,
+    "rank_in_year": 8,
+    "usd_per_tonne": 126.152076
+   },
+   {
+    "reporter": "AUS",
+    "year": 2018,
+    "partner": "BRA",
+    "partner_name": "Brazil",
+    "million_tonnes": 5.11461,
+    "share": 0.013245,
+    "rank_in_year": 9,
+    "usd_per_tonne": 166.829431
+   },
+   {
+    "reporter": "AUS",
+    "year": 2018,
+    "partner": "IDN",
+    "partner_name": "Indonesia",
+    "million_tonnes": 4.078125,
+    "share": 0.010561,
+    "rank_in_year": 10,
+    "usd_per_tonne": 136.445926
+   },
+   {
+    "reporter": "AUS",
+    "year": 2018,
+    "partner": "THA",
+    "partner_name": "Thailand",
+    "million_tonnes": 3.444071,
+    "share": 0.008919,
+    "rank_in_year": 11,
+    "usd_per_tonne": 76.083849
+   },
+   {
+    "reporter": "AUS",
+    "year": 2018,
+    "partner": "FRA",
+    "partner_name": "France",
+    "million_tonnes": 2.91544,
+    "share": 0.00755,
+    "rank_in_year": 12,
+    "usd_per_tonne": 200.031817
+   },
+   {
+    "reporter": "AUS",
+    "year": 2018,
+    "partner": "POL",
+    "partner_name": "Poland",
+    "million_tonnes": 1.48652,
+    "share": 0.00385,
+    "rank_in_year": 13,
+    "usd_per_tonne": 210.915674
+   },
+   {
+    "reporter": "AUS",
+    "year": 2018,
+    "partner": "ESP",
+    "partner_name": "Spain",
+    "million_tonnes": 1.3719,
+    "share": 0.003553,
+    "rank_in_year": 14,
+    "usd_per_tonne": 185.011699
+   },
+   {
+    "reporter": "AUS",
+    "year": 2018,
+    "partner": "PHL",
+    "partner_name": "Philippines",
+    "million_tonnes": 1.329945,
+    "share": 0.003444,
+    "rank_in_year": 15,
+    "usd_per_tonne": 105.334596
+   },
+   {
+    "reporter": "AUS",
+    "year": 2018,
+    "partner": "NCL",
+    "partner_name": "New Caledonia",
+    "million_tonnes": 1.23778,
+    "share": 0.003205,
+    "rank_in_year": 16,
+    "usd_per_tonne": 102.505979
+   },
+   {
+    "reporter": "AUS",
+    "year": 2018,
+    "partner": "SWE",
+    "partner_name": "Sweden",
+    "million_tonnes": 1.024278,
+    "share": 0.002653,
+    "rank_in_year": 17,
+    "usd_per_tonne": 201.360725
+   },
+   {
+    "reporter": "AUS",
+    "year": 2018,
+    "partner": "ZAF",
+    "partner_name": "South Africa",
+    "million_tonnes": 0.992873,
+    "share": 0.002571,
+    "rank_in_year": 18,
+    "usd_per_tonne": 194.803293
+   },
+   {
+    "reporter": "AUS",
+    "year": 2018,
+    "partner": "CHL",
+    "partner_name": "Chile",
+    "million_tonnes": 0.979147,
+    "share": 0.002536,
+    "rank_in_year": 19,
+    "usd_per_tonne": 137.026776
+   },
+   {
+    "reporter": "AUS",
+    "year": 2018,
+    "partner": "GBR",
+    "partner_name": "United Kingdom",
+    "million_tonnes": 0.976339,
+    "share": 0.002528,
+    "rank_in_year": 20,
+    "usd_per_tonne": 158.91704
+   },
+   {
+    "reporter": "AUS",
+    "year": 2018,
+    "partner": "DEU",
+    "partner_name": "Germany",
+    "million_tonnes": 0.699651,
+    "share": 0.001812,
+    "rank_in_year": 21,
+    "usd_per_tonne": 206.13969
+   },
+   {
+    "reporter": "AUS",
+    "year": 2018,
+    "partner": "ITA",
+    "partner_name": "Italy",
+    "million_tonnes": 0.558859,
+    "share": 0.001447,
+    "rank_in_year": 22,
+    "usd_per_tonne": 218.191348
+   },
+   {
+    "reporter": "AUS",
+    "year": 2018,
+    "partner": "TUR",
+    "partner_name": "T\u00fcrkiye",
+    "million_tonnes": 0.424239,
+    "share": 0.001099,
+    "rank_in_year": 23,
+    "usd_per_tonne": 182.985911
+   },
+   {
+    "reporter": "AUS",
+    "year": 2018,
+    "partner": "ARG",
+    "partner_name": "Argentina",
+    "million_tonnes": 0.365467,
+    "share": 0.000946,
+    "rank_in_year": 24,
+    "usd_per_tonne": 176.124086
+   },
+   {
+    "reporter": "AUS",
+    "year": 2018,
+    "partner": "UKR",
+    "partner_name": "Ukraine",
+    "million_tonnes": 0.237042,
+    "share": 0.000614,
+    "rank_in_year": 25,
+    "usd_per_tonne": 182.348383
+   },
+   {
+    "reporter": "AUS",
+    "year": 2018,
+    "partner": "HKG",
+    "partner_name": "China, Hong Kong SAR",
+    "million_tonnes": 0.159091,
+    "share": 0.000412,
+    "rank_in_year": 26,
+    "usd_per_tonne": 82.745092
+   },
+   {
+    "reporter": "AUS",
+    "year": 2018,
+    "partner": "FIN",
+    "partner_name": "Finland",
+    "million_tonnes": 0.155468,
+    "share": 0.000403,
+    "rank_in_year": 27,
+    "usd_per_tonne": 198.297852
+   },
+   {
+    "reporter": "AUS",
+    "year": 2018,
+    "partner": "SGP",
+    "partner_name": "Singapore",
+    "million_tonnes": 0.154173,
+    "share": 0.000399,
+    "rank_in_year": 28,
+    "usd_per_tonne": 62.263961
+   },
+   {
+    "reporter": "AUS",
+    "year": 2018,
+    "partner": "IRN",
+    "partner_name": "Iran",
+    "million_tonnes": 0.117656,
+    "share": 0.000305,
+    "rank_in_year": 29,
+    "usd_per_tonne": 275.560233
+   },
+   {
+    "reporter": "AUS",
+    "year": 2018,
+    "partner": "ARE",
+    "partner_name": "United Arab Emirates",
+    "million_tonnes": 0.1125,
+    "share": 0.000291,
+    "rank_in_year": 30,
+    "usd_per_tonne": 66.711933
+   },
+   {
+    "reporter": "AUS",
+    "year": 2018,
+    "partner": "SVN",
+    "partner_name": "Slovenia",
+    "million_tonnes": 0.1093,
+    "share": 0.000283,
+    "rank_in_year": 31,
+    "usd_per_tonne": 207.630583
+   },
+   {
+    "reporter": "AUS",
+    "year": 2018,
+    "partner": "EGY",
+    "partner_name": "Egypt",
+    "million_tonnes": 0.090576,
+    "share": 0.000235,
+    "rank_in_year": 32,
+    "usd_per_tonne": 70.706116
+   },
+   {
+    "reporter": "AUS",
+    "year": 2018,
+    "partner": "NZL",
+    "partner_name": "New Zealand",
+    "million_tonnes": 0.075967,
+    "share": 0.000197,
+    "rank_in_year": 33,
+    "usd_per_tonne": 100.814273
+   },
+   {
+    "reporter": "AUS",
+    "year": 2018,
+    "partner": "MMR",
+    "partner_name": "Myanmar",
+    "million_tonnes": 0.03025,
+    "share": 7.8e-05,
+    "rank_in_year": 34,
+    "usd_per_tonne": 66.340261
+   },
+   {
+    "reporter": "AUS",
+    "year": 2018,
+    "partner": "BEL",
+    "partner_name": "Belgium",
+    "million_tonnes": 0.019763,
+    "share": 5.1e-05,
+    "rank_in_year": 35,
+    "usd_per_tonne": 197.891466
+   },
+   {
+    "reporter": "AUS",
+    "year": 2018,
+    "partner": "X1 ",
+    "partner_name": "Bunkers",
+    "million_tonnes": 0.000209,
+    "share": 1e-06,
+    "rank_in_year": 36,
+    "usd_per_tonne": 147.107115
+   },
+   {
+    "reporter": "AUS",
+    "year": 2018,
+    "partner": "OMN",
+    "partner_name": "Oman",
+    "million_tonnes": 0.00014,
+    "share": 0.0,
+    "rank_in_year": 37,
+    "usd_per_tonne": 468.710688
+   },
+   {
+    "reporter": "AUS",
+    "year": 2018,
+    "partner": "PNG",
+    "partner_name": "Papua New Guinea",
+    "million_tonnes": 1e-06,
+    "share": 0.0,
+    "rank_in_year": 38,
+    "usd_per_tonne": 5033.576
+   },
+   {
+    "reporter": "AUS",
+    "year": 2019,
+    "partner": "JPN",
+    "partner_name": "Japan",
+    "million_tonnes": 110.153053,
+    "share": 0.278192,
+    "rank_in_year": 1,
+    "usd_per_tonne": 107.296151
+   },
+   {
+    "reporter": "AUS",
+    "year": 2019,
+    "partner": "CHN",
+    "partner_name": "China",
+    "million_tonnes": 92.4244,
+    "share": 0.233419,
+    "rank_in_year": 2,
+    "usd_per_tonne": 103.146223
+   },
+   {
+    "reporter": "AUS",
+    "year": 2019,
+    "partner": "KOR",
+    "partner_name": "Rep. of Korea",
+    "million_tonnes": 50.8468,
+    "share": 0.128414,
+    "rank_in_year": 3,
+    "usd_per_tonne": 97.287618
+   },
+   {
+    "reporter": "AUS",
+    "year": 2019,
+    "partner": "IND",
+    "partner_name": "India",
+    "million_tonnes": 49.621502,
+    "share": 0.12532,
+    "rank_in_year": 4,
+    "usd_per_tonne": 147.028378
+   },
+   {
+    "reporter": "AUS",
+    "year": 2019,
+    "partner": "S19",
+    "partner_name": "Other Asia, nes",
+    "million_tonnes": 34.4402,
+    "share": 0.086979,
+    "rank_in_year": 5,
+    "usd_per_tonne": 106.528272
+   },
+   {
+    "reporter": "AUS",
+    "year": 2019,
+    "partner": "VNM",
+    "partner_name": "Viet Nam",
+    "million_tonnes": 16.081214,
+    "share": 0.040613,
+    "rank_in_year": 6,
+    "usd_per_tonne": 89.426382
+   },
+   {
+    "reporter": "AUS",
+    "year": 2019,
+    "partner": "MYS",
+    "partner_name": "Malaysia",
+    "million_tonnes": 7.98738,
+    "share": 0.020172,
+    "rank_in_year": 7,
+    "usd_per_tonne": 93.751243
+   },
+   {
+    "reporter": "AUS",
+    "year": 2019,
+    "partner": "NLD",
+    "partner_name": "Netherlands",
+    "million_tonnes": 6.46329,
+    "share": 0.016323,
+    "rank_in_year": 8,
+    "usd_per_tonne": 168.479822
+   },
+   {
+    "reporter": "AUS",
+    "year": 2019,
+    "partner": "IDN",
+    "partner_name": "Indonesia",
+    "million_tonnes": 4.22539,
+    "share": 0.010671,
+    "rank_in_year": 9,
+    "usd_per_tonne": 117.728123
+   },
+   {
+    "reporter": "AUS",
+    "year": 2019,
+    "partner": "THA",
+    "partner_name": "Thailand",
+    "million_tonnes": 4.09354,
+    "share": 0.010338,
+    "rank_in_year": 10,
+    "usd_per_tonne": 73.655848
+   },
+   {
+    "reporter": "AUS",
+    "year": 2019,
+    "partner": "BRA",
+    "partner_name": "Brazil",
+    "million_tonnes": 3.53256,
+    "share": 0.008922,
+    "rank_in_year": 11,
+    "usd_per_tonne": 142.945602
+   },
+   {
+    "reporter": "AUS",
+    "year": 2019,
+    "partner": "FRA",
+    "partner_name": "France",
+    "million_tonnes": 2.223502,
+    "share": 0.005615,
+    "rank_in_year": 12,
+    "usd_per_tonne": 182.743331
+   },
+   {
+    "reporter": "AUS",
+    "year": 2019,
+    "partner": "POL",
+    "partner_name": "Poland",
+    "million_tonnes": 1.74094,
+    "share": 0.004397,
+    "rank_in_year": 13,
+    "usd_per_tonne": 184.095776
+   },
+   {
+    "reporter": "AUS",
+    "year": 2019,
+    "partner": "BEL",
+    "partner_name": "Belgium",
+    "million_tonnes": 1.36984,
+    "share": 0.00346,
+    "rank_in_year": 14,
+    "usd_per_tonne": 182.115921
+   },
+   {
+    "reporter": "AUS",
+    "year": 2019,
+    "partner": "SWE",
+    "partner_name": "Sweden",
+    "million_tonnes": 1.24235,
+    "share": 0.003138,
+    "rank_in_year": 15,
+    "usd_per_tonne": 200.916969
+   },
+   {
+    "reporter": "AUS",
+    "year": 2019,
+    "partner": "CHL",
+    "partner_name": "Chile",
+    "million_tonnes": 1.20657,
+    "share": 0.003047,
+    "rank_in_year": 16,
+    "usd_per_tonne": 106.420823
+   },
+   {
+    "reporter": "AUS",
+    "year": 2019,
+    "partner": "NCL",
+    "partner_name": "New Caledonia",
+    "million_tonnes": 1.16383,
+    "share": 0.002939,
+    "rank_in_year": 17,
+    "usd_per_tonne": 99.300513
+   },
+   {
+    "reporter": "AUS",
+    "year": 2019,
+    "partner": "GBR",
+    "partner_name": "United Kingdom",
+    "million_tonnes": 1.084554,
+    "share": 0.002739,
+    "rank_in_year": 18,
+    "usd_per_tonne": 156.496572
+   },
+   {
+    "reporter": "AUS",
+    "year": 2019,
+    "partner": "ZAF",
+    "partner_name": "South Africa",
+    "million_tonnes": 1.05423,
+    "share": 0.002662,
+    "rank_in_year": 19,
+    "usd_per_tonne": 176.865888
+   },
+   {
+    "reporter": "AUS",
+    "year": 2019,
+    "partner": "PHL",
+    "partner_name": "Philippines",
+    "million_tonnes": 0.916934,
+    "share": 0.002316,
+    "rank_in_year": 20,
+    "usd_per_tonne": 81.164239
+   },
+   {
+    "reporter": "AUS",
+    "year": 2019,
+    "partner": "TUR",
+    "partner_name": "T\u00fcrkiye",
+    "million_tonnes": 0.856207,
+    "share": 0.002162,
+    "rank_in_year": 21,
+    "usd_per_tonne": 168.933755
+   },
+   {
+    "reporter": "AUS",
+    "year": 2019,
+    "partner": "DEU",
+    "partner_name": "Germany",
+    "million_tonnes": 0.630114,
+    "share": 0.001591,
+    "rank_in_year": 22,
+    "usd_per_tonne": 177.32493
+   },
+   {
+    "reporter": "AUS",
+    "year": 2019,
+    "partner": "HKG",
+    "partner_name": "China, Hong Kong SAR",
+    "million_tonnes": 0.405389,
+    "share": 0.001024,
+    "rank_in_year": 23,
+    "usd_per_tonne": 58.590269
+   },
+   {
+    "reporter": "AUS",
+    "year": 2019,
+    "partner": "ITA",
+    "partner_name": "Italy",
+    "million_tonnes": 0.333634,
+    "share": 0.000843,
+    "rank_in_year": 24,
+    "usd_per_tonne": 186.499345
+   },
+   {
+    "reporter": "AUS",
+    "year": 2019,
+    "partner": "UKR",
+    "partner_name": "Ukraine",
+    "million_tonnes": 0.31035,
+    "share": 0.000784,
+    "rank_in_year": 25,
+    "usd_per_tonne": 158.206967
+   },
+   {
+    "reporter": "AUS",
+    "year": 2019,
+    "partner": "SVN",
+    "partner_name": "Slovenia",
+    "million_tonnes": 0.309874,
+    "share": 0.000783,
+    "rank_in_year": 26,
+    "usd_per_tonne": 189.235538
+   },
+   {
+    "reporter": "AUS",
+    "year": 2019,
+    "partner": "ESP",
+    "partner_name": "Spain",
+    "million_tonnes": 0.301736,
+    "share": 0.000762,
+    "rank_in_year": 27,
+    "usd_per_tonne": 201.758319
+   },
+   {
+    "reporter": "AUS",
+    "year": 2019,
+    "partner": "ARG",
+    "partner_name": "Argentina",
+    "million_tonnes": 0.245105,
+    "share": 0.000619,
+    "rank_in_year": 28,
+    "usd_per_tonne": 177.565993
+   },
+   {
+    "reporter": "AUS",
+    "year": 2019,
+    "partner": "ARE",
+    "partner_name": "United Arab Emirates",
+    "million_tonnes": 0.136735,
+    "share": 0.000345,
+    "rank_in_year": 29,
+    "usd_per_tonne": 51.547088
+   },
+   {
+    "reporter": "AUS",
+    "year": 2019,
+    "partner": "MEX",
+    "partner_name": "Mexico",
+    "million_tonnes": 0.13348,
+    "share": 0.000337,
+    "rank_in_year": 30,
+    "usd_per_tonne": 107.354005
+   },
+   {
+    "reporter": "AUS",
+    "year": 2019,
+    "partner": "NZL",
+    "partner_name": "New Zealand",
+    "million_tonnes": 0.113037,
+    "share": 0.000285,
+    "rank_in_year": 31,
+    "usd_per_tonne": 104.102287
+   },
+   {
+    "reporter": "AUS",
+    "year": 2019,
+    "partner": "KHM",
+    "partner_name": "Cambodia",
+    "million_tonnes": 0.104895,
+    "share": 0.000265,
+    "rank_in_year": 32,
+    "usd_per_tonne": 53.043224
+   },
+   {
+    "reporter": "AUS",
+    "year": 2019,
+    "partner": "FIN",
+    "partner_name": "Finland",
+    "million_tonnes": 0.078,
+    "share": 0.000197,
+    "rank_in_year": 33,
+    "usd_per_tonne": 200.7408
+   },
+   {
+    "reporter": "AUS",
+    "year": 2019,
+    "partner": "SGP",
+    "partner_name": "Singapore",
+    "million_tonnes": 0.052439,
+    "share": 0.000132,
+    "rank_in_year": 34,
+    "usd_per_tonne": 133.791766
+   },
+   {
+    "reporter": "AUS",
+    "year": 2019,
+    "partner": "URY",
+    "partner_name": "Uruguay",
+    "million_tonnes": 0.0495,
+    "share": 0.000125,
+    "rank_in_year": 35,
+    "usd_per_tonne": 208.966382
+   },
+   {
+    "reporter": "AUS",
+    "year": 2019,
+    "partner": "MMR",
+    "partner_name": "Myanmar",
+    "million_tonnes": 0.027197,
+    "share": 6.9e-05,
+    "rank_in_year": 36,
+    "usd_per_tonne": 53.525052
+   },
+   {
+    "reporter": "AUS",
+    "year": 2019,
+    "partner": "OMN",
+    "partner_name": "Oman",
+    "million_tonnes": 4.9e-05,
+    "share": 0.0,
+    "rank_in_year": 37,
+    "usd_per_tonne": 1721.920566
+   },
+   {
+    "reporter": "AUS",
+    "year": 2019,
+    "partner": "EGY",
+    "partner_name": "Egypt",
+    "million_tonnes": 3.4e-05,
+    "share": 0.0,
+    "rank_in_year": 38,
+    "usd_per_tonne": 863.54093
+   },
+   {
+    "reporter": "AUS",
+    "year": 2019,
+    "partner": "PNG",
+    "partner_name": "Papua New Guinea",
+    "million_tonnes": 3e-06,
+    "share": 0.0,
+    "rank_in_year": 39,
+    "usd_per_tonne": 868.956875
+   },
+   {
+    "reporter": "AUS",
+    "year": 2020,
+    "partner": "JPN",
+    "partner_name": "Japan",
+    "million_tonnes": 104.23112,
+    "share": 0.281113,
+    "rank_in_year": 1,
+    "usd_per_tonne": 77.896641
+   },
+   {
+    "reporter": "AUS",
+    "year": 2020,
+    "partner": "CHN",
+    "partner_name": "China",
+    "million_tonnes": 73.6888,
+    "share": 0.19874,
+    "rank_in_year": 2,
+    "usd_per_tonne": 84.395949
+   },
+   {
+    "reporter": "AUS",
+    "year": 2020,
+    "partner": "IND",
+    "partner_name": "India",
+    "million_tonnes": 52.8319,
+    "share": 0.142489,
+    "rank_in_year": 3,
+    "usd_per_tonne": 94.169357
+   },
+   {
+    "reporter": "AUS",
+    "year": 2020,
+    "partner": "KOR",
+    "partner_name": "Rep. of Korea",
+    "million_tonnes": 46.0735,
+    "share": 0.124261,
+    "rank_in_year": 4,
+    "usd_per_tonne": 70.730231
+   },
+   {
+    "reporter": "AUS",
+    "year": 2020,
+    "partner": "S19",
+    "partner_name": "Other Asia, nes",
+    "million_tonnes": 31.3005,
+    "share": 0.084418,
+    "rank_in_year": 5,
+    "usd_per_tonne": 77.392856
+   },
+   {
+    "reporter": "AUS",
+    "year": 2020,
+    "partner": "VNM",
+    "partner_name": "Viet Nam",
+    "million_tonnes": 20.766,
+    "share": 0.056006,
+    "rank_in_year": 6,
+    "usd_per_tonne": 68.735329
+   },
+   {
+    "reporter": "AUS",
+    "year": 2020,
+    "partner": "MYS",
+    "partner_name": "Malaysia",
+    "million_tonnes": 7.7326,
+    "share": 0.020855,
+    "rank_in_year": 7,
+    "usd_per_tonne": 68.540827
+   },
+   {
+    "reporter": "AUS",
+    "year": 2020,
+    "partner": "NLD",
+    "partner_name": "Netherlands",
+    "million_tonnes": 5.56908,
+    "share": 0.01502,
+    "rank_in_year": 8,
+    "usd_per_tonne": 122.023575
+   },
+   {
+    "reporter": "AUS",
+    "year": 2020,
+    "partner": "IDN",
+    "partner_name": "Indonesia",
+    "million_tonnes": 5.153716,
+    "share": 0.0139,
+    "rank_in_year": 9,
+    "usd_per_tonne": 80.862527
+   },
+   {
+    "reporter": "AUS",
+    "year": 2020,
+    "partner": "THA",
+    "partner_name": "Thailand",
+    "million_tonnes": 4.25561,
+    "share": 0.011477,
+    "rank_in_year": 10,
+    "usd_per_tonne": 69.600586
+   },
+   {
+    "reporter": "AUS",
+    "year": 2020,
+    "partner": "BRA",
+    "partner_name": "Brazil",
+    "million_tonnes": 3.72912,
+    "share": 0.010058,
+    "rank_in_year": 11,
+    "usd_per_tonne": 96.490304
+   },
+   {
+    "reporter": "AUS",
+    "year": 2020,
+    "partner": "CHL",
+    "partner_name": "Chile",
+    "million_tonnes": 2.60036,
+    "share": 0.007013,
+    "rank_in_year": 12,
+    "usd_per_tonne": 59.861106
+   },
+   {
+    "reporter": "AUS",
+    "year": 2020,
+    "partner": "FRA",
+    "partner_name": "France",
+    "million_tonnes": 1.78525,
+    "share": 0.004815,
+    "rank_in_year": 13,
+    "usd_per_tonne": 132.241259
+   },
+   {
+    "reporter": "AUS",
+    "year": 2020,
+    "partner": "TUR",
+    "partner_name": "T\u00fcrkiye",
+    "million_tonnes": 1.14146,
+    "share": 0.003079,
+    "rank_in_year": 14,
+    "usd_per_tonne": 68.894299
+   },
+   {
+    "reporter": "AUS",
+    "year": 2020,
+    "partner": "NCL",
+    "partner_name": "New Caledonia",
+    "million_tonnes": 1.12612,
+    "share": 0.003037,
+    "rank_in_year": 15,
+    "usd_per_tonne": 82.125192
+   },
+   {
+    "reporter": "AUS",
+    "year": 2020,
+    "partner": "SWE",
+    "partner_name": "Sweden",
+    "million_tonnes": 1.11008,
+    "share": 0.002994,
+    "rank_in_year": 16,
+    "usd_per_tonne": 132.332695
+   },
+   {
+    "reporter": "AUS",
+    "year": 2020,
+    "partner": "POL",
+    "partner_name": "Poland",
+    "million_tonnes": 1.06688,
+    "share": 0.002877,
+    "rank_in_year": 17,
+    "usd_per_tonne": 138.676736
+   },
+   {
+    "reporter": "AUS",
+    "year": 2020,
+    "partner": "PAK",
+    "partner_name": "Pakistan",
+    "million_tonnes": 0.916023,
+    "share": 0.002471,
+    "rank_in_year": 18,
+    "usd_per_tonne": 40.221213
+   },
+   {
+    "reporter": "AUS",
+    "year": 2020,
+    "partner": "ZAF",
+    "partner_name": "South Africa",
+    "million_tonnes": 0.847714,
+    "share": 0.002286,
+    "rank_in_year": 19,
+    "usd_per_tonne": 120.220406
+   },
+   {
+    "reporter": "AUS",
+    "year": 2020,
+    "partner": "BEL",
+    "partner_name": "Belgium",
+    "million_tonnes": 0.649,
+    "share": 0.00175,
+    "rank_in_year": 20,
+    "usd_per_tonne": 122.63125
+   },
+   {
+    "reporter": "AUS",
+    "year": 2020,
+    "partner": "DEU",
+    "partner_name": "Germany",
+    "million_tonnes": 0.623325,
+    "share": 0.001681,
+    "rank_in_year": 21,
+    "usd_per_tonne": 113.998838
+   },
+   {
+    "reporter": "AUS",
+    "year": 2020,
+    "partner": "GBR",
+    "partner_name": "United Kingdom",
+    "million_tonnes": 0.513468,
+    "share": 0.001385,
+    "rank_in_year": 22,
+    "usd_per_tonne": 109.889463
+   },
+   {
+    "reporter": "AUS",
+    "year": 2020,
+    "partner": "ITA",
+    "partner_name": "Italy",
+    "million_tonnes": 0.459432,
+    "share": 0.001239,
+    "rank_in_year": 23,
+    "usd_per_tonne": 124.832783
+   },
+   {
+    "reporter": "AUS",
+    "year": 2020,
+    "partner": "KHM",
+    "partner_name": "Cambodia",
+    "million_tonnes": 0.374081,
+    "share": 0.001009,
+    "rank_in_year": 24,
+    "usd_per_tonne": 51.037332
+   },
+   {
+    "reporter": "AUS",
+    "year": 2020,
+    "partner": "PHL",
+    "partner_name": "Philippines",
+    "million_tonnes": 0.369762,
+    "share": 0.000997,
+    "rank_in_year": 25,
+    "usd_per_tonne": 56.779405
+   },
+   {
+    "reporter": "AUS",
+    "year": 2020,
+    "partner": "ARE",
+    "partner_name": "United Arab Emirates",
+    "million_tonnes": 0.347119,
+    "share": 0.000936,
+    "rank_in_year": 26,
+    "usd_per_tonne": 41.921795
+   },
+   {
+    "reporter": "AUS",
+    "year": 2020,
+    "partner": "ESP",
+    "partner_name": "Spain",
+    "million_tonnes": 0.265367,
+    "share": 0.000716,
+    "rank_in_year": 27,
+    "usd_per_tonne": 113.390018
+   },
+   {
+    "reporter": "AUS",
+    "year": 2020,
+    "partner": "MMR",
+    "partner_name": "Myanmar",
+    "million_tonnes": 0.235937,
+    "share": 0.000636,
+    "rank_in_year": 28,
+    "usd_per_tonne": 49.489468
+   },
+   {
+    "reporter": "AUS",
+    "year": 2020,
+    "partner": "SVN",
+    "partner_name": "Slovenia",
+    "million_tonnes": 0.216267,
+    "share": 0.000583,
+    "rank_in_year": 29,
+    "usd_per_tonne": 144.049413
+   },
+   {
+    "reporter": "AUS",
+    "year": 2020,
+    "partner": "ARG",
+    "partner_name": "Argentina",
+    "million_tonnes": 0.198909,
+    "share": 0.000536,
+    "rank_in_year": 30,
+    "usd_per_tonne": 133.149136
+   },
+   {
+    "reporter": "AUS",
+    "year": 2020,
+    "partner": "HKG",
+    "partner_name": "China, Hong Kong SAR",
+    "million_tonnes": 0.161171,
+    "share": 0.000435,
+    "rank_in_year": 31,
+    "usd_per_tonne": 40.50385
+   },
+   {
+    "reporter": "AUS",
+    "year": 2020,
+    "partner": "BGD",
+    "partner_name": "Bangladesh",
+    "million_tonnes": 0.114951,
+    "share": 0.00031,
+    "rank_in_year": 32,
+    "usd_per_tonne": 37.452873
+   },
+   {
+    "reporter": "AUS",
+    "year": 2020,
+    "partner": "NZL",
+    "partner_name": "New Zealand",
+    "million_tonnes": 0.094884,
+    "share": 0.000256,
+    "rank_in_year": 33,
+    "usd_per_tonne": 65.036979
+   },
+   {
+    "reporter": "AUS",
+    "year": 2020,
+    "partner": "MLI",
+    "partner_name": "Mali",
+    "million_tonnes": 0.087811,
+    "share": 0.000237,
+    "rank_in_year": 34,
+    "usd_per_tonne": 141.585401
+   },
+   {
+    "reporter": "AUS",
+    "year": 2020,
+    "partner": "SGP",
+    "partner_name": "Singapore",
+    "million_tonnes": 0.057397,
+    "share": 0.000155,
+    "rank_in_year": 35,
+    "usd_per_tonne": 125.100797
+   },
+   {
+    "reporter": "AUS",
+    "year": 2020,
+    "partner": "FIN",
+    "partner_name": "Finland",
+    "million_tonnes": 0.052,
+    "share": 0.00014,
+    "rank_in_year": 36,
+    "usd_per_tonne": 106.93854
+   },
+   {
+    "reporter": "AUS",
+    "year": 2020,
+    "partner": "NPL",
+    "partner_name": "Nepal",
+    "million_tonnes": 0.033,
+    "share": 8.9e-05,
+    "rank_in_year": 37,
+    "usd_per_tonne": 47.052279
+   },
+   {
+    "reporter": "AUS",
+    "year": 2020,
+    "partner": "NRU",
+    "partner_name": "Naoero",
+    "million_tonnes": 1e-06,
+    "share": 0.0,
+    "rank_in_year": 38,
+    "usd_per_tonne": 1720.477
+   },
+   {
+    "reporter": "AUS",
+    "year": 2020,
+    "partner": "GHA",
+    "partner_name": "Ghana",
+    "million_tonnes": 0.0,
+    "share": 0.0,
+    "rank_in_year": 39,
+    "usd_per_tonne": 2312.32
+   },
+   {
+    "reporter": "AUS",
+    "year": 2020,
+    "partner": "MNG",
+    "partner_name": "Mongolia",
+    "million_tonnes": 0.0,
+    "share": 0.0,
+    "rank_in_year": 40,
+    "usd_per_tonne": 15690.75
+   },
+   {
+    "reporter": "AUS",
+    "year": 2021,
+    "partner": "JPN",
+    "partner_name": "Japan",
+    "million_tonnes": 120.146062,
+    "share": 0.327809,
+    "rank_in_year": 1,
+    "usd_per_tonne": 126.646724
+   },
+   {
+    "reporter": "AUS",
+    "year": 2021,
+    "partner": "IND",
+    "partner_name": "India",
+    "million_tonnes": 72.2898,
+    "share": 0.197237,
+    "rank_in_year": 2,
+    "usd_per_tonne": 136.407441
+   },
+   {
+    "reporter": "AUS",
+    "year": 2021,
+    "partner": "KOR",
+    "partner_name": "Rep. of Korea",
+    "million_tonnes": 61.330733,
+    "share": 0.167336,
+    "rank_in_year": 3,
+    "usd_per_tonne": 113.530717
+   },
+   {
+    "reporter": "AUS",
+    "year": 2021,
+    "partner": "S19",
+    "partner_name": "Other Asia, nes",
+    "million_tonnes": 37.86208,
+    "share": 0.103304,
+    "rank_in_year": 4,
+    "usd_per_tonne": 115.610365
+   },
+   {
+    "reporter": "AUS",
+    "year": 2021,
+    "partner": "VNM",
+    "partner_name": "Viet Nam",
+    "million_tonnes": 15.70446,
+    "share": 0.042848,
+    "rank_in_year": 5,
+    "usd_per_tonne": 114.331357
+   },
+   {
+    "reporter": "AUS",
+    "year": 2021,
+    "partner": "IDN",
+    "partner_name": "Indonesia",
+    "million_tonnes": 8.753373,
+    "share": 0.023883,
+    "rank_in_year": 6,
+    "usd_per_tonne": 135.83387
+   },
+   {
+    "reporter": "AUS",
+    "year": 2021,
+    "partner": "NLD",
+    "partner_name": "Netherlands",
+    "million_tonnes": 8.002336,
+    "share": 0.021834,
+    "rank_in_year": 7,
+    "usd_per_tonne": 172.248484
+   },
+   {
+    "reporter": "AUS",
+    "year": 2021,
+    "partner": "THA",
+    "partner_name": "Thailand",
+    "million_tonnes": 7.455023,
+    "share": 0.02034,
+    "rank_in_year": 8,
+    "usd_per_tonne": 77.630958
+   },
+   {
+    "reporter": "AUS",
+    "year": 2021,
+    "partner": "MYS",
+    "partner_name": "Malaysia",
+    "million_tonnes": 6.783356,
+    "share": 0.018508,
+    "rank_in_year": 9,
+    "usd_per_tonne": 135.870423
+   },
+   {
+    "reporter": "AUS",
+    "year": 2021,
+    "partner": "BRA",
+    "partner_name": "Brazil",
+    "million_tonnes": 5.56791,
+    "share": 0.015192,
+    "rank_in_year": 10,
+    "usd_per_tonne": 174.045515
+   },
+   {
+    "reporter": "AUS",
+    "year": 2021,
+    "partner": "TUR",
+    "partner_name": "T\u00fcrkiye",
+    "million_tonnes": 4.13029,
+    "share": 0.011269,
+    "rank_in_year": 11,
+    "usd_per_tonne": 158.55573
+   },
+   {
+    "reporter": "AUS",
+    "year": 2021,
+    "partner": "CHL",
+    "partner_name": "Chile",
+    "million_tonnes": 2.61406,
+    "share": 0.007132,
+    "rank_in_year": 12,
+    "usd_per_tonne": 99.759249
+   },
+   {
+    "reporter": "AUS",
+    "year": 2021,
+    "partner": "FRA",
+    "partner_name": "France",
+    "million_tonnes": 2.293499,
+    "share": 0.006258,
+    "rank_in_year": 13,
+    "usd_per_tonne": 195.688564
+   },
+   {
+    "reporter": "AUS",
+    "year": 2021,
+    "partner": "POL",
+    "partner_name": "Poland",
+    "million_tonnes": 1.41304,
+    "share": 0.003855,
+    "rank_in_year": 14,
+    "usd_per_tonne": 153.888467
+   },
+   {
+    "reporter": "AUS",
+    "year": 2021,
+    "partner": "SWE",
+    "partner_name": "Sweden",
+    "million_tonnes": 0.987901,
+    "share": 0.002695,
+    "rank_in_year": 15,
+    "usd_per_tonne": 164.512493
+   },
+   {
+    "reporter": "AUS",
+    "year": 2021,
+    "partner": "ZAF",
+    "partner_name": "South Africa",
+    "million_tonnes": 0.977939,
+    "share": 0.002668,
+    "rank_in_year": 16,
+    "usd_per_tonne": 199.887228
+   },
+   {
+    "reporter": "AUS",
+    "year": 2021,
+    "partner": "NCL",
+    "partner_name": "New Caledonia",
+    "million_tonnes": 0.939425,
+    "share": 0.002563,
+    "rank_in_year": 17,
+    "usd_per_tonne": 143.590355
+   },
+   {
+    "reporter": "AUS",
+    "year": 2021,
+    "partner": "PAK",
+    "partner_name": "Pakistan",
+    "million_tonnes": 0.90214,
+    "share": 0.002461,
+    "rank_in_year": 18,
+    "usd_per_tonne": 68.802227
+   },
+   {
+    "reporter": "AUS",
+    "year": 2021,
+    "partner": "ESP",
+    "partner_name": "Spain",
+    "million_tonnes": 0.820613,
+    "share": 0.002239,
+    "rank_in_year": 19,
+    "usd_per_tonne": 185.528634
+   },
+   {
+    "reporter": "AUS",
+    "year": 2021,
+    "partner": "ARE",
+    "partner_name": "United Arab Emirates",
+    "million_tonnes": 0.82056,
+    "share": 0.002239,
+    "rank_in_year": 20,
+    "usd_per_tonne": 57.107587
+   },
+   {
+    "reporter": "AUS",
+    "year": 2021,
+    "partner": "ARG",
+    "partner_name": "Argentina",
+    "million_tonnes": 0.757838,
+    "share": 0.002068,
+    "rank_in_year": 21,
+    "usd_per_tonne": 134.257872
+   },
+   {
+    "reporter": "AUS",
+    "year": 2021,
+    "partner": "SGP",
+    "partner_name": "Singapore",
+    "million_tonnes": 0.720069,
+    "share": 0.001965,
+    "rank_in_year": 22,
+    "usd_per_tonne": 67.092705
+   },
+   {
+    "reporter": "AUS",
+    "year": 2021,
+    "partner": "DEU",
+    "partner_name": "Germany",
+    "million_tonnes": 0.659584,
+    "share": 0.0018,
+    "rank_in_year": 23,
+    "usd_per_tonne": 163.140195
+   },
+   {
+    "reporter": "AUS",
+    "year": 2021,
+    "partner": "SVN",
+    "partner_name": "Slovenia",
+    "million_tonnes": 0.601915,
+    "share": 0.001642,
+    "rank_in_year": 24,
+    "usd_per_tonne": 209.17121
+   },
+   {
+    "reporter": "AUS",
+    "year": 2021,
+    "partner": "GBR",
+    "partner_name": "United Kingdom",
+    "million_tonnes": 0.525189,
+    "share": 0.001433,
+    "rank_in_year": 25,
+    "usd_per_tonne": 148.342057
+   },
+   {
+    "reporter": "AUS",
+    "year": 2021,
+    "partner": "BGD",
+    "partner_name": "Bangladesh",
+    "million_tonnes": 0.446341,
+    "share": 0.001218,
+    "rank_in_year": 26,
+    "usd_per_tonne": 82.160984
+   },
+   {
+    "reporter": "AUS",
+    "year": 2021,
+    "partner": "ITA",
+    "partner_name": "Italy",
+    "million_tonnes": 0.437888,
+    "share": 0.001195,
+    "rank_in_year": 27,
+    "usd_per_tonne": 184.25948
+   },
+   {
+    "reporter": "AUS",
+    "year": 2021,
+    "partner": "PHL",
+    "partner_name": "Philippines",
+    "million_tonnes": 0.386242,
+    "share": 0.001054,
+    "rank_in_year": 28,
+    "usd_per_tonne": 123.715323
+   },
+   {
+    "reporter": "AUS",
+    "year": 2021,
+    "partner": "HRV",
+    "partner_name": "Croatia",
+    "million_tonnes": 0.305503,
+    "share": 0.000834,
+    "rank_in_year": 29,
+    "usd_per_tonne": 108.454742
+   },
+   {
+    "reporter": "AUS",
+    "year": 2021,
+    "partner": "BEL",
+    "partner_name": "Belgium",
+    "million_tonnes": 0.296598,
+    "share": 0.000809,
+    "rank_in_year": 30,
+    "usd_per_tonne": 240.916498
+   },
+   {
+    "reporter": "AUS",
+    "year": 2021,
+    "partner": "TLS",
+    "partner_name": "Timor-Leste",
+    "million_tonnes": 0.268342,
+    "share": 0.000732,
+    "rank_in_year": 31,
+    "usd_per_tonne": 150.414516
+   },
+   {
+    "reporter": "AUS",
+    "year": 2021,
+    "partner": "UKR",
+    "partner_name": "Ukraine",
+    "million_tonnes": 0.262634,
+    "share": 0.000717,
+    "rank_in_year": 32,
+    "usd_per_tonne": 272.258543
+   },
+   {
+    "reporter": "AUS",
+    "year": 2021,
+    "partner": "URY",
+    "partner_name": "Uruguay",
+    "million_tonnes": 0.24257,
+    "share": 0.000662,
+    "rank_in_year": 33,
+    "usd_per_tonne": 283.884889
+   },
+   {
+    "reporter": "AUS",
+    "year": 2021,
+    "partner": "HKG",
+    "partner_name": "China, Hong Kong SAR",
+    "million_tonnes": 0.23968,
+    "share": 0.000654,
+    "rank_in_year": 34,
+    "usd_per_tonne": 161.549611
+   },
+   {
+    "reporter": "AUS",
+    "year": 2021,
+    "partner": "CHN",
+    "partner_name": "China",
+    "million_tonnes": 0.18222,
+    "share": 0.000497,
+    "rank_in_year": 35,
+    "usd_per_tonne": 102.159241
+   },
+   {
+    "reporter": "AUS",
+    "year": 2021,
+    "partner": "KHM",
+    "partner_name": "Cambodia",
+    "million_tonnes": 0.161995,
+    "share": 0.000442,
+    "rank_in_year": 36,
+    "usd_per_tonne": 89.045105
+   },
+   {
+    "reporter": "AUS",
+    "year": 2021,
+    "partner": "USA",
+    "partner_name": "USA",
+    "million_tonnes": 0.08043,
+    "share": 0.000219,
+    "rank_in_year": 37,
+    "usd_per_tonne": 159.00432
+   },
+   {
+    "reporter": "AUS",
+    "year": 2021,
+    "partner": "NZL",
+    "partner_name": "New Zealand",
+    "million_tonnes": 0.072371,
+    "share": 0.000197,
+    "rank_in_year": 38,
+    "usd_per_tonne": 86.492061
+   },
+   {
+    "reporter": "AUS",
+    "year": 2021,
+    "partner": "ROU",
+    "partner_name": "Romania",
+    "million_tonnes": 0.044,
+    "share": 0.00012,
+    "rank_in_year": 39,
+    "usd_per_tonne": 133.557767
+   },
+   {
+    "reporter": "AUS",
+    "year": 2021,
+    "partner": "FIN",
+    "partner_name": "Finland",
+    "million_tonnes": 0.026,
+    "share": 7.1e-05,
+    "rank_in_year": 40,
+    "usd_per_tonne": 169.853309
+   },
+   {
+    "reporter": "AUS",
+    "year": 2021,
+    "partner": "ISR",
+    "partner_name": "Israel",
+    "million_tonnes": 1e-05,
+    "share": 0.0,
+    "rank_in_year": 41,
+    "usd_per_tonne": 304.9073
+   },
+   {
+    "reporter": "AUS",
+    "year": 2021,
+    "partner": "NRU",
+    "partner_name": "Naoero",
+    "million_tonnes": 2e-06,
+    "share": 0.0,
+    "rank_in_year": 42,
+    "usd_per_tonne": 1661.000971
+   },
+   {
+    "reporter": "AUS",
+    "year": 2022,
+    "partner": "JPN",
+    "partner_name": "Japan",
+    "million_tonnes": 126.197702,
+    "share": 0.372449,
+    "rank_in_year": 1,
+    "usd_per_tonne": 312.740321
+   },
+   {
+    "reporter": "AUS",
+    "year": 2022,
+    "partner": "IND",
+    "partner_name": "India",
+    "million_tonnes": 54.929608,
+    "share": 0.162115,
+    "rank_in_year": 2,
+    "usd_per_tonne": 288.177351
+   },
+   {
+    "reporter": "AUS",
+    "year": 2022,
+    "partner": "KOR",
+    "partner_name": "Rep. of Korea",
+    "million_tonnes": 46.1515,
+    "share": 0.136208,
+    "rank_in_year": 3,
+    "usd_per_tonne": 258.21983
+   },
+   {
+    "reporter": "AUS",
+    "year": 2022,
+    "partner": "S19",
+    "partner_name": "Other Asia, nes",
+    "million_tonnes": 33.0692,
+    "share": 0.097598,
+    "rank_in_year": 4,
+    "usd_per_tonne": 289.08426
+   },
+   {
+    "reporter": "AUS",
+    "year": 2022,
+    "partner": "VNM",
+    "partner_name": "Viet Nam",
+    "million_tonnes": 18.23096,
+    "share": 0.053805,
+    "rank_in_year": 5,
+    "usd_per_tonne": 240.300433
+   },
+   {
+    "reporter": "AUS",
+    "year": 2022,
+    "partner": "NLD",
+    "partner_name": "Netherlands",
+    "million_tonnes": 11.62563,
+    "share": 0.034311,
+    "rank_in_year": 6,
+    "usd_per_tonne": 320.357708
+   },
+   {
+    "reporter": "AUS",
+    "year": 2022,
+    "partner": "MYS",
+    "partner_name": "Malaysia",
+    "million_tonnes": 7.46171,
+    "share": 0.022022,
+    "rank_in_year": 7,
+    "usd_per_tonne": 331.812984
+   },
+   {
+    "reporter": "AUS",
+    "year": 2022,
+    "partner": "IDN",
+    "partner_name": "Indonesia",
+    "million_tonnes": 5.72967,
+    "share": 0.01691,
+    "rank_in_year": 8,
+    "usd_per_tonne": 297.495407
+   },
+   {
+    "reporter": "AUS",
+    "year": 2022,
+    "partner": "THA",
+    "partner_name": "Thailand",
+    "million_tonnes": 5.458244,
+    "share": 0.016109,
+    "rank_in_year": 9,
+    "usd_per_tonne": 92.800151
+   },
+   {
+    "reporter": "AUS",
+    "year": 2022,
+    "partner": "BRA",
+    "partner_name": "Brazil",
+    "million_tonnes": 4.22491,
+    "share": 0.012469,
+    "rank_in_year": 10,
+    "usd_per_tonne": 350.58151
+   },
+   {
+    "reporter": "AUS",
+    "year": 2022,
+    "partner": "POL",
+    "partner_name": "Poland",
+    "million_tonnes": 3.33149,
+    "share": 0.009832,
+    "rank_in_year": 11,
+    "usd_per_tonne": 263.839458
+   },
+   {
+    "reporter": "AUS",
+    "year": 2022,
+    "partner": "FRA",
+    "partner_name": "France",
+    "million_tonnes": 2.78518,
+    "share": 0.00822,
+    "rank_in_year": 12,
+    "usd_per_tonne": 348.122588
+   },
+   {
+    "reporter": "AUS",
+    "year": 2022,
+    "partner": "CHL",
+    "partner_name": "Chile",
+    "million_tonnes": 2.693577,
+    "share": 0.00795,
+    "rank_in_year": 13,
+    "usd_per_tonne": 229.15846
+   },
+   {
+    "reporter": "AUS",
+    "year": 2022,
+    "partner": "TUR",
+    "partner_name": "T\u00fcrkiye",
+    "million_tonnes": 2.584029,
+    "share": 0.007626,
+    "rank_in_year": 14,
+    "usd_per_tonne": 269.688846
+   },
+   {
+    "reporter": "AUS",
+    "year": 2022,
+    "partner": "SGP",
+    "partner_name": "Singapore",
+    "million_tonnes": 1.99234,
+    "share": 0.00588,
+    "rank_in_year": 15,
+    "usd_per_tonne": 94.556582
+   },
+   {
+    "reporter": "AUS",
+    "year": 2022,
+    "partner": "ESP",
+    "partner_name": "Spain",
+    "million_tonnes": 1.70739,
+    "share": 0.005039,
+    "rank_in_year": 16,
+    "usd_per_tonne": 337.469142
+   },
+   {
+    "reporter": "AUS",
+    "year": 2022,
+    "partner": "SWE",
+    "partner_name": "Sweden",
+    "million_tonnes": 1.38151,
+    "share": 0.004077,
+    "rank_in_year": 17,
+    "usd_per_tonne": 357.095355
+   },
+   {
+    "reporter": "AUS",
+    "year": 2022,
+    "partner": "BEL",
+    "partner_name": "Belgium",
+    "million_tonnes": 1.216267,
+    "share": 0.00359,
+    "rank_in_year": 18,
+    "usd_per_tonne": 262.909907
+   },
+   {
+    "reporter": "AUS",
+    "year": 2022,
+    "partner": "DEU",
+    "partner_name": "Germany",
+    "million_tonnes": 1.20539,
+    "share": 0.003557,
+    "rank_in_year": 19,
+    "usd_per_tonne": 322.09892
+   },
+   {
+    "reporter": "AUS",
+    "year": 2022,
+    "partner": "NCL",
+    "partner_name": "New Caledonia",
+    "million_tonnes": 1.01481,
+    "share": 0.002995,
+    "rank_in_year": 20,
+    "usd_per_tonne": 371.102173
+   },
+   {
+    "reporter": "AUS",
+    "year": 2022,
+    "partner": "ARG",
+    "partner_name": "Argentina",
+    "million_tonnes": 1.008685,
+    "share": 0.002977,
+    "rank_in_year": 21,
+    "usd_per_tonne": 351.218583
+   },
+   {
+    "reporter": "AUS",
+    "year": 2022,
+    "partner": "ITA",
+    "partner_name": "Italy",
+    "million_tonnes": 0.649636,
+    "share": 0.001917,
+    "rank_in_year": 22,
+    "usd_per_tonne": 375.621658
+   },
+   {
+    "reporter": "AUS",
+    "year": 2022,
+    "partner": "ZAF",
+    "partner_name": "South Africa",
+    "million_tonnes": 0.599799,
+    "share": 0.00177,
+    "rank_in_year": 23,
+    "usd_per_tonne": 324.257019
+   },
+   {
+    "reporter": "AUS",
+    "year": 2022,
+    "partner": "GBR",
+    "partner_name": "United Kingdom",
+    "million_tonnes": 0.578411,
+    "share": 0.001707,
+    "rank_in_year": 24,
+    "usd_per_tonne": 277.851678
+   },
+   {
+    "reporter": "AUS",
+    "year": 2022,
+    "partner": "BGD",
+    "partner_name": "Bangladesh",
+    "million_tonnes": 0.455073,
+    "share": 0.001343,
+    "rank_in_year": 25,
+    "usd_per_tonne": 136.406341
+   },
+   {
+    "reporter": "AUS",
+    "year": 2022,
+    "partner": "FIN",
+    "partner_name": "Finland",
+    "million_tonnes": 0.421191,
+    "share": 0.001243,
+    "rank_in_year": 26,
+    "usd_per_tonne": 348.923888
+   },
+   {
+    "reporter": "AUS",
+    "year": 2022,
+    "partner": "PHL",
+    "partner_name": "Philippines",
+    "million_tonnes": 0.405215,
+    "share": 0.001196,
+    "rank_in_year": 27,
+    "usd_per_tonne": 181.161696
+   },
+   {
+    "reporter": "AUS",
+    "year": 2022,
+    "partner": "SVN",
+    "partner_name": "Slovenia",
+    "million_tonnes": 0.243489,
+    "share": 0.000719,
+    "rank_in_year": 28,
+    "usd_per_tonne": 357.398017
+   },
+   {
+    "reporter": "AUS",
+    "year": 2022,
+    "partner": "HKG",
+    "partner_name": "China, Hong Kong SAR",
+    "million_tonnes": 0.227811,
+    "share": 0.000672,
+    "rank_in_year": 29,
+    "usd_per_tonne": 260.550832
+   },
+   {
+    "reporter": "AUS",
+    "year": 2022,
+    "partner": "URY",
+    "partner_name": "Uruguay",
+    "million_tonnes": 0.206322,
+    "share": 0.000609,
+    "rank_in_year": 30,
+    "usd_per_tonne": 297.34947
+   },
+   {
+    "reporter": "AUS",
+    "year": 2022,
+    "partner": "NZL",
+    "partner_name": "New Zealand",
+    "million_tonnes": 0.151273,
+    "share": 0.000446,
+    "rank_in_year": 31,
+    "usd_per_tonne": 370.903183
+   },
+   {
+    "reporter": "AUS",
+    "year": 2022,
+    "partner": "IRL",
+    "partner_name": "Ireland",
+    "million_tonnes": 0.138014,
+    "share": 0.000407,
+    "rank_in_year": 32,
+    "usd_per_tonne": 374.232635
+   },
+   {
+    "reporter": "AUS",
+    "year": 2022,
+    "partner": "PAK",
+    "partner_name": "Pakistan",
+    "million_tonnes": 0.136606,
+    "share": 0.000403,
+    "rank_in_year": 33,
+    "usd_per_tonne": 160.541731
+   },
+   {
+    "reporter": "AUS",
+    "year": 2022,
+    "partner": "DNK",
+    "partner_name": "Denmark",
+    "million_tonnes": 0.130375,
+    "share": 0.000385,
+    "rank_in_year": 34,
+    "usd_per_tonne": 202.289216
+   },
+   {
+    "reporter": "AUS",
+    "year": 2022,
+    "partner": "ARE",
+    "partner_name": "United Arab Emirates",
+    "million_tonnes": 0.109997,
+    "share": 0.000325,
+    "rank_in_year": 35,
+    "usd_per_tonne": 78.86648
+   },
+   {
+    "reporter": "AUS",
+    "year": 2022,
+    "partner": "KHM",
+    "partner_name": "Cambodia",
+    "million_tonnes": 0.0935,
+    "share": 0.000276,
+    "rank_in_year": 36,
+    "usd_per_tonne": 96.552546
+   },
+   {
+    "reporter": "AUS",
+    "year": 2022,
+    "partner": "MOZ",
+    "partner_name": "Mozambique",
+    "million_tonnes": 0.087998,
+    "share": 0.00026,
+    "rank_in_year": 37,
+    "usd_per_tonne": 215.326282
+   },
+   {
+    "reporter": "AUS",
+    "year": 2022,
+    "partner": "TLS",
+    "partner_name": "Timor-Leste",
+    "million_tonnes": 0.082362,
+    "share": 0.000243,
+    "rank_in_year": 38,
+    "usd_per_tonne": 324.189228
+   },
+   {
+    "reporter": "AUS",
+    "year": 2022,
+    "partner": "SEN",
+    "partner_name": "Senegal",
+    "million_tonnes": 0.03934,
+    "share": 0.000116,
+    "rank_in_year": 39,
+    "usd_per_tonne": 273.480422
+   },
+   {
+    "reporter": "AUS",
+    "year": 2022,
+    "partner": "MEX",
+    "partner_name": "Mexico",
+    "million_tonnes": 0.039164,
+    "share": 0.000116,
+    "rank_in_year": 40,
+    "usd_per_tonne": 205.563339
+   },
+   {
+    "reporter": "AUS",
+    "year": 2022,
+    "partner": "NPL",
+    "partner_name": "Nepal",
+    "million_tonnes": 0.036323,
+    "share": 0.000107,
+    "rank_in_year": 41,
+    "usd_per_tonne": 107.511235
+   },
+   {
+    "reporter": "AUS",
+    "year": 2022,
+    "partner": "OMN",
+    "partner_name": "Oman",
+    "million_tonnes": 0.000237,
+    "share": 1e-06,
+    "rank_in_year": 42,
+    "usd_per_tonne": 782.648451
+   },
+   {
+    "reporter": "AUS",
+    "year": 2022,
+    "partner": "EGY",
+    "partner_name": "Egypt",
+    "million_tonnes": 2e-05,
+    "share": 0.0,
+    "rank_in_year": 43,
+    "usd_per_tonne": 902.974107
+   },
+   {
+    "reporter": "AUS",
+    "year": 2023,
+    "partner": "JPN",
+    "partner_name": "Japan",
+    "million_tonnes": 106.9053,
+    "share": 0.302822,
+    "rank_in_year": 1,
+    "usd_per_tonne": 219.629411
+   },
+   {
+    "reporter": "AUS",
+    "year": 2023,
+    "partner": "CHN",
+    "partner_name": "China",
+    "million_tonnes": 55.6319,
+    "share": 0.157584,
+    "rank_in_year": 2,
+    "usd_per_tonne": 109.777606
+   },
+   {
+    "reporter": "AUS",
+    "year": 2023,
+    "partner": "IND",
+    "partner_name": "India",
+    "million_tonnes": 49.23984,
+    "share": 0.139478,
+    "rank_in_year": 3,
+    "usd_per_tonne": 222.089852
+   },
+   {
+    "reporter": "AUS",
+    "year": 2023,
+    "partner": "KOR",
+    "partner_name": "Rep. of Korea",
+    "million_tonnes": 35.71535,
+    "share": 0.101168,
+    "rank_in_year": 4,
+    "usd_per_tonne": 193.228304
+   },
+   {
+    "reporter": "AUS",
+    "year": 2023,
+    "partner": "S19",
+    "partner_name": "Other Asia, nes",
+    "million_tonnes": 30.09949,
+    "share": 0.08526,
+    "rank_in_year": 5,
+    "usd_per_tonne": 216.532635
+   },
+   {
+    "reporter": "AUS",
+    "year": 2023,
+    "partner": "VNM",
+    "partner_name": "Viet Nam",
+    "million_tonnes": 20.14932,
+    "share": 0.057075,
+    "rank_in_year": 6,
+    "usd_per_tonne": 145.242806
+   },
+   {
+    "reporter": "AUS",
+    "year": 2023,
+    "partner": "NLD",
+    "partner_name": "Netherlands",
+    "million_tonnes": 9.55876,
+    "share": 0.027076,
+    "rank_in_year": 7,
+    "usd_per_tonne": 235.172323
+   },
+   {
+    "reporter": "AUS",
+    "year": 2023,
+    "partner": "MYS",
+    "partner_name": "Malaysia",
+    "million_tonnes": 5.884329,
+    "share": 0.016668,
+    "rank_in_year": 8,
+    "usd_per_tonne": 202.189079
+   },
+   {
+    "reporter": "AUS",
+    "year": 2023,
+    "partner": "IDN",
+    "partner_name": "Indonesia",
+    "million_tonnes": 5.84622,
+    "share": 0.01656,
+    "rank_in_year": 9,
+    "usd_per_tonne": 213.508947
+   },
+   {
+    "reporter": "AUS",
+    "year": 2023,
+    "partner": "SGP",
+    "partner_name": "Singapore",
+    "million_tonnes": 5.29261,
+    "share": 0.014992,
+    "rank_in_year": 10,
+    "usd_per_tonne": 67.165226
+   },
+   {
+    "reporter": "AUS",
+    "year": 2023,
+    "partner": "BRA",
+    "partner_name": "Brazil",
+    "million_tonnes": 4.74276,
+    "share": 0.013434,
+    "rank_in_year": 11,
+    "usd_per_tonne": 231.605612
+   },
+   {
+    "reporter": "AUS",
+    "year": 2023,
+    "partner": "THA",
+    "partner_name": "Thailand",
+    "million_tonnes": 4.46101,
+    "share": 0.012636,
+    "rank_in_year": 12,
+    "usd_per_tonne": 89.207911
+   },
+   {
+    "reporter": "AUS",
+    "year": 2023,
+    "partner": "FRA",
+    "partner_name": "France",
+    "million_tonnes": 3.034643,
+    "share": 0.008596,
+    "rank_in_year": 13,
+    "usd_per_tonne": 256.510248
+   },
+   {
+    "reporter": "AUS",
+    "year": 2023,
+    "partner": "TUR",
+    "partner_name": "T\u00fcrkiye",
+    "million_tonnes": 2.426626,
+    "share": 0.006874,
+    "rank_in_year": 14,
+    "usd_per_tonne": 209.122512
+   },
+   {
+    "reporter": "AUS",
+    "year": 2023,
+    "partner": "CHL",
+    "partner_name": "Chile",
+    "million_tonnes": 2.152819,
+    "share": 0.006098,
+    "rank_in_year": 15,
+    "usd_per_tonne": 146.020679
+   },
+   {
+    "reporter": "AUS",
+    "year": 2023,
+    "partner": "BEL",
+    "partner_name": "Belgium",
+    "million_tonnes": 1.631,
+    "share": 0.00462,
+    "rank_in_year": 16,
+    "usd_per_tonne": 259.876058
+   },
+   {
+    "reporter": "AUS",
+    "year": 2023,
+    "partner": "DEU",
+    "partner_name": "Germany",
+    "million_tonnes": 1.513058,
+    "share": 0.004286,
+    "rank_in_year": 17,
+    "usd_per_tonne": 244.572106
+   },
+   {
+    "reporter": "AUS",
+    "year": 2023,
+    "partner": "ESP",
+    "partner_name": "Spain",
+    "million_tonnes": 1.18379,
+    "share": 0.003353,
+    "rank_in_year": 18,
+    "usd_per_tonne": 276.451853
+   },
+   {
+    "reporter": "AUS",
+    "year": 2023,
+    "partner": "POL",
+    "partner_name": "Poland",
+    "million_tonnes": 1.14132,
+    "share": 0.003233,
+    "rank_in_year": 19,
+    "usd_per_tonne": 284.00132
+   },
+   {
+    "reporter": "AUS",
+    "year": 2023,
+    "partner": "SWE",
+    "partner_name": "Sweden",
+    "million_tonnes": 1.081194,
+    "share": 0.003063,
+    "rank_in_year": 20,
+    "usd_per_tonne": 239.945489
+   },
+   {
+    "reporter": "AUS",
+    "year": 2023,
+    "partner": "NCL",
+    "partner_name": "New Caledonia",
+    "million_tonnes": 0.965511,
+    "share": 0.002735,
+    "rank_in_year": 21,
+    "usd_per_tonne": 149.908274
+   },
+   {
+    "reporter": "AUS",
+    "year": 2023,
+    "partner": "ZAF",
+    "partner_name": "South Africa",
+    "million_tonnes": 0.657866,
+    "share": 0.001863,
+    "rank_in_year": 22,
+    "usd_per_tonne": 272.626807
+   },
+   {
+    "reporter": "AUS",
+    "year": 2023,
+    "partner": "ARE",
+    "partner_name": "United Arab Emirates",
+    "million_tonnes": 0.547,
+    "share": 0.001549,
+    "rank_in_year": 23,
+    "usd_per_tonne": 69.404602
+   },
+   {
+    "reporter": "AUS",
+    "year": 2023,
+    "partner": "SVN",
+    "partner_name": "Slovenia",
+    "million_tonnes": 0.428466,
+    "share": 0.001214,
+    "rank_in_year": 24,
+    "usd_per_tonne": 213.019121
+   },
+   {
+    "reporter": "AUS",
+    "year": 2023,
+    "partner": "BGD",
+    "partner_name": "Bangladesh",
+    "million_tonnes": 0.398664,
+    "share": 0.001129,
+    "rank_in_year": 25,
+    "usd_per_tonne": 82.753029
+   },
+   {
+    "reporter": "AUS",
+    "year": 2023,
+    "partner": "ITA",
+    "partner_name": "Italy",
+    "million_tonnes": 0.349416,
+    "share": 0.00099,
+    "rank_in_year": 26,
+    "usd_per_tonne": 203.695794
+   },
+   {
+    "reporter": "AUS",
+    "year": 2023,
+    "partner": "HKG",
+    "partner_name": "China, Hong Kong SAR",
+    "million_tonnes": 0.321991,
+    "share": 0.000912,
+    "rank_in_year": 27,
+    "usd_per_tonne": 157.47279
+   },
+   {
+    "reporter": "AUS",
+    "year": 2023,
+    "partner": "ARG",
+    "partner_name": "Argentina",
+    "million_tonnes": 0.312325,
+    "share": 0.000885,
+    "rank_in_year": 28,
+    "usd_per_tonne": 228.699486
+   },
+   {
+    "reporter": "AUS",
+    "year": 2023,
+    "partner": "FIN",
+    "partner_name": "Finland",
+    "million_tonnes": 0.1847,
+    "share": 0.000523,
+    "rank_in_year": 29,
+    "usd_per_tonne": 244.987592
+   },
+   {
+    "reporter": "AUS",
+    "year": 2023,
+    "partner": "KHM",
+    "partner_name": "Cambodia",
+    "million_tonnes": 0.183576,
+    "share": 0.00052,
+    "rank_in_year": 30,
+    "usd_per_tonne": 125.336286
+   },
+   {
+    "reporter": "AUS",
+    "year": 2023,
+    "partner": "VCT",
+    "partner_name": "Saint Vincent and the Grenadines",
+    "million_tonnes": 0.179573,
+    "share": 0.000509,
+    "rank_in_year": 31,
+    "usd_per_tonne": 125.595766
+   },
+   {
+    "reporter": "AUS",
+    "year": 2023,
+    "partner": "PHL",
+    "partner_name": "Philippines",
+    "million_tonnes": 0.174697,
+    "share": 0.000495,
+    "rank_in_year": 32,
+    "usd_per_tonne": 146.723525
+   },
+   {
+    "reporter": "AUS",
+    "year": 2023,
+    "partner": "CHE",
+    "partner_name": "Switzerland",
+    "million_tonnes": 0.168487,
+    "share": 0.000477,
+    "rank_in_year": 33,
+    "usd_per_tonne": 261.042163
+   },
+   {
+    "reporter": "AUS",
+    "year": 2023,
+    "partner": "MEX",
+    "partner_name": "Mexico",
+    "million_tonnes": 0.098926,
+    "share": 0.00028,
+    "rank_in_year": 34,
+    "usd_per_tonne": 285.595998
+   },
+   {
+    "reporter": "AUS",
+    "year": 2023,
+    "partner": "GEO",
+    "partner_name": "Georgia",
+    "million_tonnes": 0.087573,
+    "share": 0.000248,
+    "rank_in_year": 35,
+    "usd_per_tonne": 78.835377
+   },
+   {
+    "reporter": "AUS",
+    "year": 2023,
+    "partner": "MKD",
+    "partner_name": "North Macedonia",
+    "million_tonnes": 0.072182,
+    "share": 0.000204,
+    "rank_in_year": 36,
+    "usd_per_tonne": 157.331492
+   },
+   {
+    "reporter": "AUS",
+    "year": 2023,
+    "partner": "GBR",
+    "partner_name": "United Kingdom",
+    "million_tonnes": 0.055,
+    "share": 0.000156,
+    "rank_in_year": 37,
+    "usd_per_tonne": 239.813179
+   },
+   {
+    "reporter": "AUS",
+    "year": 2023,
+    "partner": "PAK",
+    "partner_name": "Pakistan",
+    "million_tonnes": 0.05,
+    "share": 0.000142,
+    "rank_in_year": 38,
+    "usd_per_tonne": 155.631445
+   },
+   {
+    "reporter": "AUS",
+    "year": 2023,
+    "partner": "UGA",
+    "partner_name": "Uganda",
+    "million_tonnes": 0.042,
+    "share": 0.000119,
+    "rank_in_year": 39,
+    "usd_per_tonne": 294.303659
+   },
+   {
+    "reporter": "AUS",
+    "year": 2023,
+    "partner": "NZL",
+    "partner_name": "New Zealand",
+    "million_tonnes": 0.037837,
+    "share": 0.000107,
+    "rank_in_year": 40,
+    "usd_per_tonne": 134.222216
+   },
+   {
+    "reporter": "AUS",
+    "year": 2023,
+    "partner": "USA",
+    "partner_name": "USA",
+    "million_tonnes": 0.022636,
+    "share": 6.4e-05,
+    "rank_in_year": 41,
+    "usd_per_tonne": 305.895234
+   },
+   {
+    "reporter": "AUS",
+    "year": 2023,
+    "partner": "PNG",
+    "partner_name": "Papua New Guinea",
+    "million_tonnes": 2.5e-05,
+    "share": 0.0,
+    "rank_in_year": 42,
+    "usd_per_tonne": 8.15844
+   },
+   {
+    "reporter": "AUS",
+    "year": 2023,
+    "partner": "IRL",
+    "partner_name": "Ireland",
+    "million_tonnes": 1e-05,
+    "share": 0.0,
+    "rank_in_year": 43,
+    "usd_per_tonne": 132.8735
+   },
+   {
+    "reporter": "AUS",
+    "year": 2024,
+    "partner": "JPN",
+    "partner_name": "Japan",
+    "million_tonnes": 110.3735,
+    "share": 0.304934,
+    "rank_in_year": 1,
+    "usd_per_tonne": 162.658396
+   },
+   {
+    "reporter": "AUS",
+    "year": 2024,
+    "partner": "CHN",
+    "partner_name": "China",
+    "million_tonnes": 83.9873,
+    "share": 0.232036,
+    "rank_in_year": 2,
+    "usd_per_tonne": 98.567682
+   },
+   {
+    "reporter": "AUS",
+    "year": 2024,
+    "partner": "IND",
+    "partner_name": "India",
+    "million_tonnes": 41.8119,
+    "share": 0.115516,
+    "rank_in_year": 3,
+    "usd_per_tonne": 209.802705
+   },
+   {
+    "reporter": "AUS",
+    "year": 2024,
+    "partner": "KOR",
+    "partner_name": "Rep. of Korea",
+    "million_tonnes": 32.12407,
+    "share": 0.088751,
+    "rank_in_year": 4,
+    "usd_per_tonne": 166.818487
+   },
+   {
+    "reporter": "AUS",
+    "year": 2024,
+    "partner": "S19",
+    "partner_name": "Other Asia, nes",
+    "million_tonnes": 26.91038,
+    "share": 0.074347,
+    "rank_in_year": 5,
+    "usd_per_tonne": 176.191612
+   },
+   {
+    "reporter": "AUS",
+    "year": 2024,
+    "partner": "VNM",
+    "partner_name": "Viet Nam",
+    "million_tonnes": 17.75233,
+    "share": 0.049045,
+    "rank_in_year": 6,
+    "usd_per_tonne": 140.931561
+   },
+   {
+    "reporter": "AUS",
+    "year": 2024,
+    "partner": "NLD",
+    "partner_name": "Netherlands",
+    "million_tonnes": 11.01351,
+    "share": 0.030428,
+    "rank_in_year": 7,
+    "usd_per_tonne": 208.5814
+   },
+   {
+    "reporter": "AUS",
+    "year": 2024,
+    "partner": "MYS",
+    "partner_name": "Malaysia",
+    "million_tonnes": 7.394262,
+    "share": 0.020428,
+    "rank_in_year": 8,
+    "usd_per_tonne": 137.944737
+   },
+   {
+    "reporter": "AUS",
+    "year": 2024,
+    "partner": "IDN",
+    "partner_name": "Indonesia",
+    "million_tonnes": 6.65958,
+    "share": 0.018399,
+    "rank_in_year": 9,
+    "usd_per_tonne": 201.863581
+   },
+   {
+    "reporter": "AUS",
+    "year": 2024,
+    "partner": "BRA",
+    "partner_name": "Brazil",
+    "million_tonnes": 4.749426,
+    "share": 0.013121,
+    "rank_in_year": 10,
+    "usd_per_tonne": 187.796662
+   },
+   {
+    "reporter": "AUS",
+    "year": 2024,
+    "partner": "THA",
+    "partner_name": "Thailand",
+    "million_tonnes": 4.0983,
+    "share": 0.011323,
+    "rank_in_year": 11,
+    "usd_per_tonne": 89.609823
+   },
+   {
+    "reporter": "AUS",
+    "year": 2024,
+    "partner": "FRA",
+    "partner_name": "France",
+    "million_tonnes": 2.914362,
+    "share": 0.008052,
+    "rank_in_year": 12,
+    "usd_per_tonne": 207.659513
+   },
+   {
+    "reporter": "AUS",
+    "year": 2024,
+    "partner": "TUR",
+    "partner_name": "T\u00fcrkiye",
+    "million_tonnes": 2.18164,
+    "share": 0.006027,
+    "rank_in_year": 13,
+    "usd_per_tonne": 237.707549
+   },
+   {
+    "reporter": "AUS",
+    "year": 2024,
+    "partner": "BEL",
+    "partner_name": "Belgium",
+    "million_tonnes": 1.62365,
+    "share": 0.004486,
+    "rank_in_year": 14,
+    "usd_per_tonne": 210.018758
+   },
+   {
+    "reporter": "AUS",
+    "year": 2024,
+    "partner": "ESP",
+    "partner_name": "Spain",
+    "million_tonnes": 1.08498,
+    "share": 0.002998,
+    "rank_in_year": 15,
+    "usd_per_tonne": 196.531291
+   },
+   {
+    "reporter": "AUS",
+    "year": 2024,
+    "partner": "DEU",
+    "partner_name": "Germany",
+    "million_tonnes": 0.992828,
+    "share": 0.002743,
+    "rank_in_year": 16,
+    "usd_per_tonne": 176.674118
+   },
+   {
+    "reporter": "AUS",
+    "year": 2024,
+    "partner": "SWE",
+    "partner_name": "Sweden",
+    "million_tonnes": 0.966357,
+    "share": 0.00267,
+    "rank_in_year": 17,
+    "usd_per_tonne": 209.930914
+   },
+   {
+    "reporter": "AUS",
+    "year": 2024,
+    "partner": "HKG",
+    "partner_name": "China, Hong Kong SAR",
+    "million_tonnes": 0.68414,
+    "share": 0.00189,
+    "rank_in_year": 18,
+    "usd_per_tonne": 93.191852
+   },
+   {
+    "reporter": "AUS",
+    "year": 2024,
+    "partner": "POL",
+    "partner_name": "Poland",
+    "million_tonnes": 0.563276,
+    "share": 0.001556,
+    "rank_in_year": 19,
+    "usd_per_tonne": 275.092164
+   },
+   {
+    "reporter": "AUS",
+    "year": 2024,
+    "partner": "CHL",
+    "partner_name": "Chile",
+    "million_tonnes": 0.522907,
+    "share": 0.001445,
+    "rank_in_year": 20,
+    "usd_per_tonne": 127.232174
+   },
+   {
+    "reporter": "AUS",
+    "year": 2024,
+    "partner": "ZAF",
+    "partner_name": "South Africa",
+    "million_tonnes": 0.46232,
+    "share": 0.001277,
+    "rank_in_year": 21,
+    "usd_per_tonne": 218.978376
+   },
+   {
+    "reporter": "AUS",
+    "year": 2024,
+    "partner": "UKR",
+    "partner_name": "Ukraine",
+    "million_tonnes": 0.39005,
+    "share": 0.001078,
+    "rank_in_year": 22,
+    "usd_per_tonne": 174.220129
+   },
+   {
+    "reporter": "AUS",
+    "year": 2024,
+    "partner": "FIN",
+    "partner_name": "Finland",
+    "million_tonnes": 0.369017,
+    "share": 0.00102,
+    "rank_in_year": 23,
+    "usd_per_tonne": 222.325949
+   },
+   {
+    "reporter": "AUS",
+    "year": 2024,
+    "partner": "NCL",
+    "partner_name": "New Caledonia",
+    "million_tonnes": 0.327782,
+    "share": 0.000906,
+    "rank_in_year": 24,
+    "usd_per_tonne": 130.076082
+   },
+   {
+    "reporter": "AUS",
+    "year": 2024,
+    "partner": "ITA",
+    "partner_name": "Italy",
+    "million_tonnes": 0.314576,
+    "share": 0.000869,
+    "rank_in_year": 25,
+    "usd_per_tonne": 154.034645
+   },
+   {
+    "reporter": "AUS",
+    "year": 2024,
+    "partner": "ARG",
+    "partner_name": "Argentina",
+    "million_tonnes": 0.312828,
+    "share": 0.000864,
+    "rank_in_year": 26,
+    "usd_per_tonne": 208.414467
+   },
+   {
+    "reporter": "AUS",
+    "year": 2024,
+    "partner": "GBR",
+    "partner_name": "United Kingdom",
+    "million_tonnes": 0.277703,
+    "share": 0.000767,
+    "rank_in_year": 27,
+    "usd_per_tonne": 236.854642
+   },
+   {
+    "reporter": "AUS",
+    "year": 2024,
+    "partner": "SVN",
+    "partner_name": "Slovenia",
+    "million_tonnes": 0.26558,
+    "share": 0.000734,
+    "rank_in_year": 28,
+    "usd_per_tonne": 205.456941
+   },
+   {
+    "reporter": "AUS",
+    "year": 2024,
+    "partner": "CHE",
+    "partner_name": "Switzerland",
+    "million_tonnes": 0.152933,
+    "share": 0.000423,
+    "rank_in_year": 29,
+    "usd_per_tonne": 133.201178
+   },
+   {
+    "reporter": "AUS",
+    "year": 2024,
+    "partner": "SGP",
+    "partner_name": "Singapore",
+    "million_tonnes": 0.14306,
+    "share": 0.000395,
+    "rank_in_year": 30,
+    "usd_per_tonne": 117.223258
+   },
+   {
+    "reporter": "AUS",
+    "year": 2024,
+    "partner": "ISR",
+    "partner_name": "Israel",
+    "million_tonnes": 0.136362,
+    "share": 0.000377,
+    "rank_in_year": 31,
+    "usd_per_tonne": 142.30512
+   },
+   {
+    "reporter": "AUS",
+    "year": 2024,
+    "partner": "GEO",
+    "partner_name": "Georgia",
+    "million_tonnes": 0.104352,
+    "share": 0.000288,
+    "rank_in_year": 32,
+    "usd_per_tonne": 143.561442
+   },
+   {
+    "reporter": "AUS",
+    "year": 2024,
+    "partner": "CPV",
+    "partner_name": "Cabo Verde",
+    "million_tonnes": 0.07824,
+    "share": 0.000216,
+    "rank_in_year": 33,
+    "usd_per_tonne": 190.865588
+   },
+   {
+    "reporter": "AUS",
+    "year": 2024,
+    "partner": "NZL",
+    "partner_name": "New Zealand",
+    "million_tonnes": 0.072112,
+    "share": 0.000199,
+    "rank_in_year": 34,
+    "usd_per_tonne": 177.118077
+   },
+   {
+    "reporter": "AUS",
+    "year": 2024,
+    "partner": "BGD",
+    "partner_name": "Bangladesh",
+    "million_tonnes": 0.0605,
+    "share": 0.000167,
+    "rank_in_year": 35,
+    "usd_per_tonne": 68.304159
+   },
+   {
+    "reporter": "AUS",
+    "year": 2024,
+    "partner": "PHL",
+    "partner_name": "Philippines",
+    "million_tonnes": 0.060298,
+    "share": 0.000167,
+    "rank_in_year": 36,
+    "usd_per_tonne": 74.844493
+   },
+   {
+    "reporter": "AUS",
+    "year": 2024,
+    "partner": "AUT",
+    "partner_name": "Austria",
+    "million_tonnes": 0.021978,
+    "share": 6.1e-05,
+    "rank_in_year": 37,
+    "usd_per_tonne": 164.6732
+   },
+   {
+    "reporter": "AUS",
+    "year": 2024,
+    "partner": "NRU",
+    "partner_name": "Naoero",
+    "million_tonnes": 1e-06,
+    "share": 0.0,
+    "rank_in_year": 38,
+    "usd_per_tonne": 1649.775
+   },
+   {
+    "reporter": "AUS",
+    "year": 2025,
+    "partner": "JPN",
+    "partner_name": "Japan",
+    "million_tonnes": 105.173263,
+    "share": 0.295727,
+    "rank_in_year": 1,
+    "usd_per_tonne": 120.189853
+   },
+   {
+    "reporter": "AUS",
+    "year": 2025,
+    "partner": "CHN",
+    "partner_name": "China",
+    "million_tonnes": 75.688792,
+    "share": 0.212822,
+    "rank_in_year": 2,
+    "usd_per_tonne": 80.716569
+   },
+   {
+    "reporter": "AUS",
+    "year": 2025,
+    "partner": "IND",
+    "partner_name": "India",
+    "million_tonnes": 43.11625,
+    "share": 0.121235,
+    "rank_in_year": 3,
+    "usd_per_tonne": 155.592412
+   },
+   {
+    "reporter": "AUS",
+    "year": 2025,
+    "partner": "KOR",
+    "partner_name": "Rep. of Korea",
+    "million_tonnes": 34.209255,
+    "share": 0.09619,
+    "rank_in_year": 4,
+    "usd_per_tonne": 123.347893
+   },
+   {
+    "reporter": "AUS",
+    "year": 2025,
+    "partner": "S19",
+    "partner_name": "Other Asia, nes",
+    "million_tonnes": 25.985239,
+    "share": 0.073065,
+    "rank_in_year": 5,
+    "usd_per_tonne": 116.844908
+   },
+   {
+    "reporter": "AUS",
+    "year": 2025,
+    "partner": "VNM",
+    "partner_name": "Viet Nam",
+    "million_tonnes": 22.403864,
+    "share": 0.062995,
+    "rank_in_year": 6,
+    "usd_per_tonne": 103.721489
+   },
+   {
+    "reporter": "AUS",
+    "year": 2025,
+    "partner": "NLD",
+    "partner_name": "Netherlands",
+    "million_tonnes": 9.191633,
+    "share": 0.025845,
+    "rank_in_year": 7,
+    "usd_per_tonne": 156.503715
+   },
+   {
+    "reporter": "AUS",
+    "year": 2025,
+    "partner": "MYS",
+    "partner_name": "Malaysia",
+    "million_tonnes": 7.5663,
+    "share": 0.021275,
+    "rank_in_year": 8,
+    "usd_per_tonne": 104.35101
+   },
+   {
+    "reporter": "AUS",
+    "year": 2025,
+    "partner": "IDN",
+    "partner_name": "Indonesia",
+    "million_tonnes": 6.280444,
+    "share": 0.017659,
+    "rank_in_year": 9,
+    "usd_per_tonne": 132.59981
+   },
+   {
+    "reporter": "AUS",
+    "year": 2025,
+    "partner": "BRA",
+    "partner_name": "Brazil",
+    "million_tonnes": 4.516218,
+    "share": 0.012699,
+    "rank_in_year": 10,
+    "usd_per_tonne": 143.597687
+   },
+   {
+    "reporter": "AUS",
+    "year": 2025,
+    "partner": "THA",
+    "partner_name": "Thailand",
+    "million_tonnes": 4.028185,
+    "share": 0.011326,
+    "rank_in_year": 11,
+    "usd_per_tonne": 85.489019
+   },
+   {
+    "reporter": "AUS",
+    "year": 2025,
+    "partner": "HKG",
+    "partner_name": "China, Hong Kong SAR",
+    "million_tonnes": 3.437844,
+    "share": 0.009667,
+    "rank_in_year": 12,
+    "usd_per_tonne": 71.293294
+   },
+   {
+    "reporter": "AUS",
+    "year": 2025,
+    "partner": "FRA",
+    "partner_name": "France",
+    "million_tonnes": 2.43464,
+    "share": 0.006846,
+    "rank_in_year": 13,
+    "usd_per_tonne": 150.114333
+   },
+   {
+    "reporter": "AUS",
+    "year": 2025,
+    "partner": "TUR",
+    "partner_name": "T\u00fcrkiye",
+    "million_tonnes": 1.407228,
+    "share": 0.003957,
+    "rank_in_year": 14,
+    "usd_per_tonne": 171.987935
+   },
+   {
+    "reporter": "AUS",
+    "year": 2025,
+    "partner": "DEU",
+    "partner_name": "Germany",
+    "million_tonnes": 1.382276,
+    "share": 0.003887,
+    "rank_in_year": 15,
+    "usd_per_tonne": 154.02763
+   },
+   {
+    "reporter": "AUS",
+    "year": 2025,
+    "partner": "UKR",
+    "partner_name": "Ukraine",
+    "million_tonnes": 1.299624,
+    "share": 0.003654,
+    "rank_in_year": 16,
+    "usd_per_tonne": 124.753306
+   },
+   {
+    "reporter": "AUS",
+    "year": 2025,
+    "partner": "BEL",
+    "partner_name": "Belgium",
+    "million_tonnes": 1.249018,
+    "share": 0.003512,
+    "rank_in_year": 17,
+    "usd_per_tonne": 157.680185
+   },
+   {
+    "reporter": "AUS",
+    "year": 2025,
+    "partner": "SGP",
+    "partner_name": "Singapore",
+    "million_tonnes": 1.227577,
+    "share": 0.003452,
+    "rank_in_year": 18,
+    "usd_per_tonne": 101.152095
+   },
+   {
+    "reporter": "AUS",
+    "year": 2025,
+    "partner": "SWE",
+    "partner_name": "Sweden",
+    "million_tonnes": 1.003058,
+    "share": 0.00282,
+    "rank_in_year": 19,
+    "usd_per_tonne": 170.532145
+   },
+   {
+    "reporter": "AUS",
+    "year": 2025,
+    "partner": "ESP",
+    "partner_name": "Spain",
+    "million_tonnes": 0.952072,
+    "share": 0.002677,
+    "rank_in_year": 20,
+    "usd_per_tonne": 156.55473
+   },
+   {
+    "reporter": "AUS",
+    "year": 2025,
+    "partner": "SVN",
+    "partner_name": "Slovenia",
+    "million_tonnes": 0.491725,
+    "share": 0.001383,
+    "rank_in_year": 21,
+    "usd_per_tonne": 185.736156
+   },
+   {
+    "reporter": "AUS",
+    "year": 2025,
+    "partner": "ARG",
+    "partner_name": "Argentina",
+    "million_tonnes": 0.36945,
+    "share": 0.001039,
+    "rank_in_year": 22,
+    "usd_per_tonne": 161.697825
+   },
+   {
+    "reporter": "AUS",
+    "year": 2025,
+    "partner": "FIN",
+    "partner_name": "Finland",
+    "million_tonnes": 0.361163,
+    "share": 0.001016,
+    "rank_in_year": 23,
+    "usd_per_tonne": 150.692369
+   },
+   {
+    "reporter": "AUS",
+    "year": 2025,
+    "partner": "CHL",
+    "partner_name": "Chile",
+    "million_tonnes": 0.306614,
+    "share": 0.000862,
+    "rank_in_year": 24,
+    "usd_per_tonne": 86.301705
+   },
+   {
+    "reporter": "AUS",
+    "year": 2025,
+    "partner": "NCL",
+    "partner_name": "New Caledonia",
+    "million_tonnes": 0.25769,
+    "share": 0.000725,
+    "rank_in_year": 25,
+    "usd_per_tonne": 112.71338
+   },
+   {
+    "reporter": "AUS",
+    "year": 2025,
+    "partner": "LUX",
+    "partner_name": "Luxembourg",
+    "million_tonnes": 0.244676,
+    "share": 0.000688,
+    "rank_in_year": 26,
+    "usd_per_tonne": 159.692551
+   },
+   {
+    "reporter": "AUS",
+    "year": 2025,
+    "partner": "POL",
+    "partner_name": "Poland",
+    "million_tonnes": 0.241981,
+    "share": 0.00068,
+    "rank_in_year": 27,
+    "usd_per_tonne": 150.239794
+   },
+   {
+    "reporter": "AUS",
+    "year": 2025,
+    "partner": "ZAF",
+    "partner_name": "South Africa",
+    "million_tonnes": 0.2105,
+    "share": 0.000592,
+    "rank_in_year": 28,
+    "usd_per_tonne": 185.796634
+   },
+   {
+    "reporter": "AUS",
+    "year": 2025,
+    "partner": "ITA",
+    "partner_name": "Italy",
+    "million_tonnes": 0.152398,
+    "share": 0.000429,
+    "rank_in_year": 29,
+    "usd_per_tonne": 108.217652
+   },
+   {
+    "reporter": "AUS",
+    "year": 2025,
+    "partner": "GEO",
+    "partner_name": "Georgia",
+    "million_tonnes": 0.11,
+    "share": 0.000309,
+    "rank_in_year": 30,
+    "usd_per_tonne": 122.041936
+   },
+   {
+    "reporter": "AUS",
+    "year": 2025,
+    "partner": "AUT",
+    "partner_name": "Austria",
+    "million_tonnes": 0.11,
+    "share": 0.000309,
+    "rank_in_year": 31,
+    "usd_per_tonne": 148.016297
+   },
+   {
+    "reporter": "AUS",
+    "year": 2025,
+    "partner": "UZB",
+    "partner_name": "Uzbekistan",
+    "million_tonnes": 0.0798,
+    "share": 0.000224,
+    "rank_in_year": 32,
+    "usd_per_tonne": 136.704422
+   },
+   {
+    "reporter": "AUS",
+    "year": 2025,
+    "partner": "KEN",
+    "partner_name": "Kenya",
+    "million_tonnes": 0.061414,
+    "share": 0.000173,
+    "rank_in_year": 33,
+    "usd_per_tonne": 68.682729
+   },
+   {
+    "reporter": "AUS",
+    "year": 2025,
+    "partner": "GBR",
+    "partner_name": "United Kingdom",
+    "million_tonnes": 0.055,
+    "share": 0.000155,
+    "rank_in_year": 34,
+    "usd_per_tonne": 137.939849
+   },
+   {
+    "reporter": "AUS",
+    "year": 2025,
+    "partner": "NZL",
+    "partner_name": "New Zealand",
+    "million_tonnes": 0.038003,
+    "share": 0.000107,
+    "rank_in_year": 35,
+    "usd_per_tonne": 110.140498
+   },
+   {
+    "reporter": "AUS",
+    "year": 2025,
+    "partner": "EGY",
+    "partner_name": "Egypt",
+    "million_tonnes": 5.6e-05,
+    "share": 0.0,
+    "rank_in_year": 36,
+    "usd_per_tonne": 899.759839
+   },
+   {
+    "reporter": "AUS",
+    "year": 2025,
+    "partner": "FJI",
+    "partner_name": "Fiji",
+    "million_tonnes": 2e-05,
+    "share": 0.0,
+    "rank_in_year": 37,
+    "usd_per_tonne": 283.50555
+   },
+   {
+    "reporter": "AUS",
+    "year": 2025,
+    "partner": "PNG",
+    "partner_name": "Papua New Guinea",
+    "million_tonnes": 2e-06,
+    "share": 0.0,
+    "rank_in_year": 38,
+    "usd_per_tonne": 342.224528
+   },
+   {
+    "reporter": "IDN",
+    "year": 2015,
+    "partner": "IND",
+    "partner_name": "India",
+    "million_tonnes": 124.481481,
+    "share": 0.339214,
+    "rank_in_year": 1,
+    "usd_per_tonne": 37.521262
+   },
+   {
+    "reporter": "IDN",
+    "year": 2015,
+    "partner": "CHN",
+    "partner_name": "China",
+    "million_tonnes": 72.740836,
+    "share": 0.19822,
+    "rank_in_year": 2,
+    "usd_per_tonne": 37.372856
+   },
+   {
+    "reporter": "IDN",
+    "year": 2015,
+    "partner": "KOR",
+    "partner_name": "Rep. of Korea",
+    "million_tonnes": 34.015684,
+    "share": 0.092693,
+    "rank_in_year": 3,
+    "usd_per_tonne": 41.629584
+   },
+   {
+    "reporter": "IDN",
+    "year": 2015,
+    "partner": "JPN",
+    "partner_name": "Japan",
+    "million_tonnes": 32.508984,
+    "share": 0.088587,
+    "rank_in_year": 4,
+    "usd_per_tonne": 62.566431
+   },
+   {
+    "reporter": "IDN",
+    "year": 2015,
+    "partner": "S19",
+    "partner_name": "Other Asia, nes",
+    "million_tonnes": 24.393379,
+    "share": 0.066472,
+    "rank_in_year": 5,
+    "usd_per_tonne": 53.259181
+   },
+   {
+    "reporter": "IDN",
+    "year": 2015,
+    "partner": "THA",
+    "partner_name": "Thailand",
+    "million_tonnes": 17.865088,
+    "share": 0.048683,
+    "rank_in_year": 6,
+    "usd_per_tonne": 44.43763
+   },
+   {
+    "reporter": "IDN",
+    "year": 2015,
+    "partner": "MYS",
+    "partner_name": "Malaysia",
+    "million_tonnes": 16.56752,
+    "share": 0.045147,
+    "rank_in_year": 7,
+    "usd_per_tonne": 48.511645
+   },
+   {
+    "reporter": "IDN",
+    "year": 2015,
+    "partner": "PHL",
+    "partner_name": "Philippines",
+    "million_tonnes": 15.823192,
+    "share": 0.043118,
+    "rank_in_year": 8,
+    "usd_per_tonne": 50.673819
+   },
+   {
+    "reporter": "IDN",
+    "year": 2015,
+    "partner": "HKG",
+    "partner_name": "China, Hong Kong SAR",
+    "million_tonnes": 9.833165,
+    "share": 0.026796,
+    "rank_in_year": 9,
+    "usd_per_tonne": 50.488759
+   },
+   {
+    "reporter": "IDN",
+    "year": 2015,
+    "partner": "ESP",
+    "partner_name": "Spain",
+    "million_tonnes": 4.826493,
+    "share": 0.013152,
+    "rank_in_year": 10,
+    "usd_per_tonne": 47.155439
+   },
+   {
+    "reporter": "IDN",
+    "year": 2015,
+    "partner": "ITA",
+    "partner_name": "Italy",
+    "million_tonnes": 3.106037,
+    "share": 0.008464,
+    "rank_in_year": 11,
+    "usd_per_tonne": 58.489733
+   },
+   {
+    "reporter": "IDN",
+    "year": 2015,
+    "partner": "BGD",
+    "partner_name": "Bangladesh",
+    "million_tonnes": 2.878737,
+    "share": 0.007845,
+    "rank_in_year": 12,
+    "usd_per_tonne": 50.325127
+   },
+   {
+    "reporter": "IDN",
+    "year": 2015,
+    "partner": "VNM",
+    "partner_name": "Viet Nam",
+    "million_tonnes": 1.987766,
+    "share": 0.005417,
+    "rank_in_year": 13,
+    "usd_per_tonne": 46.213059
+   },
+   {
+    "reporter": "IDN",
+    "year": 2015,
+    "partner": "KHM",
+    "partner_name": "Cambodia",
+    "million_tonnes": 1.558096,
+    "share": 0.004246,
+    "rank_in_year": 14,
+    "usd_per_tonne": 46.630822
+   },
+   {
+    "reporter": "IDN",
+    "year": 2015,
+    "partner": "PAK",
+    "partner_name": "Pakistan",
+    "million_tonnes": 1.166818,
+    "share": 0.00318,
+    "rank_in_year": 15,
+    "usd_per_tonne": 58.754347
+   },
+   {
+    "reporter": "IDN",
+    "year": 2015,
+    "partner": "USA",
+    "partner_name": "USA",
+    "million_tonnes": 0.731683,
+    "share": 0.001994,
+    "rank_in_year": 16,
+    "usd_per_tonne": 61.460067
+   },
+   {
+    "reporter": "IDN",
+    "year": 2015,
+    "partner": "SGP",
+    "partner_name": "Singapore",
+    "million_tonnes": 0.661642,
+    "share": 0.001803,
+    "rank_in_year": 17,
+    "usd_per_tonne": 36.490817
+   },
+   {
+    "reporter": "IDN",
+    "year": 2015,
+    "partner": "NZL",
+    "partner_name": "New Zealand",
+    "million_tonnes": 0.379356,
+    "share": 0.001034,
+    "rank_in_year": 18,
+    "usd_per_tonne": 56.556013
+   },
+   {
+    "reporter": "IDN",
+    "year": 2015,
+    "partner": "ARE",
+    "partner_name": "United Arab Emirates",
+    "million_tonnes": 0.261909,
+    "share": 0.000714,
+    "rank_in_year": 19,
+    "usd_per_tonne": 45.406466
+   },
+   {
+    "reporter": "IDN",
+    "year": 2015,
+    "partner": "TUR",
+    "partner_name": "T\u00fcrkiye",
+    "million_tonnes": 0.252777,
+    "share": 0.000689,
+    "rank_in_year": 20,
+    "usd_per_tonne": 80.021984
+   },
+   {
+    "reporter": "IDN",
+    "year": 2015,
+    "partner": "SVN",
+    "partner_name": "Slovenia",
+    "million_tonnes": 0.240334,
+    "share": 0.000655,
+    "rank_in_year": 21,
+    "usd_per_tonne": 50.290001
+   },
+   {
+    "reporter": "IDN",
+    "year": 2015,
+    "partner": "LKA",
+    "partner_name": "Sri Lanka",
+    "million_tonnes": 0.234952,
+    "share": 0.00064,
+    "rank_in_year": 22,
+    "usd_per_tonne": 58.313843
+   },
+   {
+    "reporter": "IDN",
+    "year": 2015,
+    "partner": "FRA",
+    "partner_name": "France",
+    "million_tonnes": 0.156,
+    "share": 0.000425,
+    "rank_in_year": 23,
+    "usd_per_tonne": 63.566667
+   },
+   {
+    "reporter": "IDN",
+    "year": 2015,
+    "partner": "NLD",
+    "partner_name": "Netherlands",
+    "million_tonnes": 0.0825,
+    "share": 0.000225,
+    "rank_in_year": 24,
+    "usd_per_tonne": 91.42
+   },
+   {
+    "reporter": "IDN",
+    "year": 2015,
+    "partner": "MHL",
+    "partner_name": "Marshall Isds",
+    "million_tonnes": 0.055,
+    "share": 0.00015,
+    "rank_in_year": 25,
+    "usd_per_tonne": 54.0
+   },
+   {
+    "reporter": "IDN",
+    "year": 2015,
+    "partner": "AUS",
+    "partner_name": "Australia",
+    "million_tonnes": 0.045206,
+    "share": 0.000123,
+    "rank_in_year": 26,
+    "usd_per_tonne": 54.492789
+   },
+   {
+    "reporter": "IDN",
+    "year": 2015,
+    "partner": "BHR",
+    "partner_name": "Bahrain",
+    "million_tonnes": 0.038252,
+    "share": 0.000104,
+    "rank_in_year": 27,
+    "usd_per_tonne": 38.749998
+   },
+   {
+    "reporter": "IDN",
+    "year": 2015,
+    "partner": "BRA",
+    "partner_name": "Brazil",
+    "million_tonnes": 0.03288,
+    "share": 9e-05,
+    "rank_in_year": 28,
+    "usd_per_tonne": 75.560006
+   },
+   {
+    "reporter": "IDN",
+    "year": 2015,
+    "partner": "NPL",
+    "partner_name": "Nepal",
+    "million_tonnes": 0.026616,
+    "share": 7.3e-05,
+    "rank_in_year": 29,
+    "usd_per_tonne": 55.728341
+   },
+   {
+    "reporter": "IDN",
+    "year": 2015,
+    "partner": "PRK",
+    "partner_name": "Dem. People's Rep. of Korea",
+    "million_tonnes": 0.01035,
+    "share": 2.8e-05,
+    "rank_in_year": 30,
+    "usd_per_tonne": 26.8
+   },
+   {
+    "reporter": "IDN",
+    "year": 2015,
+    "partner": "PNG",
+    "partner_name": "Papua New Guinea",
+    "million_tonnes": 0.007521,
+    "share": 2e-05,
+    "rank_in_year": 31,
+    "usd_per_tonne": 40.99995
+   },
+   {
+    "reporter": "IDN",
+    "year": 2015,
+    "partner": "KWT",
+    "partner_name": "Kuwait",
+    "million_tonnes": 0.000126,
+    "share": 0.0,
+    "rank_in_year": 32,
+    "usd_per_tonne": 150.777901
+   },
+   {
+    "reporter": "IDN",
+    "year": 2015,
+    "partner": "GBR",
+    "partner_name": "United Kingdom",
+    "million_tonnes": 2e-05,
+    "share": 0.0,
+    "rank_in_year": 33,
+    "usd_per_tonne": 269.584352
+   },
+   {
+    "reporter": "IDN",
+    "year": 2016,
+    "partner": "CHN",
+    "partner_name": "China",
+    "million_tonnes": 106.644176,
+    "share": 0.28908,
+    "rank_in_year": 1,
+    "usd_per_tonne": 34.004292
+   },
+   {
+    "reporter": "IDN",
+    "year": 2016,
+    "partner": "IND",
+    "partner_name": "India",
+    "million_tonnes": 94.86111,
+    "share": 0.257139,
+    "rank_in_year": 2,
+    "usd_per_tonne": 34.838378
+   },
+   {
+    "reporter": "IDN",
+    "year": 2016,
+    "partner": "KOR",
+    "partner_name": "Rep. of Korea",
+    "million_tonnes": 36.409081,
+    "share": 0.098694,
+    "rank_in_year": 3,
+    "usd_per_tonne": 34.177541
+   },
+   {
+    "reporter": "IDN",
+    "year": 2016,
+    "partner": "JPN",
+    "partner_name": "Japan",
+    "million_tonnes": 33.048828,
+    "share": 0.089585,
+    "rank_in_year": 4,
+    "usd_per_tonne": 59.92937
+   },
+   {
+    "reporter": "IDN",
+    "year": 2016,
+    "partner": "S19",
+    "partner_name": "Other Asia, nes",
+    "million_tonnes": 20.408534,
+    "share": 0.055321,
+    "rank_in_year": 5,
+    "usd_per_tonne": 46.871478
+   },
+   {
+    "reporter": "IDN",
+    "year": 2016,
+    "partner": "PHL",
+    "partner_name": "Philippines",
+    "million_tonnes": 17.753226,
+    "share": 0.048124,
+    "rank_in_year": 6,
+    "usd_per_tonne": 44.886241
+   },
+   {
+    "reporter": "IDN",
+    "year": 2016,
+    "partner": "MYS",
+    "partner_name": "Malaysia",
+    "million_tonnes": 17.419319,
+    "share": 0.047218,
+    "rank_in_year": 7,
+    "usd_per_tonne": 46.693455
+   },
+   {
+    "reporter": "IDN",
+    "year": 2016,
+    "partner": "THA",
+    "partner_name": "Thailand",
+    "million_tonnes": 16.492662,
+    "share": 0.044707,
+    "rank_in_year": 8,
+    "usd_per_tonne": 38.644475
+   },
+   {
+    "reporter": "IDN",
+    "year": 2016,
+    "partner": "HKG",
+    "partner_name": "China, Hong Kong SAR",
+    "million_tonnes": 9.423885,
+    "share": 0.025545,
+    "rank_in_year": 9,
+    "usd_per_tonne": 42.874117
+   },
+   {
+    "reporter": "IDN",
+    "year": 2016,
+    "partner": "ESP",
+    "partner_name": "Spain",
+    "million_tonnes": 4.990145,
+    "share": 0.013527,
+    "rank_in_year": 10,
+    "usd_per_tonne": 42.448564
+   },
+   {
+    "reporter": "IDN",
+    "year": 2016,
+    "partner": "VNM",
+    "partner_name": "Viet Nam",
+    "million_tonnes": 2.851847,
+    "share": 0.00773,
+    "rank_in_year": 11,
+    "usd_per_tonne": 37.242694
+   },
+   {
+    "reporter": "IDN",
+    "year": 2016,
+    "partner": "BGD",
+    "partner_name": "Bangladesh",
+    "million_tonnes": 1.537298,
+    "share": 0.004167,
+    "rank_in_year": 12,
+    "usd_per_tonne": 42.128775
+   },
+   {
+    "reporter": "IDN",
+    "year": 2016,
+    "partner": "KHM",
+    "partner_name": "Cambodia",
+    "million_tonnes": 1.506439,
+    "share": 0.004083,
+    "rank_in_year": 13,
+    "usd_per_tonne": 45.231819
+   },
+   {
+    "reporter": "IDN",
+    "year": 2016,
+    "partner": "PAK",
+    "partner_name": "Pakistan",
+    "million_tonnes": 1.473127,
+    "share": 0.003993,
+    "rank_in_year": 14,
+    "usd_per_tonne": 50.162704
+   },
+   {
+    "reporter": "IDN",
+    "year": 2016,
+    "partner": "ITA",
+    "partner_name": "Italy",
+    "million_tonnes": 1.103948,
+    "share": 0.002992,
+    "rank_in_year": 15,
+    "usd_per_tonne": 60.803297
+   },
+   {
+    "reporter": "IDN",
+    "year": 2016,
+    "partner": "SGP",
+    "partner_name": "Singapore",
+    "million_tonnes": 0.776326,
+    "share": 0.002104,
+    "rank_in_year": 16,
+    "usd_per_tonne": 35.006442
+   },
+   {
+    "reporter": "IDN",
+    "year": 2016,
+    "partner": "USA",
+    "partner_name": "USA",
+    "million_tonnes": 0.513729,
+    "share": 0.001393,
+    "rank_in_year": 17,
+    "usd_per_tonne": 53.920888
+   },
+   {
+    "reporter": "IDN",
+    "year": 2016,
+    "partner": "SVN",
+    "partner_name": "Slovenia",
+    "million_tonnes": 0.377499,
+    "share": 0.001023,
+    "rank_in_year": 18,
+    "usd_per_tonne": 41.719999
+   },
+   {
+    "reporter": "IDN",
+    "year": 2016,
+    "partner": "NZL",
+    "partner_name": "New Zealand",
+    "million_tonnes": 0.262994,
+    "share": 0.000713,
+    "rank_in_year": 19,
+    "usd_per_tonne": 55.931177
+   },
+   {
+    "reporter": "IDN",
+    "year": 2016,
+    "partner": "MMR",
+    "partner_name": "Myanmar",
+    "million_tonnes": 0.208708,
+    "share": 0.000566,
+    "rank_in_year": 20,
+    "usd_per_tonne": 51.767891
+   },
+   {
+    "reporter": "IDN",
+    "year": 2016,
+    "partner": "ARE",
+    "partner_name": "United Arab Emirates",
+    "million_tonnes": 0.203064,
+    "share": 0.00055,
+    "rank_in_year": 21,
+    "usd_per_tonne": 48.603184
+   },
+   {
+    "reporter": "IDN",
+    "year": 2016,
+    "partner": "TUR",
+    "partner_name": "T\u00fcrkiye",
+    "million_tonnes": 0.1608,
+    "share": 0.000436,
+    "rank_in_year": 22,
+    "usd_per_tonne": 117.394826
+   },
+   {
+    "reporter": "IDN",
+    "year": 2016,
+    "partner": "IRN",
+    "partner_name": "Iran",
+    "million_tonnes": 0.154055,
+    "share": 0.000418,
+    "rank_in_year": 23,
+    "usd_per_tonne": 42.749998
+   },
+   {
+    "reporter": "IDN",
+    "year": 2016,
+    "partner": "PRK",
+    "partner_name": "Dem. People's Rep. of Korea",
+    "million_tonnes": 0.089174,
+    "share": 0.000242,
+    "rank_in_year": 24,
+    "usd_per_tonne": 57.390002
+   },
+   {
+    "reporter": "IDN",
+    "year": 2016,
+    "partner": "LKA",
+    "partner_name": "Sri Lanka",
+    "million_tonnes": 0.082245,
+    "share": 0.000223,
+    "rank_in_year": 25,
+    "usd_per_tonne": 67.572339
+   },
+   {
+    "reporter": "IDN",
+    "year": 2016,
+    "partner": "UKR",
+    "partner_name": "Ukraine",
+    "million_tonnes": 0.077,
+    "share": 0.000209,
+    "rank_in_year": 26,
+    "usd_per_tonne": 123.25
+   },
+   {
+    "reporter": "IDN",
+    "year": 2016,
+    "partner": "FRA",
+    "partner_name": "France",
+    "million_tonnes": 0.05,
+    "share": 0.000136,
+    "rank_in_year": 27,
+    "usd_per_tonne": 53.08
+   },
+   {
+    "reporter": "IDN",
+    "year": 2016,
+    "partner": "GRC",
+    "partner_name": "Greece",
+    "million_tonnes": 0.0225,
+    "share": 6.1e-05,
+    "rank_in_year": 28,
+    "usd_per_tonne": 35.0
+   },
+   {
+    "reporter": "IDN",
+    "year": 2016,
+    "partner": "PNG",
+    "partner_name": "Papua New Guinea",
+    "million_tonnes": 0.007502,
+    "share": 2e-05,
+    "rank_in_year": 29,
+    "usd_per_tonne": 49.000011
+   },
+   {
+    "reporter": "IDN",
+    "year": 2017,
+    "partner": "CHN",
+    "partner_name": "China",
+    "million_tonnes": 113.736105,
+    "share": 0.291983,
+    "rank_in_year": 1,
+    "usd_per_tonne": 44.950606
+   },
+   {
+    "reporter": "IDN",
+    "year": 2017,
+    "partner": "IND",
+    "partner_name": "India",
+    "million_tonnes": 99.012063,
+    "share": 0.254183,
+    "rank_in_year": 2,
+    "usd_per_tonne": 47.777623
+   },
+   {
+    "reporter": "IDN",
+    "year": 2017,
+    "partner": "KOR",
+    "partner_name": "Rep. of Korea",
+    "million_tonnes": 41.019867,
+    "share": 0.105306,
+    "rank_in_year": 3,
+    "usd_per_tonne": 47.632247
+   },
+   {
+    "reporter": "IDN",
+    "year": 2017,
+    "partner": "JPN",
+    "partner_name": "Japan",
+    "million_tonnes": 31.426933,
+    "share": 0.080679,
+    "rank_in_year": 4,
+    "usd_per_tonne": 79.747023
+   },
+   {
+    "reporter": "IDN",
+    "year": 2017,
+    "partner": "MYS",
+    "partner_name": "Malaysia",
+    "million_tonnes": 21.241437,
+    "share": 0.054531,
+    "rank_in_year": 5,
+    "usd_per_tonne": 62.348299
+   },
+   {
+    "reporter": "IDN",
+    "year": 2017,
+    "partner": "PHL",
+    "partner_name": "Philippines",
+    "million_tonnes": 19.014232,
+    "share": 0.048813,
+    "rank_in_year": 6,
+    "usd_per_tonne": 62.927608
+   },
+   {
+    "reporter": "IDN",
+    "year": 2017,
+    "partner": "S19",
+    "partner_name": "Other Asia, nes",
+    "million_tonnes": 18.321101,
+    "share": 0.047034,
+    "rank_in_year": 7,
+    "usd_per_tonne": 60.356964
+   },
+   {
+    "reporter": "IDN",
+    "year": 2017,
+    "partner": "THA",
+    "partner_name": "Thailand",
+    "million_tonnes": 16.542224,
+    "share": 0.042467,
+    "rank_in_year": 8,
+    "usd_per_tonne": 49.158568
+   },
+   {
+    "reporter": "IDN",
+    "year": 2017,
+    "partner": "HKG",
+    "partner_name": "China, Hong Kong SAR",
+    "million_tonnes": 8.469592,
+    "share": 0.021743,
+    "rank_in_year": 9,
+    "usd_per_tonne": 63.720107
+   },
+   {
+    "reporter": "IDN",
+    "year": 2017,
+    "partner": "VNM",
+    "partner_name": "Viet Nam",
+    "million_tonnes": 6.461191,
+    "share": 0.016587,
+    "rank_in_year": 10,
+    "usd_per_tonne": 49.155608
+   },
+   {
+    "reporter": "IDN",
+    "year": 2017,
+    "partner": "ESP",
+    "partner_name": "Spain",
+    "million_tonnes": 3.736407,
+    "share": 0.009592,
+    "rank_in_year": 11,
+    "usd_per_tonne": 48.277977
+   },
+   {
+    "reporter": "IDN",
+    "year": 2017,
+    "partner": "KHM",
+    "partner_name": "Cambodia",
+    "million_tonnes": 2.381756,
+    "share": 0.006114,
+    "rank_in_year": 12,
+    "usd_per_tonne": 57.834721
+   },
+   {
+    "reporter": "IDN",
+    "year": 2017,
+    "partner": "BGD",
+    "partner_name": "Bangladesh",
+    "million_tonnes": 2.268206,
+    "share": 0.005823,
+    "rank_in_year": 13,
+    "usd_per_tonne": 62.762311
+   },
+   {
+    "reporter": "IDN",
+    "year": 2017,
+    "partner": "PAK",
+    "partner_name": "Pakistan",
+    "million_tonnes": 1.657992,
+    "share": 0.004256,
+    "rank_in_year": 14,
+    "usd_per_tonne": 65.444407
+   },
+   {
+    "reporter": "IDN",
+    "year": 2017,
+    "partner": "ITA",
+    "partner_name": "Italy",
+    "million_tonnes": 0.891375,
+    "share": 0.002288,
+    "rank_in_year": 15,
+    "usd_per_tonne": 83.044967
+   },
+   {
+    "reporter": "IDN",
+    "year": 2017,
+    "partner": "SGP",
+    "partner_name": "Singapore",
+    "million_tonnes": 0.820995,
+    "share": 0.002108,
+    "rank_in_year": 16,
+    "usd_per_tonne": 47.947018
+   },
+   {
+    "reporter": "IDN",
+    "year": 2017,
+    "partner": "USA",
+    "partner_name": "USA",
+    "million_tonnes": 0.663813,
+    "share": 0.001704,
+    "rank_in_year": 17,
+    "usd_per_tonne": 71.974062
+   },
+   {
+    "reporter": "IDN",
+    "year": 2017,
+    "partner": "SVN",
+    "partner_name": "Slovenia",
+    "million_tonnes": 0.397714,
+    "share": 0.001021,
+    "rank_in_year": 18,
+    "usd_per_tonne": 55.379482
+   },
+   {
+    "reporter": "IDN",
+    "year": 2017,
+    "partner": "NZL",
+    "partner_name": "New Zealand",
+    "million_tonnes": 0.374557,
+    "share": 0.000962,
+    "rank_in_year": 19,
+    "usd_per_tonne": 73.101304
+   },
+   {
+    "reporter": "IDN",
+    "year": 2017,
+    "partner": "NLD",
+    "partner_name": "Netherlands",
+    "million_tonnes": 0.30197,
+    "share": 0.000775,
+    "rank_in_year": 20,
+    "usd_per_tonne": 107.140195
+   },
+   {
+    "reporter": "IDN",
+    "year": 2017,
+    "partner": "ARE",
+    "partner_name": "United Arab Emirates",
+    "million_tonnes": 0.20137,
+    "share": 0.000517,
+    "rank_in_year": 21,
+    "usd_per_tonne": 68.005169
+   },
+   {
+    "reporter": "IDN",
+    "year": 2017,
+    "partner": "MMR",
+    "partner_name": "Myanmar",
+    "million_tonnes": 0.179863,
+    "share": 0.000462,
+    "rank_in_year": 22,
+    "usd_per_tonne": 59.162827
+   },
+   {
+    "reporter": "IDN",
+    "year": 2017,
+    "partner": "FRA",
+    "partner_name": "France",
+    "million_tonnes": 0.152,
+    "share": 0.00039,
+    "rank_in_year": 23,
+    "usd_per_tonne": 83.970395
+   },
+   {
+    "reporter": "IDN",
+    "year": 2017,
+    "partner": "LKA",
+    "partner_name": "Sri Lanka",
+    "million_tonnes": 0.115795,
+    "share": 0.000297,
+    "rank_in_year": 24,
+    "usd_per_tonne": 80.760266
+   },
+   {
+    "reporter": "IDN",
+    "year": 2017,
+    "partner": "TUR",
+    "partner_name": "T\u00fcrkiye",
+    "million_tonnes": 0.08675,
+    "share": 0.000223,
+    "rank_in_year": 25,
+    "usd_per_tonne": 108.0
+   },
+   {
+    "reporter": "IDN",
+    "year": 2017,
+    "partner": "IRN",
+    "partner_name": "Iran",
+    "million_tonnes": 0.055,
+    "share": 0.000141,
+    "rank_in_year": 26,
+    "usd_per_tonne": 95.0
+   },
+   {
+    "reporter": "IDN",
+    "year": 2017,
+    "partner": "SAU",
+    "partner_name": "Saudi Arabia",
+    "million_tonnes": 2e-05,
+    "share": 0.0,
+    "rank_in_year": 27,
+    "usd_per_tonne": 600.0
+   },
+   {
+    "reporter": "IDN",
+    "year": 2018,
+    "partner": "CHN",
+    "partner_name": "China",
+    "million_tonnes": 128.879604,
+    "share": 0.300376,
+    "rank_in_year": 1,
+    "usd_per_tonne": 45.500207
+   },
+   {
+    "reporter": "IDN",
+    "year": 2018,
+    "partner": "IND",
+    "partner_name": "India",
+    "million_tonnes": 110.923535,
+    "share": 0.258526,
+    "rank_in_year": 2,
+    "usd_per_tonne": 48.580498
+   },
+   {
+    "reporter": "IDN",
+    "year": 2018,
+    "partner": "KOR",
+    "partner_name": "Rep. of Korea",
+    "million_tonnes": 38.545869,
+    "share": 0.089838,
+    "rank_in_year": 3,
+    "usd_per_tonne": 54.613186
+   },
+   {
+    "reporter": "IDN",
+    "year": 2018,
+    "partner": "JPN",
+    "partner_name": "Japan",
+    "million_tonnes": 28.733924,
+    "share": 0.066969,
+    "rank_in_year": 4,
+    "usd_per_tonne": 97.049078
+   },
+   {
+    "reporter": "IDN",
+    "year": 2018,
+    "partner": "PHL",
+    "partner_name": "Philippines",
+    "million_tonnes": 22.675603,
+    "share": 0.052849,
+    "rank_in_year": 5,
+    "usd_per_tonne": 68.146747
+   },
+   {
+    "reporter": "IDN",
+    "year": 2018,
+    "partner": "MYS",
+    "partner_name": "Malaysia",
+    "million_tonnes": 22.075862,
+    "share": 0.051452,
+    "rank_in_year": 6,
+    "usd_per_tonne": 73.865004
+   },
+   {
+    "reporter": "IDN",
+    "year": 2018,
+    "partner": "THA",
+    "partner_name": "Thailand",
+    "million_tonnes": 20.016968,
+    "share": 0.046653,
+    "rank_in_year": 7,
+    "usd_per_tonne": 48.337612
+   },
+   {
+    "reporter": "IDN",
+    "year": 2018,
+    "partner": "S19",
+    "partner_name": "Other Asia, nes",
+    "million_tonnes": 18.064917,
+    "share": 0.042103,
+    "rank_in_year": 8,
+    "usd_per_tonne": 72.793034
+   },
+   {
+    "reporter": "IDN",
+    "year": 2018,
+    "partner": "VNM",
+    "partner_name": "Viet Nam",
+    "million_tonnes": 11.801797,
+    "share": 0.027506,
+    "rank_in_year": 9,
+    "usd_per_tonne": 46.792652
+   },
+   {
+    "reporter": "IDN",
+    "year": 2018,
+    "partner": "HKG",
+    "partner_name": "China, Hong Kong SAR",
+    "million_tonnes": 9.028363,
+    "share": 0.021042,
+    "rank_in_year": 10,
+    "usd_per_tonne": 75.532328
+   },
+   {
+    "reporter": "IDN",
+    "year": 2018,
+    "partner": "ESP",
+    "partner_name": "Spain",
+    "million_tonnes": 4.826463,
+    "share": 0.011249,
+    "rank_in_year": 11,
+    "usd_per_tonne": 44.434277
+   },
+   {
+    "reporter": "IDN",
+    "year": 2018,
+    "partner": "PAK",
+    "partner_name": "Pakistan",
+    "million_tonnes": 3.894226,
+    "share": 0.009076,
+    "rank_in_year": 12,
+    "usd_per_tonne": 65.597861
+   },
+   {
+    "reporter": "IDN",
+    "year": 2018,
+    "partner": "BGD",
+    "partner_name": "Bangladesh",
+    "million_tonnes": 2.613237,
+    "share": 0.006091,
+    "rank_in_year": 13,
+    "usd_per_tonne": 59.566458
+   },
+   {
+    "reporter": "IDN",
+    "year": 2018,
+    "partner": "KHM",
+    "partner_name": "Cambodia",
+    "million_tonnes": 2.220672,
+    "share": 0.005176,
+    "rank_in_year": 14,
+    "usd_per_tonne": 61.124644
+   },
+   {
+    "reporter": "IDN",
+    "year": 2018,
+    "partner": "USA",
+    "partner_name": "USA",
+    "million_tonnes": 0.825167,
+    "share": 0.001923,
+    "rank_in_year": 15,
+    "usd_per_tonne": 82.092348
+   },
+   {
+    "reporter": "IDN",
+    "year": 2018,
+    "partner": "SGP",
+    "partner_name": "Singapore",
+    "million_tonnes": 0.752556,
+    "share": 0.001754,
+    "rank_in_year": 16,
+    "usd_per_tonne": 54.775601
+   },
+   {
+    "reporter": "IDN",
+    "year": 2018,
+    "partner": "ITA",
+    "partner_name": "Italy",
+    "million_tonnes": 0.717548,
+    "share": 0.001672,
+    "rank_in_year": 17,
+    "usd_per_tonne": 90.300878
+   },
+   {
+    "reporter": "IDN",
+    "year": 2018,
+    "partner": "SVN",
+    "partner_name": "Slovenia",
+    "million_tonnes": 0.565609,
+    "share": 0.001318,
+    "rank_in_year": 18,
+    "usd_per_tonne": 70.819426
+   },
+   {
+    "reporter": "IDN",
+    "year": 2018,
+    "partner": "NZL",
+    "partner_name": "New Zealand",
+    "million_tonnes": 0.565437,
+    "share": 0.001318,
+    "rank_in_year": 19,
+    "usd_per_tonne": 82.759071
+   },
+   {
+    "reporter": "IDN",
+    "year": 2018,
+    "partner": "NLD",
+    "partner_name": "Netherlands",
+    "million_tonnes": 0.459114,
+    "share": 0.00107,
+    "rank_in_year": 20,
+    "usd_per_tonne": 74.918483
+   },
+   {
+    "reporter": "IDN",
+    "year": 2018,
+    "partner": "MMR",
+    "partner_name": "Myanmar",
+    "million_tonnes": 0.273122,
+    "share": 0.000637,
+    "rank_in_year": 21,
+    "usd_per_tonne": 68.071871
+   },
+   {
+    "reporter": "IDN",
+    "year": 2018,
+    "partner": "ARE",
+    "partner_name": "United Arab Emirates",
+    "million_tonnes": 0.1773,
+    "share": 0.000413,
+    "rank_in_year": 22,
+    "usd_per_tonne": 72.195688
+   },
+   {
+    "reporter": "IDN",
+    "year": 2018,
+    "partner": "FRA",
+    "partner_name": "France",
+    "million_tonnes": 0.135,
+    "share": 0.000315,
+    "rank_in_year": 23,
+    "usd_per_tonne": 107.67
+   },
+   {
+    "reporter": "IDN",
+    "year": 2018,
+    "partner": "MUS",
+    "partner_name": "Mauritius",
+    "million_tonnes": 0.099172,
+    "share": 0.000231,
+    "rank_in_year": 24,
+    "usd_per_tonne": 90.721568
+   },
+   {
+    "reporter": "IDN",
+    "year": 2018,
+    "partner": "LKA",
+    "partner_name": "Sri Lanka",
+    "million_tonnes": 0.082502,
+    "share": 0.000192,
+    "rank_in_year": 25,
+    "usd_per_tonne": 86.333543
+   },
+   {
+    "reporter": "IDN",
+    "year": 2018,
+    "partner": "GRC",
+    "partner_name": "Greece",
+    "million_tonnes": 0.0385,
+    "share": 9e-05,
+    "rank_in_year": 26,
+    "usd_per_tonne": 64.0
+   },
+   {
+    "reporter": "IDN",
+    "year": 2018,
+    "partner": "POL",
+    "partner_name": "Poland",
+    "million_tonnes": 0.02366,
+    "share": 5.5e-05,
+    "rank_in_year": 27,
+    "usd_per_tonne": 40.0
+   },
+   {
+    "reporter": "IDN",
+    "year": 2018,
+    "partner": "PNG",
+    "partner_name": "Papua New Guinea",
+    "million_tonnes": 0.01559,
+    "share": 3.6e-05,
+    "rank_in_year": 28,
+    "usd_per_tonne": 58.885399
+   },
+   {
+    "reporter": "IDN",
+    "year": 2018,
+    "partner": "QAT",
+    "partner_name": "Qatar",
+    "million_tonnes": 0.015011,
+    "share": 3.5e-05,
+    "rank_in_year": 29,
+    "usd_per_tonne": 20.168354
+   },
+   {
+    "reporter": "IDN",
+    "year": 2018,
+    "partner": "BRN",
+    "partner_name": "Brunei Darussalam",
+    "million_tonnes": 0.015,
+    "share": 3.5e-05,
+    "rank_in_year": 30,
+    "usd_per_tonne": 93.0
+   },
+   {
+    "reporter": "IDN",
+    "year": 2018,
+    "partner": "OMN",
+    "partner_name": "Oman",
+    "million_tonnes": 4.6e-05,
+    "share": 0.0,
+    "rank_in_year": 31,
+    "usd_per_tonne": 245.0
+   },
+   {
+    "reporter": "IDN",
+    "year": 2018,
+    "partner": "AUS",
+    "partner_name": "Australia",
+    "million_tonnes": 4e-05,
+    "share": 0.0,
+    "rank_in_year": 32,
+    "usd_per_tonne": 2.5
+   },
+   {
+    "reporter": "IDN",
+    "year": 2018,
+    "partner": "KWT",
+    "partner_name": "Kuwait",
+    "million_tonnes": 1.1e-05,
+    "share": 0.0,
+    "rank_in_year": 33,
+    "usd_per_tonne": 245.0
+   },
+   {
+    "reporter": "IDN",
+    "year": 2018,
+    "partner": "DEU",
+    "partner_name": "Germany",
+    "million_tonnes": 3e-06,
+    "share": 0.0,
+    "rank_in_year": 34,
+    "usd_per_tonne": 20.06689
+   },
+   {
+    "reporter": "IDN",
+    "year": 2019,
+    "partner": "CHN",
+    "partner_name": "China",
+    "million_tonnes": 147.394724,
+    "share": 0.321026,
+    "rank_in_year": 1,
+    "usd_per_tonne": 39.476718
+   },
+   {
+    "reporter": "IDN",
+    "year": 2019,
+    "partner": "IND",
+    "partner_name": "India",
+    "million_tonnes": 122.397029,
+    "share": 0.266581,
+    "rank_in_year": 2,
+    "usd_per_tonne": 39.707194
+   },
+   {
+    "reporter": "IDN",
+    "year": 2019,
+    "partner": "KOR",
+    "partner_name": "Rep. of Korea",
+    "million_tonnes": 29.99724,
+    "share": 0.065334,
+    "rank_in_year": 3,
+    "usd_per_tonne": 47.481573
+   },
+   {
+    "reporter": "IDN",
+    "year": 2019,
+    "partner": "JPN",
+    "partner_name": "Japan",
+    "million_tonnes": 28.452648,
+    "share": 0.06197,
+    "rank_in_year": 4,
+    "usd_per_tonne": 82.02457
+   },
+   {
+    "reporter": "IDN",
+    "year": 2019,
+    "partner": "PHL",
+    "partner_name": "Philippines",
+    "million_tonnes": 27.613742,
+    "share": 0.060143,
+    "rank_in_year": 5,
+    "usd_per_tonne": 54.32978
+   },
+   {
+    "reporter": "IDN",
+    "year": 2019,
+    "partner": "MYS",
+    "partner_name": "Malaysia",
+    "million_tonnes": 25.323483,
+    "share": 0.055155,
+    "rank_in_year": 6,
+    "usd_per_tonne": 62.493661
+   },
+   {
+    "reporter": "IDN",
+    "year": 2019,
+    "partner": "S19",
+    "partner_name": "Other Asia, nes",
+    "million_tonnes": 19.148459,
+    "share": 0.041705,
+    "rank_in_year": 7,
+    "usd_per_tonne": 68.500404
+   },
+   {
+    "reporter": "IDN",
+    "year": 2019,
+    "partner": "THA",
+    "partner_name": "Thailand",
+    "million_tonnes": 17.621778,
+    "share": 0.03838,
+    "rank_in_year": 8,
+    "usd_per_tonne": 46.136776
+   },
+   {
+    "reporter": "IDN",
+    "year": 2019,
+    "partner": "VNM",
+    "partner_name": "Viet Nam",
+    "million_tonnes": 15.304831,
+    "share": 0.033334,
+    "rank_in_year": 9,
+    "usd_per_tonne": 42.06102
+   },
+   {
+    "reporter": "IDN",
+    "year": 2019,
+    "partner": "HKG",
+    "partner_name": "China, Hong Kong SAR",
+    "million_tonnes": 7.876773,
+    "share": 0.017156,
+    "rank_in_year": 10,
+    "usd_per_tonne": 57.185145
+   },
+   {
+    "reporter": "IDN",
+    "year": 2019,
+    "partner": "BGD",
+    "partner_name": "Bangladesh",
+    "million_tonnes": 5.934117,
+    "share": 0.012925,
+    "rank_in_year": 11,
+    "usd_per_tonne": 53.058627
+   },
+   {
+    "reporter": "IDN",
+    "year": 2019,
+    "partner": "PAK",
+    "partner_name": "Pakistan",
+    "million_tonnes": 3.468199,
+    "share": 0.007554,
+    "rank_in_year": 12,
+    "usd_per_tonne": 55.092435
+   },
+   {
+    "reporter": "IDN",
+    "year": 2019,
+    "partner": "KHM",
+    "partner_name": "Cambodia",
+    "million_tonnes": 2.711284,
+    "share": 0.005905,
+    "rank_in_year": 13,
+    "usd_per_tonne": 51.544995
+   },
+   {
+    "reporter": "IDN",
+    "year": 2019,
+    "partner": "ESP",
+    "partner_name": "Spain",
+    "million_tonnes": 1.301462,
+    "share": 0.002835,
+    "rank_in_year": 14,
+    "usd_per_tonne": 37.635558
+   },
+   {
+    "reporter": "IDN",
+    "year": 2019,
+    "partner": "NZL",
+    "partner_name": "New Zealand",
+    "million_tonnes": 0.917848,
+    "share": 0.001999,
+    "rank_in_year": 15,
+    "usd_per_tonne": 68.613655
+   },
+   {
+    "reporter": "IDN",
+    "year": 2019,
+    "partner": "SGP",
+    "partner_name": "Singapore",
+    "million_tonnes": 0.722334,
+    "share": 0.001573,
+    "rank_in_year": 16,
+    "usd_per_tonne": 46.135016
+   },
+   {
+    "reporter": "IDN",
+    "year": 2019,
+    "partner": "USA",
+    "partner_name": "USA",
+    "million_tonnes": 0.605103,
+    "share": 0.001318,
+    "rank_in_year": 17,
+    "usd_per_tonne": 66.06075
+   },
+   {
+    "reporter": "IDN",
+    "year": 2019,
+    "partner": "BRN",
+    "partner_name": "Brunei Darussalam",
+    "million_tonnes": 0.594979,
+    "share": 0.001296,
+    "rank_in_year": 18,
+    "usd_per_tonne": 51.29205
+   },
+   {
+    "reporter": "IDN",
+    "year": 2019,
+    "partner": "LKA",
+    "partner_name": "Sri Lanka",
+    "million_tonnes": 0.524826,
+    "share": 0.001143,
+    "rank_in_year": 19,
+    "usd_per_tonne": 83.367342
+   },
+   {
+    "reporter": "IDN",
+    "year": 2019,
+    "partner": "SVN",
+    "partner_name": "Slovenia",
+    "million_tonnes": 0.323177,
+    "share": 0.000704,
+    "rank_in_year": 20,
+    "usd_per_tonne": 64.644005
+   },
+   {
+    "reporter": "IDN",
+    "year": 2019,
+    "partner": "ARE",
+    "partner_name": "United Arab Emirates",
+    "million_tonnes": 0.192601,
+    "share": 0.000419,
+    "rank_in_year": 21,
+    "usd_per_tonne": 68.135747
+   },
+   {
+    "reporter": "IDN",
+    "year": 2019,
+    "partner": "MMR",
+    "partner_name": "Myanmar",
+    "million_tonnes": 0.17509,
+    "share": 0.000381,
+    "rank_in_year": 22,
+    "usd_per_tonne": 63.153663
+   },
+   {
+    "reporter": "IDN",
+    "year": 2019,
+    "partner": "FRA",
+    "partner_name": "France",
+    "million_tonnes": 0.13,
+    "share": 0.000283,
+    "rank_in_year": 23,
+    "usd_per_tonne": 84.713077
+   },
+   {
+    "reporter": "IDN",
+    "year": 2019,
+    "partner": "AUS",
+    "partner_name": "Australia",
+    "million_tonnes": 0.088,
+    "share": 0.000192,
+    "rank_in_year": 24,
+    "usd_per_tonne": 72.5125
+   },
+   {
+    "reporter": "IDN",
+    "year": 2019,
+    "partner": "GRC",
+    "partner_name": "Greece",
+    "million_tonnes": 0.080505,
+    "share": 0.000175,
+    "rank_in_year": 25,
+    "usd_per_tonne": 46.92752
+   },
+   {
+    "reporter": "IDN",
+    "year": 2019,
+    "partner": "UKR",
+    "partner_name": "Ukraine",
+    "million_tonnes": 0.07685,
+    "share": 0.000167,
+    "rank_in_year": 26,
+    "usd_per_tonne": 90.210007
+   },
+   {
+    "reporter": "IDN",
+    "year": 2019,
+    "partner": "CHE",
+    "partner_name": "Switzerland",
+    "million_tonnes": 0.054242,
+    "share": 0.000118,
+    "rank_in_year": 27,
+    "usd_per_tonne": 35.14
+   },
+   {
+    "reporter": "IDN",
+    "year": 2019,
+    "partner": "KWT",
+    "partner_name": "Kuwait",
+    "million_tonnes": 0.050202,
+    "share": 0.000109,
+    "rank_in_year": 28,
+    "usd_per_tonne": 77.5
+   },
+   {
+    "reporter": "IDN",
+    "year": 2019,
+    "partner": "MUS",
+    "partner_name": "Mauritius",
+    "million_tonnes": 0.04676,
+    "share": 0.000102,
+    "rank_in_year": 29,
+    "usd_per_tonne": 107.0
+   },
+   {
+    "reporter": "IDN",
+    "year": 2019,
+    "partner": "PNG",
+    "partner_name": "Papua New Guinea",
+    "million_tonnes": 0.008197,
+    "share": 1.8e-05,
+    "rank_in_year": 30,
+    "usd_per_tonne": 47.000011
+   },
+   {
+    "reporter": "IDN",
+    "year": 2019,
+    "partner": "OMN",
+    "partner_name": "Oman",
+    "million_tonnes": 2.4e-05,
+    "share": 0.0,
+    "rank_in_year": 31,
+    "usd_per_tonne": 245.0
+   },
+   {
+    "reporter": "IDN",
+    "year": 2019,
+    "partner": "QAT",
+    "partner_name": "Qatar",
+    "million_tonnes": 1.2e-05,
+    "share": 0.0,
+    "rank_in_year": 32,
+    "usd_per_tonne": 245.0
+   },
+   {
+    "reporter": "IDN",
+    "year": 2019,
+    "partner": "POL",
+    "partner_name": "Poland",
+    "million_tonnes": 1e-06,
+    "share": 0.0,
+    "rank_in_year": 33,
+    "usd_per_tonne": 77.0
+   },
+   {
+    "reporter": "IDN",
+    "year": 2020,
+    "partner": "CHN",
+    "partner_name": "China",
+    "million_tonnes": 127.414231,
+    "share": 0.313148,
+    "rank_in_year": 1,
+    "usd_per_tonne": 35.82085
+   },
+   {
+    "reporter": "IDN",
+    "year": 2020,
+    "partner": "IND",
+    "partner_name": "India",
+    "million_tonnes": 98.243305,
+    "share": 0.241454,
+    "rank_in_year": 2,
+    "usd_per_tonne": 34.517903
+   },
+   {
+    "reporter": "IDN",
+    "year": 2020,
+    "partner": "PHL",
+    "partner_name": "Philippines",
+    "million_tonnes": 28.12145,
+    "share": 0.069114,
+    "rank_in_year": 3,
+    "usd_per_tonne": 43.640462
+   },
+   {
+    "reporter": "IDN",
+    "year": 2020,
+    "partner": "JPN",
+    "partner_name": "Japan",
+    "million_tonnes": 26.965099,
+    "share": 0.066272,
+    "rank_in_year": 4,
+    "usd_per_tonne": 62.88446
+   },
+   {
+    "reporter": "IDN",
+    "year": 2020,
+    "partner": "MYS",
+    "partner_name": "Malaysia",
+    "million_tonnes": 26.706799,
+    "share": 0.065638,
+    "rank_in_year": 5,
+    "usd_per_tonne": 48.888342
+   },
+   {
+    "reporter": "IDN",
+    "year": 2020,
+    "partner": "KOR",
+    "partner_name": "Rep. of Korea",
+    "million_tonnes": 24.831936,
+    "share": 0.06103,
+    "rank_in_year": 6,
+    "usd_per_tonne": 41.963911
+   },
+   {
+    "reporter": "IDN",
+    "year": 2020,
+    "partner": "VNM",
+    "partner_name": "Viet Nam",
+    "million_tonnes": 18.032588,
+    "share": 0.044319,
+    "rank_in_year": 7,
+    "usd_per_tonne": 33.262492
+   },
+   {
+    "reporter": "IDN",
+    "year": 2020,
+    "partner": "S19",
+    "partner_name": "Other Asia, nes",
+    "million_tonnes": 17.699549,
+    "share": 0.0435,
+    "rank_in_year": 8,
+    "usd_per_tonne": 54.011554
+   },
+   {
+    "reporter": "IDN",
+    "year": 2020,
+    "partner": "THA",
+    "partner_name": "Thailand",
+    "million_tonnes": 16.624794,
+    "share": 0.040859,
+    "rank_in_year": 9,
+    "usd_per_tonne": 39.417919
+   },
+   {
+    "reporter": "IDN",
+    "year": 2020,
+    "partner": "BGD",
+    "partner_name": "Bangladesh",
+    "million_tonnes": 7.166501,
+    "share": 0.017613,
+    "rank_in_year": 10,
+    "usd_per_tonne": 46.755082
+   },
+   {
+    "reporter": "IDN",
+    "year": 2020,
+    "partner": "HKG",
+    "partner_name": "China, Hong Kong SAR",
+    "million_tonnes": 3.863538,
+    "share": 0.009495,
+    "rank_in_year": 11,
+    "usd_per_tonne": 44.304489
+   },
+   {
+    "reporter": "IDN",
+    "year": 2020,
+    "partner": "PAK",
+    "partner_name": "Pakistan",
+    "million_tonnes": 3.527302,
+    "share": 0.008669,
+    "rank_in_year": 12,
+    "usd_per_tonne": 46.099356
+   },
+   {
+    "reporter": "IDN",
+    "year": 2020,
+    "partner": "KHM",
+    "partner_name": "Cambodia",
+    "million_tonnes": 2.853988,
+    "share": 0.007014,
+    "rank_in_year": 13,
+    "usd_per_tonne": 43.646243
+   },
+   {
+    "reporter": "IDN",
+    "year": 2020,
+    "partner": "BRN",
+    "partner_name": "Brunei Darussalam",
+    "million_tonnes": 1.199991,
+    "share": 0.002949,
+    "rank_in_year": 14,
+    "usd_per_tonne": 43.197892
+   },
+   {
+    "reporter": "IDN",
+    "year": 2020,
+    "partner": "NZL",
+    "partner_name": "New Zealand",
+    "million_tonnes": 1.084312,
+    "share": 0.002665,
+    "rank_in_year": 15,
+    "usd_per_tonne": 47.552389
+   },
+   {
+    "reporter": "IDN",
+    "year": 2020,
+    "partner": "SGP",
+    "partner_name": "Singapore",
+    "million_tonnes": 0.674738,
+    "share": 0.001658,
+    "rank_in_year": 16,
+    "usd_per_tonne": 33.995325
+   },
+   {
+    "reporter": "IDN",
+    "year": 2020,
+    "partner": "USA",
+    "partner_name": "USA",
+    "million_tonnes": 0.603463,
+    "share": 0.001483,
+    "rank_in_year": 17,
+    "usd_per_tonne": 60.759574
+   },
+   {
+    "reporter": "IDN",
+    "year": 2020,
+    "partner": "SVN",
+    "partner_name": "Slovenia",
+    "million_tonnes": 0.324663,
+    "share": 0.000798,
+    "rank_in_year": 18,
+    "usd_per_tonne": 45.077763
+   },
+   {
+    "reporter": "IDN",
+    "year": 2020,
+    "partner": "ARE",
+    "partner_name": "United Arab Emirates",
+    "million_tonnes": 0.238737,
+    "share": 0.000587,
+    "rank_in_year": 19,
+    "usd_per_tonne": 41.689218
+   },
+   {
+    "reporter": "IDN",
+    "year": 2020,
+    "partner": "MMR",
+    "partner_name": "Myanmar",
+    "million_tonnes": 0.16081,
+    "share": 0.000395,
+    "rank_in_year": 20,
+    "usd_per_tonne": 44.478952
+   },
+   {
+    "reporter": "IDN",
+    "year": 2020,
+    "partner": "GRC",
+    "partner_name": "Greece",
+    "million_tonnes": 0.126,
+    "share": 0.00031,
+    "rank_in_year": 21,
+    "usd_per_tonne": 46.5
+   },
+   {
+    "reporter": "IDN",
+    "year": 2020,
+    "partner": "LKA",
+    "partner_name": "Sri Lanka",
+    "million_tonnes": 0.1047,
+    "share": 0.000257,
+    "rank_in_year": 22,
+    "usd_per_tonne": 54.62235
+   },
+   {
+    "reporter": "IDN",
+    "year": 2020,
+    "partner": "MUS",
+    "partner_name": "Mauritius",
+    "million_tonnes": 0.0866,
+    "share": 0.000213,
+    "rank_in_year": 23,
+    "usd_per_tonne": 61.716467
+   },
+   {
+    "reporter": "IDN",
+    "year": 2020,
+    "partner": "FRA",
+    "partner_name": "France",
+    "million_tonnes": 0.0805,
+    "share": 0.000198,
+    "rank_in_year": 24,
+    "usd_per_tonne": 72.485342
+   },
+   {
+    "reporter": "IDN",
+    "year": 2020,
+    "partner": "ITA",
+    "partner_name": "Italy",
+    "million_tonnes": 0.067093,
+    "share": 0.000165,
+    "rank_in_year": 25,
+    "usd_per_tonne": 69.959999
+   },
+   {
+    "reporter": "IDN",
+    "year": 2020,
+    "partner": "AUS",
+    "partner_name": "Australia",
+    "million_tonnes": 0.066002,
+    "share": 0.000162,
+    "rank_in_year": 26,
+    "usd_per_tonne": 68.30163
+   },
+   {
+    "reporter": "IDN",
+    "year": 2020,
+    "partner": "PNG",
+    "partner_name": "Papua New Guinea",
+    "million_tonnes": 0.008512,
+    "share": 2.1e-05,
+    "rank_in_year": 27,
+    "usd_per_tonne": 55.499967
+   },
+   {
+    "reporter": "IDN",
+    "year": 2020,
+    "partner": "MLT",
+    "partner_name": "Malta",
+    "million_tonnes": 0.005239,
+    "share": 1.3e-05,
+    "rank_in_year": 28,
+    "usd_per_tonne": 28.799969
+   },
+   {
+    "reporter": "IDN",
+    "year": 2020,
+    "partner": "BEL",
+    "partner_name": "Belgium",
+    "million_tonnes": 0.0,
+    "share": 0.0,
+    "rank_in_year": 29,
+    "usd_per_tonne": 55.555556
+   },
+   {
+    "reporter": "IDN",
+    "year": 2020,
+    "partner": "NLD",
+    "partner_name": "Netherlands",
+    "million_tonnes": 0.0,
+    "share": 0.0,
+    "rank_in_year": 30,
+    "usd_per_tonne": 317.460317
+   },
+   {
+    "reporter": "IDN",
+    "year": 2021,
+    "partner": "CHN",
+    "partner_name": "China",
+    "million_tonnes": 195.74407,
+    "share": 0.451376,
+    "rank_in_year": 1,
+    "usd_per_tonne": 71.865696
+   },
+   {
+    "reporter": "IDN",
+    "year": 2021,
+    "partner": "IND",
+    "partner_name": "India",
+    "million_tonnes": 70.919721,
+    "share": 0.163537,
+    "rank_in_year": 2,
+    "usd_per_tonne": 57.583181
+   },
+   {
+    "reporter": "IDN",
+    "year": 2021,
+    "partner": "PHL",
+    "partner_name": "Philippines",
+    "million_tonnes": 30.161553,
+    "share": 0.069551,
+    "rank_in_year": 3,
+    "usd_per_tonne": 77.96401
+   },
+   {
+    "reporter": "IDN",
+    "year": 2021,
+    "partner": "MYS",
+    "partner_name": "Malaysia",
+    "million_tonnes": 25.49719,
+    "share": 0.058795,
+    "rank_in_year": 4,
+    "usd_per_tonne": 92.53437
+   },
+   {
+    "reporter": "IDN",
+    "year": 2021,
+    "partner": "JPN",
+    "partner_name": "Japan",
+    "million_tonnes": 22.97835,
+    "share": 0.052987,
+    "rank_in_year": 5,
+    "usd_per_tonne": 110.573885
+   },
+   {
+    "reporter": "IDN",
+    "year": 2021,
+    "partner": "KOR",
+    "partner_name": "Rep. of Korea",
+    "million_tonnes": 21.011207,
+    "share": 0.048451,
+    "rank_in_year": 6,
+    "usd_per_tonne": 67.713569
+   },
+   {
+    "reporter": "IDN",
+    "year": 2021,
+    "partner": "S19",
+    "partner_name": "Other Asia, nes",
+    "million_tonnes": 16.422511,
+    "share": 0.037869,
+    "rank_in_year": 7,
+    "usd_per_tonne": 71.596767
+   },
+   {
+    "reporter": "IDN",
+    "year": 2021,
+    "partner": "THA",
+    "partner_name": "Thailand",
+    "million_tonnes": 15.25122,
+    "share": 0.035169,
+    "rank_in_year": 8,
+    "usd_per_tonne": 57.144193
+   },
+   {
+    "reporter": "IDN",
+    "year": 2021,
+    "partner": "VNM",
+    "partner_name": "Viet Nam",
+    "million_tonnes": 15.008111,
+    "share": 0.034608,
+    "rank_in_year": 9,
+    "usd_per_tonne": 64.015098
+   },
+   {
+    "reporter": "IDN",
+    "year": 2021,
+    "partner": "HKG",
+    "partner_name": "China, Hong Kong SAR",
+    "million_tonnes": 5.301393,
+    "share": 0.012225,
+    "rank_in_year": 10,
+    "usd_per_tonne": 92.035686
+   },
+   {
+    "reporter": "IDN",
+    "year": 2021,
+    "partner": "BGD",
+    "partner_name": "Bangladesh",
+    "million_tonnes": 5.055765,
+    "share": 0.011658,
+    "rank_in_year": 11,
+    "usd_per_tonne": 85.36088
+   },
+   {
+    "reporter": "IDN",
+    "year": 2021,
+    "partner": "PAK",
+    "partner_name": "Pakistan",
+    "million_tonnes": 3.105088,
+    "share": 0.00716,
+    "rank_in_year": 12,
+    "usd_per_tonne": 74.603297
+   },
+   {
+    "reporter": "IDN",
+    "year": 2021,
+    "partner": "KHM",
+    "partner_name": "Cambodia",
+    "million_tonnes": 2.167581,
+    "share": 0.004998,
+    "rank_in_year": 13,
+    "usd_per_tonne": 69.502529
+   },
+   {
+    "reporter": "IDN",
+    "year": 2021,
+    "partner": "NZL",
+    "partner_name": "New Zealand",
+    "million_tonnes": 1.841479,
+    "share": 0.004246,
+    "rank_in_year": 14,
+    "usd_per_tonne": 70.277184
+   },
+   {
+    "reporter": "IDN",
+    "year": 2021,
+    "partner": "BRN",
+    "partner_name": "Brunei Darussalam",
+    "million_tonnes": 1.296713,
+    "share": 0.00299,
+    "rank_in_year": 15,
+    "usd_per_tonne": 95.725262
+   },
+   {
+    "reporter": "IDN",
+    "year": 2021,
+    "partner": "SGP",
+    "partner_name": "Singapore",
+    "million_tonnes": 0.759533,
+    "share": 0.001751,
+    "rank_in_year": 16,
+    "usd_per_tonne": 61.437973
+   },
+   {
+    "reporter": "IDN",
+    "year": 2021,
+    "partner": "USA",
+    "partner_name": "USA",
+    "million_tonnes": 0.488217,
+    "share": 0.001126,
+    "rank_in_year": 17,
+    "usd_per_tonne": 63.137565
+   },
+   {
+    "reporter": "IDN",
+    "year": 2021,
+    "partner": "SVN",
+    "partner_name": "Slovenia",
+    "million_tonnes": 0.319379,
+    "share": 0.000736,
+    "rank_in_year": 18,
+    "usd_per_tonne": 43.39807
+   },
+   {
+    "reporter": "IDN",
+    "year": 2021,
+    "partner": "LKA",
+    "partner_name": "Sri Lanka",
+    "million_tonnes": 0.1089,
+    "share": 0.000251,
+    "rank_in_year": 19,
+    "usd_per_tonne": 83.983333
+   },
+   {
+    "reporter": "IDN",
+    "year": 2021,
+    "partner": "ESP",
+    "partner_name": "Spain",
+    "million_tonnes": 0.077203,
+    "share": 0.000178,
+    "rank_in_year": 20,
+    "usd_per_tonne": 144.87
+   },
+   {
+    "reporter": "IDN",
+    "year": 2021,
+    "partner": "NIC",
+    "partner_name": "Nicaragua",
+    "million_tonnes": 0.074137,
+    "share": 0.000171,
+    "rank_in_year": 21,
+    "usd_per_tonne": 60.17
+   },
+   {
+    "reporter": "IDN",
+    "year": 2021,
+    "partner": "ARE",
+    "partner_name": "United Arab Emirates",
+    "million_tonnes": 0.062465,
+    "share": 0.000144,
+    "rank_in_year": 22,
+    "usd_per_tonne": 49.0
+   },
+   {
+    "reporter": "IDN",
+    "year": 2021,
+    "partner": "PNG",
+    "partner_name": "Papua New Guinea",
+    "million_tonnes": 0.009069,
+    "share": 2.1e-05,
+    "rank_in_year": 23,
+    "usd_per_tonne": 18.0
+   },
+   {
+    "reporter": "IDN",
+    "year": 2021,
+    "partner": "AUS",
+    "partner_name": "Australia",
+    "million_tonnes": 0.0,
+    "share": 0.0,
+    "rank_in_year": 24,
+    "usd_per_tonne": 243.902439
+   },
+   {
+    "reporter": "IDN",
+    "year": 2022,
+    "partner": "CHN",
+    "partner_name": "China",
+    "million_tonnes": 172.822497,
+    "share": 0.370408,
+    "rank_in_year": 1,
+    "usd_per_tonne": 88.872469
+   },
+   {
+    "reporter": "IDN",
+    "year": 2022,
+    "partner": "IND",
+    "partner_name": "India",
+    "million_tonnes": 110.506996,
+    "share": 0.236848,
+    "rank_in_year": 2,
+    "usd_per_tonne": 96.068979
+   },
+   {
+    "reporter": "IDN",
+    "year": 2022,
+    "partner": "PHL",
+    "partner_name": "Philippines",
+    "million_tonnes": 30.909834,
+    "share": 0.066249,
+    "rank_in_year": 3,
+    "usd_per_tonne": 162.508536
+   },
+   {
+    "reporter": "IDN",
+    "year": 2022,
+    "partner": "KOR",
+    "partner_name": "Rep. of Korea",
+    "million_tonnes": 26.949896,
+    "share": 0.057761,
+    "rank_in_year": 4,
+    "usd_per_tonne": 109.206774
+   },
+   {
+    "reporter": "IDN",
+    "year": 2022,
+    "partner": "JPN",
+    "partner_name": "Japan",
+    "million_tonnes": 26.398401,
+    "share": 0.056579,
+    "rank_in_year": 5,
+    "usd_per_tonne": 271.812976
+   },
+   {
+    "reporter": "IDN",
+    "year": 2022,
+    "partner": "MYS",
+    "partner_name": "Malaysia",
+    "million_tonnes": 25.221988,
+    "share": 0.054058,
+    "rank_in_year": 6,
+    "usd_per_tonne": 135.371637
+   },
+   {
+    "reporter": "IDN",
+    "year": 2022,
+    "partner": "S19",
+    "partner_name": "Other Asia, nes",
+    "million_tonnes": 18.305121,
+    "share": 0.039233,
+    "rank_in_year": 7,
+    "usd_per_tonne": 160.245667
+   },
+   {
+    "reporter": "IDN",
+    "year": 2022,
+    "partner": "THA",
+    "partner_name": "Thailand",
+    "million_tonnes": 15.455417,
+    "share": 0.033125,
+    "rank_in_year": 8,
+    "usd_per_tonne": 99.511902
+   },
+   {
+    "reporter": "IDN",
+    "year": 2022,
+    "partner": "VNM",
+    "partner_name": "Viet Nam",
+    "million_tonnes": 10.653617,
+    "share": 0.022834,
+    "rank_in_year": 9,
+    "usd_per_tonne": 106.671407
+   },
+   {
+    "reporter": "IDN",
+    "year": 2022,
+    "partner": "BGD",
+    "partner_name": "Bangladesh",
+    "million_tonnes": 7.610231,
+    "share": 0.016311,
+    "rank_in_year": 10,
+    "usd_per_tonne": 144.064966
+   },
+   {
+    "reporter": "IDN",
+    "year": 2022,
+    "partner": "HKG",
+    "partner_name": "China, Hong Kong SAR",
+    "million_tonnes": 5.176851,
+    "share": 0.011095,
+    "rank_in_year": 11,
+    "usd_per_tonne": 223.447164
+   },
+   {
+    "reporter": "IDN",
+    "year": 2022,
+    "partner": "PAK",
+    "partner_name": "Pakistan",
+    "million_tonnes": 4.792573,
+    "share": 0.010272,
+    "rank_in_year": 12,
+    "usd_per_tonne": 94.150428
+   },
+   {
+    "reporter": "IDN",
+    "year": 2022,
+    "partner": "POL",
+    "partner_name": "Poland",
+    "million_tonnes": 2.380351,
+    "share": 0.005102,
+    "rank_in_year": 13,
+    "usd_per_tonne": 142.136753
+   },
+   {
+    "reporter": "IDN",
+    "year": 2022,
+    "partner": "KHM",
+    "partner_name": "Cambodia",
+    "million_tonnes": 2.067432,
+    "share": 0.004431,
+    "rank_in_year": 14,
+    "usd_per_tonne": 123.673184
+   },
+   {
+    "reporter": "IDN",
+    "year": 2022,
+    "partner": "ITA",
+    "partner_name": "Italy",
+    "million_tonnes": 1.521455,
+    "share": 0.003261,
+    "rank_in_year": 15,
+    "usd_per_tonne": 274.830014
+   },
+   {
+    "reporter": "IDN",
+    "year": 2022,
+    "partner": "NLD",
+    "partner_name": "Netherlands",
+    "million_tonnes": 1.189802,
+    "share": 0.00255,
+    "rank_in_year": 16,
+    "usd_per_tonne": 159.588629
+   },
+   {
+    "reporter": "IDN",
+    "year": 2022,
+    "partner": "BRN",
+    "partner_name": "Brunei Darussalam",
+    "million_tonnes": 1.1,
+    "share": 0.002358,
+    "rank_in_year": 17,
+    "usd_per_tonne": 131.229091
+   },
+   {
+    "reporter": "IDN",
+    "year": 2022,
+    "partner": "NZL",
+    "partner_name": "New Zealand",
+    "million_tonnes": 0.659999,
+    "share": 0.001415,
+    "rank_in_year": 18,
+    "usd_per_tonne": 102.316506
+   },
+   {
+    "reporter": "IDN",
+    "year": 2022,
+    "partner": "SGP",
+    "partner_name": "Singapore",
+    "million_tonnes": 0.64843,
+    "share": 0.00139,
+    "rank_in_year": 19,
+    "usd_per_tonne": 153.114204
+   },
+   {
+    "reporter": "IDN",
+    "year": 2022,
+    "partner": "ESP",
+    "partner_name": "Spain",
+    "million_tonnes": 0.408162,
+    "share": 0.000875,
+    "rank_in_year": 20,
+    "usd_per_tonne": 111.19416
+   },
+   {
+    "reporter": "IDN",
+    "year": 2022,
+    "partner": "SVN",
+    "partner_name": "Slovenia",
+    "million_tonnes": 0.400454,
+    "share": 0.000858,
+    "rank_in_year": 21,
+    "usd_per_tonne": 128.082699
+   },
+   {
+    "reporter": "IDN",
+    "year": 2022,
+    "partner": "SRB",
+    "partner_name": "Serbia",
+    "million_tonnes": 0.2589,
+    "share": 0.000555,
+    "rank_in_year": 22,
+    "usd_per_tonne": 54.256398
+   },
+   {
+    "reporter": "IDN",
+    "year": 2022,
+    "partner": "HRV",
+    "partner_name": "Croatia",
+    "million_tonnes": 0.20878,
+    "share": 0.000447,
+    "rank_in_year": 23,
+    "usd_per_tonne": 220.95275
+   },
+   {
+    "reporter": "IDN",
+    "year": 2022,
+    "partner": "LKA",
+    "partner_name": "Sri Lanka",
+    "million_tonnes": 0.1269,
+    "share": 0.000272,
+    "rank_in_year": 24,
+    "usd_per_tonne": 159.109243
+   },
+   {
+    "reporter": "IDN",
+    "year": 2022,
+    "partner": "USA",
+    "partner_name": "USA",
+    "million_tonnes": 0.1248,
+    "share": 0.000267,
+    "rank_in_year": 25,
+    "usd_per_tonne": 90.158654
+   },
+   {
+    "reporter": "IDN",
+    "year": 2022,
+    "partner": "AUS",
+    "partner_name": "Australia",
+    "million_tonnes": 0.124351,
+    "share": 0.000267,
+    "rank_in_year": 26,
+    "usd_per_tonne": 142.254484
+   },
+   {
+    "reporter": "IDN",
+    "year": 2022,
+    "partner": "ARE",
+    "partner_name": "United Arab Emirates",
+    "million_tonnes": 0.1155,
+    "share": 0.000248,
+    "rank_in_year": 27,
+    "usd_per_tonne": 80.261905
+   },
+   {
+    "reporter": "IDN",
+    "year": 2022,
+    "partner": "CHE",
+    "partner_name": "Switzerland",
+    "million_tonnes": 0.111391,
+    "share": 0.000239,
+    "rank_in_year": 28,
+    "usd_per_tonne": 139.542324
+   },
+   {
+    "reporter": "IDN",
+    "year": 2022,
+    "partner": "LBR",
+    "partner_name": "Liberia",
+    "million_tonnes": 0.0777,
+    "share": 0.000167,
+    "rank_in_year": 29,
+    "usd_per_tonne": 99.27
+   },
+   {
+    "reporter": "IDN",
+    "year": 2022,
+    "partner": "LVA",
+    "partner_name": "Latvia",
+    "million_tonnes": 0.0605,
+    "share": 0.00013,
+    "rank_in_year": 30,
+    "usd_per_tonne": 169.24
+   },
+   {
+    "reporter": "IDN",
+    "year": 2022,
+    "partner": "DEU",
+    "partner_name": "Germany",
+    "million_tonnes": 0.0605,
+    "share": 0.00013,
+    "rank_in_year": 31,
+    "usd_per_tonne": 86.0
+   },
+   {
+    "reporter": "IDN",
+    "year": 2022,
+    "partner": "MKD",
+    "partner_name": "North Macedonia",
+    "million_tonnes": 0.044,
+    "share": 9.4e-05,
+    "rank_in_year": 32,
+    "usd_per_tonne": 135.0
+   },
+   {
+    "reporter": "IDN",
+    "year": 2022,
+    "partner": "GRC",
+    "partner_name": "Greece",
+    "million_tonnes": 0.044,
+    "share": 9.4e-05,
+    "rank_in_year": 33,
+    "usd_per_tonne": 190.0
+   },
+   {
+    "reporter": "IDN",
+    "year": 2022,
+    "partner": "MMR",
+    "partner_name": "Myanmar",
+    "million_tonnes": 0.0275,
+    "share": 5.9e-05,
+    "rank_in_year": 34,
+    "usd_per_tonne": 78.0
+   },
+   {
+    "reporter": "IDN",
+    "year": 2022,
+    "partner": "PNG",
+    "partner_name": "Papua New Guinea",
+    "million_tonnes": 0.009367,
+    "share": 2e-05,
+    "rank_in_year": 35,
+    "usd_per_tonne": 24.999993
+   },
+   {
+    "reporter": "IDN",
+    "year": 2023,
+    "partner": "CHN",
+    "partner_name": "China",
+    "million_tonnes": 217.949546,
+    "share": 0.418247,
+    "rank_in_year": 1,
+    "usd_per_tonne": 68.566753
+   },
+   {
+    "reporter": "IDN",
+    "year": 2023,
+    "partner": "IND",
+    "partner_name": "India",
+    "million_tonnes": 109.145664,
+    "share": 0.209451,
+    "rank_in_year": 2,
+    "usd_per_tonne": 66.576192
+   },
+   {
+    "reporter": "IDN",
+    "year": 2023,
+    "partner": "PHL",
+    "partner_name": "Philippines",
+    "million_tonnes": 36.222309,
+    "share": 0.069511,
+    "rank_in_year": 3,
+    "usd_per_tonne": 93.630377
+   },
+   {
+    "reporter": "IDN",
+    "year": 2023,
+    "partner": "MYS",
+    "partner_name": "Malaysia",
+    "million_tonnes": 28.271072,
+    "share": 0.054252,
+    "rank_in_year": 4,
+    "usd_per_tonne": 97.255204
+   },
+   {
+    "reporter": "IDN",
+    "year": 2023,
+    "partner": "KOR",
+    "partner_name": "Rep. of Korea",
+    "million_tonnes": 26.890227,
+    "share": 0.051603,
+    "rank_in_year": 5,
+    "usd_per_tonne": 87.264171
+   },
+   {
+    "reporter": "IDN",
+    "year": 2023,
+    "partner": "JPN",
+    "partner_name": "Japan",
+    "million_tonnes": 25.344202,
+    "share": 0.048636,
+    "rank_in_year": 6,
+    "usd_per_tonne": 188.097033
+   },
+   {
+    "reporter": "IDN",
+    "year": 2023,
+    "partner": "VNM",
+    "partner_name": "Viet Nam",
+    "million_tonnes": 19.920298,
+    "share": 0.038227,
+    "rank_in_year": 7,
+    "usd_per_tonne": 76.024889
+   },
+   {
+    "reporter": "IDN",
+    "year": 2023,
+    "partner": "S19",
+    "partner_name": "Other Asia, nes",
+    "million_tonnes": 15.20962,
+    "share": 0.029187,
+    "rank_in_year": 8,
+    "usd_per_tonne": 138.333343
+   },
+   {
+    "reporter": "IDN",
+    "year": 2023,
+    "partner": "THA",
+    "partner_name": "Thailand",
+    "million_tonnes": 11.957337,
+    "share": 0.022946,
+    "rank_in_year": 9,
+    "usd_per_tonne": 72.233822
+   },
+   {
+    "reporter": "IDN",
+    "year": 2023,
+    "partner": "BGD",
+    "partner_name": "Bangladesh",
+    "million_tonnes": 11.868479,
+    "share": 0.022776,
+    "rank_in_year": 10,
+    "usd_per_tonne": 89.868776
+   },
+   {
+    "reporter": "IDN",
+    "year": 2023,
+    "partner": "HKG",
+    "partner_name": "China, Hong Kong SAR",
+    "million_tonnes": 4.919739,
+    "share": 0.009441,
+    "rank_in_year": 11,
+    "usd_per_tonne": 128.097231
+   },
+   {
+    "reporter": "IDN",
+    "year": 2023,
+    "partner": "KHM",
+    "partner_name": "Cambodia",
+    "million_tonnes": 4.336015,
+    "share": 0.008321,
+    "rank_in_year": 12,
+    "usd_per_tonne": 88.235213
+   },
+   {
+    "reporter": "IDN",
+    "year": 2023,
+    "partner": "PAK",
+    "partner_name": "Pakistan",
+    "million_tonnes": 3.253732,
+    "share": 0.006244,
+    "rank_in_year": 13,
+    "usd_per_tonne": 51.208447
+   },
+   {
+    "reporter": "IDN",
+    "year": 2023,
+    "partner": "ITA",
+    "partner_name": "Italy",
+    "million_tonnes": 1.306335,
+    "share": 0.002507,
+    "rank_in_year": 14,
+    "usd_per_tonne": 211.230864
+   },
+   {
+    "reporter": "IDN",
+    "year": 2023,
+    "partner": "BRN",
+    "partner_name": "Brunei Darussalam",
+    "million_tonnes": 0.954,
+    "share": 0.001831,
+    "rank_in_year": 15,
+    "usd_per_tonne": 89.425681
+   },
+   {
+    "reporter": "IDN",
+    "year": 2023,
+    "partner": "HRV",
+    "partner_name": "Croatia",
+    "million_tonnes": 0.920284,
+    "share": 0.001766,
+    "rank_in_year": 16,
+    "usd_per_tonne": 46.664268
+   },
+   {
+    "reporter": "IDN",
+    "year": 2023,
+    "partner": "SGP",
+    "partner_name": "Singapore",
+    "million_tonnes": 0.554356,
+    "share": 0.001064,
+    "rank_in_year": 17,
+    "usd_per_tonne": 121.209586
+   },
+   {
+    "reporter": "IDN",
+    "year": 2023,
+    "partner": "SRB",
+    "partner_name": "Serbia",
+    "million_tonnes": 0.532637,
+    "share": 0.001022,
+    "rank_in_year": 18,
+    "usd_per_tonne": 41.822463
+   },
+   {
+    "reporter": "IDN",
+    "year": 2023,
+    "partner": "POL",
+    "partner_name": "Poland",
+    "million_tonnes": 0.337377,
+    "share": 0.000647,
+    "rank_in_year": 19,
+    "usd_per_tonne": 133.896909
+   },
+   {
+    "reporter": "IDN",
+    "year": 2023,
+    "partner": "ROU",
+    "partner_name": "Romania",
+    "million_tonnes": 0.301783,
+    "share": 0.000579,
+    "rank_in_year": 20,
+    "usd_per_tonne": 44.340473
+   },
+   {
+    "reporter": "IDN",
+    "year": 2023,
+    "partner": "NZL",
+    "partner_name": "New Zealand",
+    "million_tonnes": 0.240471,
+    "share": 0.000461,
+    "rank_in_year": 21,
+    "usd_per_tonne": 110.243054
+   },
+   {
+    "reporter": "IDN",
+    "year": 2023,
+    "partner": "SVN",
+    "partner_name": "Slovenia",
+    "million_tonnes": 0.235212,
+    "share": 0.000451,
+    "rank_in_year": 22,
+    "usd_per_tonne": 107.671802
+   },
+   {
+    "reporter": "IDN",
+    "year": 2023,
+    "partner": "ARE",
+    "partner_name": "United Arab Emirates",
+    "million_tonnes": 0.1105,
+    "share": 0.000212,
+    "rank_in_year": 23,
+    "usd_per_tonne": 65.269231
+   },
+   {
+    "reporter": "IDN",
+    "year": 2023,
+    "partner": "LKA",
+    "partner_name": "Sri Lanka",
+    "million_tonnes": 0.085018,
+    "share": 0.000163,
+    "rank_in_year": 24,
+    "usd_per_tonne": 137.000694
+   },
+   {
+    "reporter": "IDN",
+    "year": 2023,
+    "partner": "NLD",
+    "partner_name": "Netherlands",
+    "million_tonnes": 0.0675,
+    "share": 0.00013,
+    "rank_in_year": 25,
+    "usd_per_tonne": 174.6
+   },
+   {
+    "reporter": "IDN",
+    "year": 2023,
+    "partner": "TUR",
+    "partner_name": "T\u00fcrkiye",
+    "million_tonnes": 0.0675,
+    "share": 0.00013,
+    "rank_in_year": 26,
+    "usd_per_tonne": 178.739068
+   },
+   {
+    "reporter": "IDN",
+    "year": 2023,
+    "partner": "CHE",
+    "partner_name": "Switzerland",
+    "million_tonnes": 0.044,
+    "share": 8.4e-05,
+    "rank_in_year": 27,
+    "usd_per_tonne": 100.5
+   },
+   {
+    "reporter": "IDN",
+    "year": 2023,
+    "partner": "AUS",
+    "partner_name": "Australia",
+    "million_tonnes": 0.0357,
+    "share": 6.9e-05,
+    "rank_in_year": 28,
+    "usd_per_tonne": 87.874567
+   },
+   {
+    "reporter": "IDN",
+    "year": 2023,
+    "partner": "LAO",
+    "partner_name": "Lao People's Dem. Rep.",
+    "million_tonnes": 0.011,
+    "share": 2.1e-05,
+    "rank_in_year": 29,
+    "usd_per_tonne": 74.3656
+   },
+   {
+    "reporter": "IDN",
+    "year": 2023,
+    "partner": "PNG",
+    "partner_name": "Papua New Guinea",
+    "million_tonnes": 0.009084,
+    "share": 1.7e-05,
+    "rank_in_year": 30,
+    "usd_per_tonne": 81.67
+   },
+   {
+    "reporter": "IDN",
+    "year": 2023,
+    "partner": "BIH",
+    "partner_name": "Bosnia Herzegovina",
+    "million_tonnes": 0.002,
+    "share": 4e-06,
+    "rank_in_year": 31,
+    "usd_per_tonne": 64.03
+   },
+   {
+    "reporter": "IDN",
+    "year": 2023,
+    "partner": "FRA",
+    "partner_name": "France",
+    "million_tonnes": 1e-06,
+    "share": 0.0,
+    "rank_in_year": 32,
+    "usd_per_tonne": 2.0
+   },
+   {
+    "reporter": "IDN",
+    "year": 2024,
+    "partner": "CHN",
+    "partner_name": "China",
+    "million_tonnes": 241.735314,
+    "share": 0.433407,
+    "rank_in_year": 1,
+    "usd_per_tonne": 56.771986
+   },
+   {
+    "reporter": "IDN",
+    "year": 2024,
+    "partner": "IND",
+    "partner_name": "India",
+    "million_tonnes": 108.501965,
+    "share": 0.194533,
+    "rank_in_year": 2,
+    "usd_per_tonne": 57.719077
+   },
+   {
+    "reporter": "IDN",
+    "year": 2024,
+    "partner": "PHL",
+    "partner_name": "Philippines",
+    "million_tonnes": 38.939382,
+    "share": 0.069814,
+    "rank_in_year": 3,
+    "usd_per_tonne": 71.028374
+   },
+   {
+    "reporter": "IDN",
+    "year": 2024,
+    "partner": "JPN",
+    "partner_name": "Japan",
+    "million_tonnes": 29.010936,
+    "share": 0.052014,
+    "rank_in_year": 4,
+    "usd_per_tonne": 133.526599
+   },
+   {
+    "reporter": "IDN",
+    "year": 2024,
+    "partner": "KOR",
+    "partner_name": "Rep. of Korea",
+    "million_tonnes": 27.845344,
+    "share": 0.049924,
+    "rank_in_year": 5,
+    "usd_per_tonne": 78.792636
+   },
+   {
+    "reporter": "IDN",
+    "year": 2024,
+    "partner": "VNM",
+    "partner_name": "Viet Nam",
+    "million_tonnes": 27.244735,
+    "share": 0.048847,
+    "rank_in_year": 6,
+    "usd_per_tonne": 65.783113
+   },
+   {
+    "reporter": "IDN",
+    "year": 2024,
+    "partner": "MYS",
+    "partner_name": "Malaysia",
+    "million_tonnes": 27.197378,
+    "share": 0.048762,
+    "rank_in_year": 7,
+    "usd_per_tonne": 89.584171
+   },
+   {
+    "reporter": "IDN",
+    "year": 2024,
+    "partner": "S19",
+    "partner_name": "Other Asia, nes",
+    "million_tonnes": 15.591662,
+    "share": 0.027954,
+    "rank_in_year": 8,
+    "usd_per_tonne": 114.064888
+   },
+   {
+    "reporter": "IDN",
+    "year": 2024,
+    "partner": "THA",
+    "partner_name": "Thailand",
+    "million_tonnes": 13.832248,
+    "share": 0.0248,
+    "rank_in_year": 9,
+    "usd_per_tonne": 60.767317
+   },
+   {
+    "reporter": "IDN",
+    "year": 2024,
+    "partner": "BGD",
+    "partner_name": "Bangladesh",
+    "million_tonnes": 13.245483,
+    "share": 0.023748,
+    "rank_in_year": 10,
+    "usd_per_tonne": 79.106776
+   },
+   {
+    "reporter": "IDN",
+    "year": 2024,
+    "partner": "KHM",
+    "partner_name": "Cambodia",
+    "million_tonnes": 5.126881,
+    "share": 0.009192,
+    "rank_in_year": 11,
+    "usd_per_tonne": 73.414635
+   },
+   {
+    "reporter": "IDN",
+    "year": 2024,
+    "partner": "HKG",
+    "partner_name": "China, Hong Kong SAR",
+    "million_tonnes": 3.964686,
+    "share": 0.007108,
+    "rank_in_year": 12,
+    "usd_per_tonne": 92.565893
+   },
+   {
+    "reporter": "IDN",
+    "year": 2024,
+    "partner": "PAK",
+    "partner_name": "Pakistan",
+    "million_tonnes": 1.352131,
+    "share": 0.002424,
+    "rank_in_year": 13,
+    "usd_per_tonne": 53.649938
+   },
+   {
+    "reporter": "IDN",
+    "year": 2024,
+    "partner": "BRN",
+    "partner_name": "Brunei Darussalam",
+    "million_tonnes": 1.0904,
+    "share": 0.001955,
+    "rank_in_year": 14,
+    "usd_per_tonne": 77.799921
+   },
+   {
+    "reporter": "IDN",
+    "year": 2024,
+    "partner": "NZL",
+    "partner_name": "New Zealand",
+    "million_tonnes": 0.911909,
+    "share": 0.001635,
+    "rank_in_year": 15,
+    "usd_per_tonne": 95.166605
+   },
+   {
+    "reporter": "IDN",
+    "year": 2024,
+    "partner": "ROU",
+    "partner_name": "Romania",
+    "million_tonnes": 0.53618,
+    "share": 0.000961,
+    "rank_in_year": 16,
+    "usd_per_tonne": 36.215335
+   },
+   {
+    "reporter": "IDN",
+    "year": 2024,
+    "partner": "SGP",
+    "partner_name": "Singapore",
+    "million_tonnes": 0.472909,
+    "share": 0.000848,
+    "rank_in_year": 17,
+    "usd_per_tonne": 67.987259
+   },
+   {
+    "reporter": "IDN",
+    "year": 2024,
+    "partner": "HRV",
+    "partner_name": "Croatia",
+    "million_tonnes": 0.383631,
+    "share": 0.000688,
+    "rank_in_year": 18,
+    "usd_per_tonne": 46.999523
+   },
+   {
+    "reporter": "IDN",
+    "year": 2024,
+    "partner": "SRB",
+    "partner_name": "Serbia",
+    "million_tonnes": 0.311607,
+    "share": 0.000559,
+    "rank_in_year": 19,
+    "usd_per_tonne": 32.241504
+   },
+   {
+    "reporter": "IDN",
+    "year": 2024,
+    "partner": "ITA",
+    "partner_name": "Italy",
+    "million_tonnes": 0.1543,
+    "share": 0.000277,
+    "rank_in_year": 20,
+    "usd_per_tonne": 122.248659
+   },
+   {
+    "reporter": "IDN",
+    "year": 2024,
+    "partner": "AUS",
+    "partner_name": "Australia",
+    "million_tonnes": 0.1261,
+    "share": 0.000226,
+    "rank_in_year": 21,
+    "usd_per_tonne": 88.721297
+   },
+   {
+    "reporter": "IDN",
+    "year": 2024,
+    "partner": "SVN",
+    "partner_name": "Slovenia",
+    "million_tonnes": 0.079005,
+    "share": 0.000142,
+    "rank_in_year": 22,
+    "usd_per_tonne": 98.0
+   },
+   {
+    "reporter": "IDN",
+    "year": 2024,
+    "partner": "LKA",
+    "partner_name": "Sri Lanka",
+    "million_tonnes": 0.06327,
+    "share": 0.000113,
+    "rank_in_year": 23,
+    "usd_per_tonne": 117.539972
+   },
+   {
+    "reporter": "IDN",
+    "year": 2024,
+    "partner": "LAO",
+    "partner_name": "Lao People's Dem. Rep.",
+    "million_tonnes": 0.0338,
+    "share": 6.1e-05,
+    "rank_in_year": 24,
+    "usd_per_tonne": 72.97355
+   },
+   {
+    "reporter": "IDN",
+    "year": 2024,
+    "partner": "PNG",
+    "partner_name": "Papua New Guinea",
+    "million_tonnes": 0.004501,
+    "share": 8e-06,
+    "rank_in_year": 25,
+    "usd_per_tonne": 54.0
+   },
+   {
+    "reporter": "IDN",
+    "year": 2024,
+    "partner": "BRA",
+    "partner_name": "Brazil",
+    "million_tonnes": 0.0,
+    "share": 0.0,
+    "rank_in_year": 26,
+    "usd_per_tonne": 50.0
+   },
+   {
+    "reporter": "IDN",
+    "year": 2024,
+    "partner": "DEU",
+    "partner_name": "Germany",
+    "million_tonnes": 0.0,
+    "share": 0.0,
+    "rank_in_year": 27,
+    "usd_per_tonne": 10.0
+   },
+   {
+    "reporter": "IDN",
+    "year": 2025,
+    "partner": "CHN",
+    "partner_name": "China",
+    "million_tonnes": 212.782671,
+    "share": 0.406076,
+    "rank_in_year": 1,
+    "usd_per_tonne": 48.012493
+   },
+   {
+    "reporter": "IDN",
+    "year": 2025,
+    "partner": "IND",
+    "partner_name": "India",
+    "million_tonnes": 100.540209,
+    "share": 0.191871,
+    "rank_in_year": 2,
+    "usd_per_tonne": 49.617824
+   },
+   {
+    "reporter": "IDN",
+    "year": 2025,
+    "partner": "PHL",
+    "partner_name": "Philippines",
+    "million_tonnes": 37.704611,
+    "share": 0.071956,
+    "rank_in_year": 3,
+    "usd_per_tonne": 58.433553
+   },
+   {
+    "reporter": "IDN",
+    "year": 2025,
+    "partner": "KOR",
+    "partner_name": "Rep. of Korea",
+    "million_tonnes": 29.100767,
+    "share": 0.055536,
+    "rank_in_year": 4,
+    "usd_per_tonne": 64.853141
+   },
+   {
+    "reporter": "IDN",
+    "year": 2025,
+    "partner": "MYS",
+    "partner_name": "Malaysia",
+    "million_tonnes": 27.61593,
+    "share": 0.052702,
+    "rank_in_year": 5,
+    "usd_per_tonne": 79.150566
+   },
+   {
+    "reporter": "IDN",
+    "year": 2025,
+    "partner": "JPN",
+    "partner_name": "Japan",
+    "million_tonnes": 27.176185,
+    "share": 0.051863,
+    "rank_in_year": 6,
+    "usd_per_tonne": 105.104525
+   },
+   {
+    "reporter": "IDN",
+    "year": 2025,
+    "partner": "VNM",
+    "partner_name": "Viet Nam",
+    "million_tonnes": 26.155854,
+    "share": 0.049916,
+    "rank_in_year": 7,
+    "usd_per_tonne": 62.151235
+   },
+   {
+    "reporter": "IDN",
+    "year": 2025,
+    "partner": "BGD",
+    "partner_name": "Bangladesh",
+    "million_tonnes": 17.9824,
+    "share": 0.034318,
+    "rank_in_year": 8,
+    "usd_per_tonne": 65.887591
+   },
+   {
+    "reporter": "IDN",
+    "year": 2025,
+    "partner": "S19",
+    "partner_name": "Other Asia, nes",
+    "million_tonnes": 15.370088,
+    "share": 0.029332,
+    "rank_in_year": 9,
+    "usd_per_tonne": 80.822188
+   },
+   {
+    "reporter": "IDN",
+    "year": 2025,
+    "partner": "THA",
+    "partner_name": "Thailand",
+    "million_tonnes": 14.49306,
+    "share": 0.027659,
+    "rank_in_year": 10,
+    "usd_per_tonne": 55.21809
+   },
+   {
+    "reporter": "IDN",
+    "year": 2025,
+    "partner": "KHM",
+    "partner_name": "Cambodia",
+    "million_tonnes": 5.566853,
+    "share": 0.010624,
+    "rank_in_year": 11,
+    "usd_per_tonne": 64.555492
+   },
+   {
+    "reporter": "IDN",
+    "year": 2025,
+    "partner": "HKG",
+    "partner_name": "China, Hong Kong SAR",
+    "million_tonnes": 3.184695,
+    "share": 0.006078,
+    "rank_in_year": 12,
+    "usd_per_tonne": 74.03414
+   },
+   {
+    "reporter": "IDN",
+    "year": 2025,
+    "partner": "NZL",
+    "partner_name": "New Zealand",
+    "million_tonnes": 1.2907,
+    "share": 0.002463,
+    "rank_in_year": 13,
+    "usd_per_tonne": 89.122521
+   },
+   {
+    "reporter": "IDN",
+    "year": 2025,
+    "partner": "PAK",
+    "partner_name": "Pakistan",
+    "million_tonnes": 1.273925,
+    "share": 0.002431,
+    "rank_in_year": 14,
+    "usd_per_tonne": 50.423056
+   },
+   {
+    "reporter": "IDN",
+    "year": 2025,
+    "partner": "BRN",
+    "partner_name": "Brunei Darussalam",
+    "million_tonnes": 1.144,
+    "share": 0.002183,
+    "rank_in_year": 15,
+    "usd_per_tonne": 65.356364
+   },
+   {
+    "reporter": "IDN",
+    "year": 2025,
+    "partner": "ROU",
+    "partner_name": "Romania",
+    "million_tonnes": 0.833152,
+    "share": 0.00159,
+    "rank_in_year": 16,
+    "usd_per_tonne": 38.536328
+   },
+   {
+    "reporter": "IDN",
+    "year": 2025,
+    "partner": "ITA",
+    "partner_name": "Italy",
+    "million_tonnes": 0.620401,
+    "share": 0.001184,
+    "rank_in_year": 17,
+    "usd_per_tonne": 108.83545
+   },
+   {
+    "reporter": "IDN",
+    "year": 2025,
+    "partner": "SGP",
+    "partner_name": "Singapore",
+    "million_tonnes": 0.536605,
+    "share": 0.001024,
+    "rank_in_year": 18,
+    "usd_per_tonne": 52.56308
+   },
+   {
+    "reporter": "IDN",
+    "year": 2025,
+    "partner": "MNE",
+    "partner_name": "Montenegro",
+    "million_tonnes": 0.201488,
+    "share": 0.000385,
+    "rank_in_year": 19,
+    "usd_per_tonne": 35.651538
+   },
+   {
+    "reporter": "IDN",
+    "year": 2025,
+    "partner": "SVN",
+    "partner_name": "Slovenia",
+    "million_tonnes": 0.0798,
+    "share": 0.000152,
+    "rank_in_year": 20,
+    "usd_per_tonne": 80.95
+   },
+   {
+    "reporter": "IDN",
+    "year": 2025,
+    "partner": "ESP",
+    "partner_name": "Spain",
+    "million_tonnes": 0.078,
+    "share": 0.000149,
+    "rank_in_year": 21,
+    "usd_per_tonne": 92.1
+   },
+   {
+    "reporter": "IDN",
+    "year": 2025,
+    "partner": "MAR",
+    "partner_name": "Morocco",
+    "million_tonnes": 0.07225,
+    "share": 0.000138,
+    "rank_in_year": 22,
+    "usd_per_tonne": 84.32
+   },
+   {
+    "reporter": "IDN",
+    "year": 2025,
+    "partner": "AUS",
+    "partner_name": "Australia",
+    "million_tonnes": 0.060001,
+    "share": 0.000115,
+    "rank_in_year": 23,
+    "usd_per_tonne": 81.511909
+   },
+   {
+    "reporter": "IDN",
+    "year": 2025,
+    "partner": "LKA",
+    "partner_name": "Sri Lanka",
+    "million_tonnes": 0.051948,
+    "share": 9.9e-05,
+    "rank_in_year": 24,
+    "usd_per_tonne": 89.320021
+   },
+   {
+    "reporter": "IDN",
+    "year": 2025,
+    "partner": "LAO",
+    "partner_name": "Lao People's Dem. Rep.",
+    "million_tonnes": 0.051185,
+    "share": 9.8e-05,
+    "rank_in_year": 25,
+    "usd_per_tonne": 67.183931
+   },
+   {
+    "reporter": "IDN",
+    "year": 2025,
+    "partner": "AND",
+    "partner_name": "Andorra",
+    "million_tonnes": 0.03095,
+    "share": 5.9e-05,
+    "rank_in_year": 26,
+    "usd_per_tonne": 61.13
+   }
+  ],
+  "mart_coal_mirror": [
+   {
+    "exporter": "AUS",
+    "year": 2015,
+    "exporter_reported_tonnes": 71228184.0,
+    "china_reported_tonnes": 70851107.880531,
+    "difference_share": -0.005294
+   },
+   {
+    "exporter": "AUS",
+    "year": 2016,
+    "exporter_reported_tonnes": 75173378.306,
+    "china_reported_tonnes": 68044225.097899,
+    "difference_share": -0.094836
+   },
+   {
+    "exporter": "AUS",
+    "year": 2017,
+    "exporter_reported_tonnes": 83406903.07,
+    "china_reported_tonnes": 79655281.663339,
+    "difference_share": -0.04498
+   },
+   {
+    "exporter": "AUS",
+    "year": 2018,
+    "exporter_reported_tonnes": 89177290.0,
+    "china_reported_tonnes": 81402084.004,
+    "difference_share": -0.087188
+   },
+   {
+    "exporter": "AUS",
+    "year": 2019,
+    "exporter_reported_tonnes": 92424400.0,
+    "china_reported_tonnes": 76888328.498242,
+    "difference_share": -0.168095
+   },
+   {
+    "exporter": "AUS",
+    "year": 2020,
+    "exporter_reported_tonnes": 73688800.0,
+    "china_reported_tonnes": 77507058.002,
+    "difference_share": 0.051816
+   },
+   {
+    "exporter": "AUS",
+    "year": 2021,
+    "exporter_reported_tonnes": 182220.0,
+    "china_reported_tonnes": 11711974.0,
+    "difference_share": 63.273812
+   },
+   {
+    "exporter": "AUS",
+    "year": 2023,
+    "exporter_reported_tonnes": 55631900.0,
+    "china_reported_tonnes": 26373524.683981,
+    "difference_share": -0.525928
+   },
+   {
+    "exporter": "AUS",
+    "year": 2024,
+    "exporter_reported_tonnes": 83987300.0,
+    "china_reported_tonnes": 83242550.004,
+    "difference_share": -0.008867
+   },
+   {
+    "exporter": "AUS",
+    "year": 2025,
+    "exporter_reported_tonnes": 75688792.1,
+    "china_reported_tonnes": 77468154.317,
+    "difference_share": 0.023509
+   },
+   {
+    "exporter": "IDN",
+    "year": 2015,
+    "exporter_reported_tonnes": 72740835.961,
+    "china_reported_tonnes": 73707821.694,
+    "difference_share": 0.013294
+   },
+   {
+    "exporter": "IDN",
+    "year": 2016,
+    "exporter_reported_tonnes": 106644175.5,
+    "china_reported_tonnes": 55366248.342602,
+    "difference_share": -0.480832
+   },
+   {
+    "exporter": "IDN",
+    "year": 2017,
+    "exporter_reported_tonnes": 113736104.56,
+    "china_reported_tonnes": 108900619.374,
+    "difference_share": -0.042515
+   },
+   {
+    "exporter": "IDN",
+    "year": 2018,
+    "exporter_reported_tonnes": 128879603.5,
+    "china_reported_tonnes": 125707801.473,
+    "difference_share": -0.024611
+   },
+   {
+    "exporter": "IDN",
+    "year": 2019,
+    "exporter_reported_tonnes": 147394723.93,
+    "china_reported_tonnes": 137527387.493,
+    "difference_share": -0.066945
+   },
+   {
+    "exporter": "IDN",
+    "year": 2020,
+    "exporter_reported_tonnes": 127414231.402333,
+    "china_reported_tonnes": 140836855.7,
+    "difference_share": 0.105346
+   },
+   {
+    "exporter": "IDN",
+    "year": 2021,
+    "exporter_reported_tonnes": 195744070.011,
+    "china_reported_tonnes": 195385546.012,
+    "difference_share": -0.001832
+   },
+   {
+    "exporter": "IDN",
+    "year": 2022,
+    "exporter_reported_tonnes": 172822496.51853,
+    "china_reported_tonnes": 170651052.2,
+    "difference_share": -0.012565
+   },
+   {
+    "exporter": "IDN",
+    "year": 2023,
+    "exporter_reported_tonnes": 217949545.86692,
+    "china_reported_tonnes": 112158396.04128,
+    "difference_share": -0.485393
+   },
+   {
+    "exporter": "IDN",
+    "year": 2024,
+    "exporter_reported_tonnes": 241735313.891999,
+    "china_reported_tonnes": 240882182.018,
+    "difference_share": -0.003529
+   },
+   {
+    "exporter": "IDN",
+    "year": 2025,
+    "exporter_reported_tonnes": 212782670.525,
+    "china_reported_tonnes": 211452603.27,
+    "difference_share": -0.006251
+   }
+  ]
+ }
+}

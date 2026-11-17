@@ -88,6 +88,25 @@ def main():
     assert any(name == "duplicate_keys" for name, *_ in failures), "duplicate check did not fire"
     con.execute("DELETE FROM stg_trade WHERE rowid = (SELECT MAX(rowid) FROM stg_trade)")
 
+    # A World row without weight for one coal code must not leave the other code's
+    # World weight as the total: tonnes fall back to the sum of partner rows, and
+    # US dollars per tonne uses only rows that have a weight.
+    con.execute("UPDATE stg_trade SET net_kg = NULL WHERE query_id = 'coal_idn_exports' AND year = 2019 AND hs = '2701' AND partner_code = 0")
+    con.execute("UPDATE stg_trade SET net_kg = NULL WHERE query_id = 'coal_idn_exports' AND year = 2019 AND hs = '2701' AND partner = 'JPN'")
+    build.run_script(con, (ROOT / "sql" / "02_marts.sql").read_text())
+    _, r = build.query(con, """SELECT t.total_kg, s.kg, t.value_share_without_weight, t.usd_per_tonne, s.usd_with_kg / (s.kg / 1000.0)
+                               FROM int_totals t, (SELECT SUM(net_kg) AS kg, SUM(CASE WHEN net_kg IS NOT NULL THEN value_usd END) AS usd_with_kg
+                                                   FROM stg_trade WHERE query_id = 'coal_idn_exports' AND year = 2019 AND partner_code <> 0) s
+                               WHERE t.query_id = 'coal_idn_exports' AND t.year = 2019 AND t.product = 'coal'""")
+    total_kg, partner_kg, gap, price, expected_price = r[0]
+    assert abs(total_kg - partner_kg) < 1, r
+    assert 0 < gap < 1 and abs(price - expected_price) < 1e-6, r
+    _, warnings = build.run_checks(con, (ROOT / "sql" / "03_checks.sql").read_text())
+    assert any(name == "world_weight_missing" for name, *_ in warnings), "world_weight_missing did not fire"
+    con.execute("DELETE FROM stg_trade")
+    con.executemany("INSERT INTO stg_trade VALUES (?,?,?,?,?,?,?,?,?,?,?)", simulated_rows())
+    build.run_script(con, (ROOT / "sql" / "02_marts.sql").read_text())
+
     target = Path(sys.argv[1]) if len(sys.argv) > 1 else Path(tempfile.mkdtemp())
     build.export(con, target / "marts", target / "data", fetched_at="SIMULATED")
     print("\nSmoke test passed (simulated data).")

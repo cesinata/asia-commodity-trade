@@ -36,6 +36,15 @@ FROM stg_trade
 WHERE value_usd > 0 AND net_kg IS NULL AND partner_code <> 0
 GROUP BY query_id, year;
 
+-- check: world_weight_missing | warn | The World row has no weight, so total tonnes are the sum of partner rows. Partner rows without a weight are missing from that sum; value_share_without_weight is the share of value they hold.
+SELECT t.query_id, t.year, t.product, t.total_kg, t.value_share_without_weight
+FROM int_totals t
+JOIN int_totals_base b
+  ON b.query_id = t.query_id AND b.year = t.year AND b.product = t.product
+WHERE b.world_kg IS NULL
+  AND t.query_id IN ('wheat_idn_imports', 'wheat_idn_exports', 'coal_aus_exports', 'coal_idn_exports')
+ORDER BY t.query_id, t.year;
+
 -- check: world_total_differs | warn | The partner rows add up to a figure more than 5% away from the World total.
 SELECT t.query_id, t.year, t.product, t.total_kg, t.partners_kg
 FROM int_totals t

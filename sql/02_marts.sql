@@ -11,8 +11,14 @@ SELECT
     query_id, reporter, flow, year,
     CASE WHEN hs IN ('2701', '2702') THEN 'coal' ELSE hs END AS product,
     partner_code, partner, partner_name,
-    SUM(net_kg)    AS net_kg,
-    SUM(value_usd) AS value_usd
+    -- Coal adds HS 2701 and 2702. If the World row of either code has no weight,
+    -- the World weight is left empty (not a part-sum), so int_totals falls back
+    -- to the partner rows instead of reporting lignite alone as the total.
+    CASE WHEN partner_code = 0 AND COUNT(net_kg) < COUNT(*) THEN NULL
+         ELSE SUM(net_kg) END                                  AS net_kg,
+    SUM(value_usd)                                             AS value_usd,
+    -- Value of the rows that do have a weight, for US dollars per tonne.
+    SUM(CASE WHEN net_kg IS NOT NULL THEN value_usd END)       AS value_with_kg_usd
 FROM stg_trade
 GROUP BY query_id, reporter, flow, year,
          CASE WHEN hs IN ('2701', '2702') THEN 'coal' ELSE hs END,
@@ -20,17 +26,36 @@ GROUP BY query_id, reporter, flow, year,
 
 -- Totals per reporter, product and year. The World row is used when present;
 -- otherwise the sum of the partner rows.
+DROP TABLE IF EXISTS int_totals_base;
+CREATE TABLE int_totals_base AS
+SELECT
+    query_id, reporter, flow, year, product,
+    MAX(CASE WHEN partner_code = 0 THEN net_kg END)                AS world_kg,
+    MAX(CASE WHEN partner_code = 0 THEN value_usd END)             AS world_usd,
+    SUM(CASE WHEN partner_code <> 0 THEN net_kg END)               AS partners_kg,
+    SUM(CASE WHEN partner_code <> 0 THEN value_usd END)            AS partners_usd,
+    SUM(CASE WHEN partner_code <> 0 THEN value_with_kg_usd END)    AS partners_usd_with_kg
+FROM int_flows
+GROUP BY query_id, reporter, flow, year, product;
+
 DROP TABLE IF EXISTS int_totals;
 CREATE TABLE int_totals AS
 SELECT
     query_id, reporter, flow, year, product,
-    COALESCE(MAX(CASE WHEN partner_code = 0 THEN net_kg END),
-             SUM(CASE WHEN partner_code <> 0 THEN net_kg END))    AS total_kg,
-    COALESCE(MAX(CASE WHEN partner_code = 0 THEN value_usd END),
-             SUM(CASE WHEN partner_code <> 0 THEN value_usd END)) AS total_usd,
-    SUM(CASE WHEN partner_code <> 0 THEN net_kg END)              AS partners_kg
-FROM int_flows
-GROUP BY query_id, reporter, flow, year, product;
+    COALESCE(world_kg, partners_kg)                                AS total_kg,
+    COALESCE(world_usd, partners_usd)                              AS total_usd,
+    partners_kg,
+    -- US dollars per tonne from matching value and weight: the World row when it
+    -- has a weight, otherwise only the partner rows that have a weight.
+    CASE WHEN world_kg IS NOT NULL THEN world_usd / NULLIF(world_kg / 1000.0, 0)
+         ELSE partners_usd_with_kg / NULLIF(partners_kg / 1000.0, 0) END AS usd_per_tonne,
+    -- When the World row has no weight, tonnes are the partner sum and miss any
+    -- partner row without a weight. This is the share of value in such rows
+    -- (0 when the World weight is used). The gap is reported, never filled.
+    CASE WHEN world_kg IS NOT NULL THEN 0.0
+         ELSE (partners_usd - COALESCE(partners_usd_with_kg, 0)) * 1.0 / NULLIF(partners_usd, 0)
+    END                                                            AS value_share_without_weight
+FROM int_totals_base;
 
 -- ---------- story 1: wheat ----------
 
@@ -40,7 +65,8 @@ SELECT
     year,
     total_kg / 1e9                                AS million_tonnes,
     total_usd / 1e6                               AS value_usd_million,
-    total_usd / NULLIF(total_kg / 1000.0, 0)      AS usd_per_tonne
+    usd_per_tonne,
+    value_share_without_weight
 FROM int_totals
 WHERE query_id = 'wheat_idn_imports' AND product = '1001';
 
@@ -52,7 +78,7 @@ SELECT
     f.net_kg / 1e9                                              AS million_tonnes,
     f.net_kg * 1.0 / t.partners_kg                              AS share,
     ROW_NUMBER() OVER (PARTITION BY f.year ORDER BY f.net_kg DESC) AS rank_in_year,
-    f.value_usd / NULLIF(f.net_kg / 1000.0, 0)                  AS usd_per_tonne
+    f.value_with_kg_usd / NULLIF(f.net_kg / 1000.0, 0)          AS usd_per_tonne
 FROM int_flows f
 JOIN int_totals t
   ON t.query_id = f.query_id AND t.year = f.year AND t.product = f.product
@@ -117,7 +143,8 @@ SELECT
     reporter, year,
     total_kg / 1e9                             AS million_tonnes,
     total_usd / 1e9                            AS value_usd_billion,
-    total_usd / NULLIF(total_kg / 1000.0, 0)   AS usd_per_tonne
+    usd_per_tonne,
+    value_share_without_weight
 FROM int_totals
 WHERE query_id IN ('coal_aus_exports', 'coal_idn_exports') AND product = 'coal';
 
@@ -128,7 +155,7 @@ SELECT
     f.net_kg / 1e9                     AS million_tonnes,
     f.net_kg * 1.0 / t.partners_kg     AS share,
     ROW_NUMBER() OVER (PARTITION BY f.reporter, f.year ORDER BY f.net_kg DESC) AS rank_in_year,
-    f.value_usd / NULLIF(f.net_kg / 1000.0, 0) AS usd_per_tonne
+    f.value_with_kg_usd / NULLIF(f.net_kg / 1000.0, 0) AS usd_per_tonne
 FROM int_flows f
 JOIN int_totals t
   ON t.query_id = f.query_id AND t.year = f.year AND t.product = f.product
