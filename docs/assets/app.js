@@ -12,6 +12,9 @@
   };
   var COUNTRY = { AUS: 'Australia', IDN: 'Indonesia' };
 
+  // On phones the charts are drawn narrower so their text is not scaled down to an unreadable size.
+  var NARROW = window.matchMedia && window.matchMedia('(max-width: 560px)').matches;
+
   function name(n) { return NAMES[n] || n; }
 
   function el(tag, attrs, kids) {
@@ -59,13 +62,21 @@
     var m = v / p;
     return (m <= 1 ? 1 : m <= 2 ? 2 : m <= 2.5 ? 2.5 : m <= 5 ? 5 : 10) * p;
   }
-  function tickDecimals(max) { return max >= 20 ? 0 : max >= 2 ? 1 : 2; }
+  // Gridline count that gives round steps: 2 -> 0.5 steps, otherwise fifths.
+  function divisions(max) {
+    var m = max / Math.pow(10, Math.floor(Math.log10(max)));
+    return Math.abs(m - 2) < 1e-9 ? 4 : 5;
+  }
+  function tickDecimals(max) {
+    var step = max / divisions(max);
+    return step >= 1 ? 0 : step >= 0.1 ? 1 : 2;
+  }
 
   function frame(W, H, m, max, fmt, unit) {
     var root = svg('svg', { viewBox: '0 0 ' + W + ' ' + H, role: 'img' });
-    var plotH = H - m.t - m.b;
-    for (var i = 0; i <= 4; i++) {
-      var v = max * i / 4, y = m.t + plotH - plotH * i / 4;
+    var plotH = H - m.t - m.b, nd = divisions(max);
+    for (var i = 0; i <= nd; i++) {
+      var v = max * i / nd, y = m.t + plotH - plotH * i / nd;
       root.appendChild(svg('line', { x1: m.l, x2: W - m.r, y1: y, y2: y, stroke: i ? COLOR.grid : COLOR.ink2, 'stroke-width': 1 }));
       root.appendChild(svg('text', { x: m.l - 8, y: y + 4, 'text-anchor': 'end', 'font-size': 13, fill: COLOR.ink2 }, fmt(v)));
     }
@@ -75,7 +86,7 @@
 
   /* ---------- bar chart: one measure over the years ---------- */
   function barChart(o) {
-    var W = 640, H = 300, m = { l: 52, r: 16, t: 30, b: 34 };
+    var W = NARROW ? 400 : 640, H = 300, m = { l: 52, r: 16, t: 30, b: 34 };
     var vals = o.values, n = vals.length;
     var max = niceMax(Math.max.apply(null, vals.map(function (v) { return v || 0; })));
     var d = tickDecimals(max);
@@ -86,7 +97,7 @@
     vals.forEach(function (v, i) { if (v != null) lastIdx = i; });
     vals.forEach(function (v, i) {
       var cx = m.l + band * (i + 0.5);
-      if (n <= 12 || i % 2 === (n - 1) % 2) {
+      if (n <= (NARROW ? 6 : 12) || i % 2 === (n - 1) % 2) {
         root.appendChild(svg('text', { x: cx, y: H - 12, 'text-anchor': 'middle', 'font-size': 13, fill: COLOR.ink2 }, o.labels[i]));
       }
       if (v == null) return;
@@ -99,7 +110,9 @@
       hover(bar, function () { return o.labels[i] + ': ' + o.format(v); });
       root.appendChild(bar);
       if (i === lastIdx) {
-        root.appendChild(svg('text', { x: cx, y: y - 8, 'text-anchor': 'middle', 'font-size': 15, 'font-weight': 700, fill: COLOR.ink }, o.format(v)));
+        var label = o.format(v), halfW = label.length * 4.6;  // about half the text width at 15px
+        var toEnd = cx + halfW > W - m.r;
+        root.appendChild(svg('text', { x: toEnd ? cx + bw / 2 : cx, y: y - 8, 'text-anchor': toEnd ? 'end' : 'middle', 'font-size': 15, 'font-weight': 700, fill: COLOR.ink }, label));
       }
     });
     return el('div', { 'class': 'chart' }, [root]);
@@ -107,7 +120,7 @@
 
   /* ---------- line chart: up to a few series over the years ---------- */
   function lineChart(o) {
-    var W = 640, H = 300, m = { l: 52, r: 150, t: 30, b: 34 };
+    var W = NARROW ? 400 : 640, H = 300, m = { l: 52, r: NARROW ? 112 : 150, t: 30, b: 34 };
     var n = o.labels.length, all = [];
     o.series.forEach(function (s) { s.values.forEach(function (v) { if (v != null) all.push(v); }); });
     var max = niceMax(Math.max.apply(null, all.concat([0])));
@@ -208,9 +221,13 @@
 
   function kpi(parent, label, value, unit, note) {
     var v = el('span', { 'class': 'value', text: value });
-    if (unit) v.appendChild(el('small', { text: ' ' + unit }));
+    if (unit) v.appendChild(el('small', { text: unit }));
     parent.appendChild(el('div', { 'class': 'kpi' }, [el('span', { 'class': 'label', text: label }), v, el('span', { 'class': 'note', text: note })]));
   }
+
+  // Comparison of reported trade: more than 10% apart, or recorded by one side only.
+  function needsReview(r) { return r.difference_share == null || Math.abs(r.difference_share) > 0.1; }
+  function recorded(t) { return t == null ? 'not recorded' : num(t, 0); }
 
   function by(rows, key, value) { return rows.filter(function (r) { return r[key] === value; }); }
   function yearsOf(first, last) { var out = []; for (var y = first; y <= last; y++) out.push(y); return out; }
@@ -242,6 +259,14 @@
     var flour = by(T.mart_wheat_product_exports, 'hs', '1101'), noodles = by(T.mart_wheat_product_exports, 'hs', '190230');
     var flourV = series(flour, 'value_usd_million'), noodleV = series(noodles, 'value_usd_million');
     var last = years.length - 1;
+    // Years with a value but no tonnes: too much of the value is in records without a weight.
+    var noWeight = imp.filter(function (r) { return r.million_tonnes == null && r.value_usd_million != null; });
+    function noWeightNote(what) {
+      return noWeight.map(function (r) {
+        return what + ' for ' + r.year + ' are not available: ' + pct(r.value_share_without_weight) +
+          ' of that year’s import value is in records without a weight. The gap has not been estimated.';
+      }).join(' ');
+    }
 
     var k = document.getElementById('kpis');
     kpi(k, 'Wheat imported', num(impVals[last], 1), 'million tonnes', 'Calendar year ' + Y);
@@ -254,6 +279,7 @@
       headline: 'Indonesia imported ' + num(impVals[last], 1) + ' million tonnes of wheat in ' + Y,
       sub: 'Wheat imports, Indonesia, ' + range + ', million tonnes',
       chart: barChart({ labels: labels, values: impVals, color: COLOR.AUS, unit: 'Million tonnes', aria: 'Bar chart of Indonesia’s wheat imports by year, ' + range + '. The table below gives every value.', format: function (v) { return num(v, 1) + ' million tonnes'; } }),
+      note: noWeightNote('Tonnes'),
       table: { cols: ['Year', 'Million tonnes', 'Value (US$ million)', 'US$ per tonne'], rows: imp.map(function (r) { return [String(r.year), num(r.million_tonnes, 2), num(r.value_usd_million, 0), num(r.usd_per_tonne, 0)]; }) }
     });
     figure(s1, {
@@ -270,6 +296,7 @@
       chart: lineChart({ labels: labels, unit: 'Per cent of tonnes', aria: 'Line chart of the share of wheat imports from Australia and the United States, ' + range + '. The table below gives every value.',
         series: [{ name: 'Australia', color: COLOR.AUS, values: aus }, { name: 'United States', color: COLOR.USA, values: usa }],
         tick: function (v) { return num(v * 100, 0) + '%'; }, format: function (v) { return pct(v); } }),
+      note: noWeightNote('Shares'),
       table: { cols: ['Year', 'Australia', 'United States'], rows: years.map(function (y, i) { return [String(y), pct(aus[i], 1), pct(usa[i], 1)]; }) }
     });
 
@@ -291,15 +318,15 @@
     exportFigure(flour, flourV, 'wheat flour', '1101');
     exportFigure(noodles, noodleV, 'noodle and prepared pasta', '190230');
 
-    var mir = T.mart_wheat_mirror, over = mir.filter(function (r) { return Math.abs(r.difference_share) > 0.1; }).length;
+    var mir = T.mart_wheat_mirror, over = mir.filter(needsReview).length;
     document.getElementById('mirror-summary').textContent = mir.length
       ? 'The two figures differ by more than 10% in ' + over + ' of ' + mir.length + ' years.'
       : 'No years are available for comparison.';
     document.getElementById('mirror').appendChild(table(
       ['Year', 'Indonesia recorded (tonnes)', 'Australia recorded (tonnes)', 'Difference', 'Status'],
       mir.slice().reverse().map(function (r) {
-        return [String(r.year), num(r.indonesia_reported_tonnes, 0), num(r.australia_reported_tonnes, 0), signedPct(r.difference_share),
-          Math.abs(r.difference_share) > 0.1 ? { flag: 'Review' } : 'OK'];
+        return [String(r.year), recorded(r.indonesia_reported_tonnes), recorded(r.australia_reported_tonnes), signedPct(r.difference_share),
+          needsReview(r) ? { flag: 'Review' } : 'OK'];
       })));
   }
 
@@ -374,15 +401,15 @@
       table: { cols: ['Year', 'Indonesia', 'Australia'], rows: twoColTable(china, function (v) { return pct(v, 1); }) }
     });
 
-    var mir = T.mart_coal_mirror, over = mir.filter(function (r) { return Math.abs(r.difference_share) > 0.1; }).length;
+    var mir = T.mart_coal_mirror, over = mir.filter(needsReview).length;
     document.getElementById('mirror-summary').textContent = mir.length
       ? 'The two figures differ by more than 10% in ' + over + ' of ' + mir.length + ' comparisons.'
       : 'No years are available for comparison.';
     document.getElementById('mirror').appendChild(table(
       ['Exporter', 'Year', 'Exporter recorded (tonnes)', 'China recorded (tonnes)', 'Difference', 'Status'],
       mir.slice().sort(function (a, b) { return a.exporter < b.exporter ? -1 : a.exporter > b.exporter ? 1 : b.year - a.year; }).map(function (r) {
-        return [COUNTRY[r.exporter] || r.exporter, String(r.year), num(r.exporter_reported_tonnes, 0), num(r.china_reported_tonnes, 0), signedPct(r.difference_share),
-          Math.abs(r.difference_share) > 0.1 ? { flag: 'Review' } : 'OK'];
+        return [COUNTRY[r.exporter] || r.exporter, String(r.year), recorded(r.exporter_reported_tonnes), recorded(r.china_reported_tonnes), signedPct(r.difference_share),
+          needsReview(r) ? { flag: 'Review' } : 'OK'];
       })));
   }
 

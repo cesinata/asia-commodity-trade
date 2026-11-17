@@ -54,7 +54,12 @@ SELECT
     -- (0 when the World weight is used). The gap is reported, never filled.
     CASE WHEN world_kg IS NOT NULL THEN 0.0
          ELSE (partners_usd - COALESCE(partners_usd_with_kg, 0)) * 1.0 / NULLIF(partners_usd, 0)
-    END                                                            AS value_share_without_weight
+    END                                                            AS value_share_without_weight,
+    -- 1 when more than 1% of the value has no weight. Tonnes and shares for that
+    -- year are then shown as not available rather than as an understated figure.
+    CASE WHEN world_kg IS NULL
+          AND (partners_usd - COALESCE(partners_usd_with_kg, 0)) > 0.01 * partners_usd
+         THEN 1 ELSE 0 END                                         AS weight_incomplete
 FROM int_totals_base;
 
 -- ---------- story 1: wheat ----------
@@ -63,7 +68,7 @@ DROP TABLE IF EXISTS mart_wheat_imports_year;
 CREATE TABLE mart_wheat_imports_year AS
 SELECT
     year,
-    total_kg / 1e9                                AS million_tonnes,
+    CASE WHEN weight_incomplete = 1 THEN NULL ELSE total_kg / 1e9 END AS million_tonnes,
     total_usd / 1e6                               AS value_usd_million,
     usd_per_tonne,
     value_share_without_weight
@@ -76,8 +81,9 @@ CREATE TABLE mart_wheat_suppliers AS
 SELECT
     f.year, f.partner, f.partner_name,
     f.net_kg / 1e9                                              AS million_tonnes,
-    f.net_kg * 1.0 / t.partners_kg                              AS share,
-    ROW_NUMBER() OVER (PARTITION BY f.year ORDER BY f.net_kg DESC) AS rank_in_year,
+    CASE WHEN t.weight_incomplete = 1 THEN NULL
+         ELSE f.net_kg * 1.0 / t.partners_kg END                AS share,
+    ROW_NUMBER() OVER (PARTITION BY f.year ORDER BY f.net_kg DESC, f.partner) AS rank_in_year,
     f.value_with_kg_usd / NULLIF(f.net_kg / 1000.0, 0)          AS usd_per_tonne
 FROM int_flows f
 JOIN int_totals t
@@ -92,8 +98,11 @@ CREATE TABLE mart_wheat_concentration AS
 SELECT
     year,
     COUNT(*)                                               AS supplier_count,
-    SUM(CASE WHEN rank_in_year <= 3 THEN share ELSE 0 END) AS top3_share,
-    SUM(share * share) * 10000                             AS herfindahl_index
+    -- Not available when the year's shares are not available.
+    CASE WHEN COUNT(share) < COUNT(*) THEN NULL
+         ELSE SUM(CASE WHEN rank_in_year <= 3 THEN share ELSE 0 END) END AS top3_share,
+    CASE WHEN COUNT(share) < COUNT(*) THEN NULL
+         ELSE SUM(share * share) * 10000 END                AS herfindahl_index
 FROM mart_wheat_suppliers
 GROUP BY year;
 
@@ -114,7 +123,7 @@ SELECT
     f.year, f.product AS hs, f.partner, f.partner_name,
     f.value_usd / 1e6                 AS value_usd_million,
     f.value_usd * 1.0 / t.total_usd   AS share_of_value,
-    ROW_NUMBER() OVER (PARTITION BY f.year, f.product ORDER BY f.value_usd DESC) AS rank_in_year
+    ROW_NUMBER() OVER (PARTITION BY f.year, f.product ORDER BY f.value_usd DESC, f.partner) AS rank_in_year
 FROM int_flows f
 JOIN int_totals t
   ON t.query_id = f.query_id AND t.year = f.year AND t.product = f.product
@@ -124,16 +133,22 @@ WHERE f.query_id = 'wheat_idn_exports' AND f.partner_code <> 0
 -- Comparison of reported trade, in tonnes (not dollars: importers record value
 -- including freight and insurance, exporters without, so dollar gaps are expected).
 DROP TABLE IF EXISTS mart_wheat_mirror;
+-- Every year that either side recorded. A year recorded by one side only is kept,
+-- with the other side and the difference left empty, so it is not hidden.
 CREATE TABLE mart_wheat_mirror AS
+WITH i AS (SELECT year, net_kg FROM int_flows
+           WHERE query_id = 'wheat_idn_imports' AND product = '1001' AND partner = 'AUS'),
+     e AS (SELECT year, net_kg FROM int_flows
+           WHERE query_id = 'wheat_aus_exports_to_idn' AND product = '1001' AND partner = 'IDN'),
+     k AS (SELECT year FROM i UNION SELECT year FROM e)
 SELECT
-    i.year,
-    i.net_kg / 1000.0                               AS indonesia_reported_tonnes,
-    e.net_kg / 1000.0                               AS australia_reported_tonnes,
+    k.year,
+    i.net_kg / 1000.0                                 AS indonesia_reported_tonnes,
+    e.net_kg / 1000.0                                 AS australia_reported_tonnes,
     (i.net_kg - e.net_kg) * 1.0 / NULLIF(e.net_kg, 0) AS difference_share
-FROM int_flows i
-JOIN int_flows e ON e.year = i.year
-WHERE i.query_id = 'wheat_idn_imports' AND i.product = '1001' AND i.partner = 'AUS'
-  AND e.query_id = 'wheat_aus_exports_to_idn' AND e.product = '1001' AND e.partner = 'IDN';
+FROM k
+LEFT JOIN i ON i.year = k.year
+LEFT JOIN e ON e.year = k.year;
 
 -- ---------- story 2: coal (HS 2701 coal + HS 2702 lignite) ----------
 
@@ -141,7 +156,7 @@ DROP TABLE IF EXISTS mart_coal_exports_year;
 CREATE TABLE mart_coal_exports_year AS
 SELECT
     reporter, year,
-    total_kg / 1e9                             AS million_tonnes,
+    CASE WHEN weight_incomplete = 1 THEN NULL ELSE total_kg / 1e9 END AS million_tonnes,
     total_usd / 1e9                            AS value_usd_billion,
     usd_per_tonne,
     value_share_without_weight
@@ -153,8 +168,9 @@ CREATE TABLE mart_coal_buyers AS
 SELECT
     f.reporter, f.year, f.partner, f.partner_name,
     f.net_kg / 1e9                     AS million_tonnes,
-    f.net_kg * 1.0 / t.partners_kg     AS share,
-    ROW_NUMBER() OVER (PARTITION BY f.reporter, f.year ORDER BY f.net_kg DESC) AS rank_in_year,
+    CASE WHEN t.weight_incomplete = 1 THEN NULL
+         ELSE f.net_kg * 1.0 / t.partners_kg END AS share,
+    ROW_NUMBER() OVER (PARTITION BY f.reporter, f.year ORDER BY f.net_kg DESC, f.partner) AS rank_in_year,
     f.value_with_kg_usd / NULLIF(f.net_kg / 1000.0, 0) AS usd_per_tonne
 FROM int_flows f
 JOIN int_totals t
@@ -163,14 +179,19 @@ WHERE f.query_id IN ('coal_aus_exports', 'coal_idn_exports') AND f.product = 'co
   AND f.partner_code <> 0 AND f.net_kg > 0 AND t.partners_kg > 0;
 
 DROP TABLE IF EXISTS mart_coal_mirror;
+-- As for wheat: a year recorded by only one side is kept, not dropped.
 CREATE TABLE mart_coal_mirror AS
+WITH e AS (SELECT reporter AS exporter, year, net_kg FROM int_flows
+           WHERE query_id IN ('coal_aus_exports', 'coal_idn_exports') AND product = 'coal' AND partner = 'CHN'),
+     c AS (SELECT partner AS exporter, year, net_kg FROM int_flows
+           WHERE query_id = 'coal_chn_imports' AND product = 'coal' AND partner IN ('AUS', 'IDN')),
+     k AS (SELECT exporter, year FROM e UNION SELECT exporter, year FROM c)
 SELECT
-    e.reporter                                       AS exporter,
-    e.year,
-    e.net_kg / 1000.0                                AS exporter_reported_tonnes,
-    c.net_kg / 1000.0                                AS china_reported_tonnes,
+    k.exporter,
+    k.year,
+    e.net_kg / 1000.0                                 AS exporter_reported_tonnes,
+    c.net_kg / 1000.0                                 AS china_reported_tonnes,
     (c.net_kg - e.net_kg) * 1.0 / NULLIF(e.net_kg, 0) AS difference_share
-FROM int_flows e
-JOIN int_flows c ON c.year = e.year AND c.partner = e.reporter
-WHERE e.query_id IN ('coal_aus_exports', 'coal_idn_exports') AND e.product = 'coal' AND e.partner = 'CHN'
-  AND c.query_id = 'coal_chn_imports' AND c.product = 'coal';
+FROM k
+LEFT JOIN e ON e.exporter = k.exporter AND e.year = k.year
+LEFT JOIN c ON c.exporter = k.exporter AND c.year = k.year;

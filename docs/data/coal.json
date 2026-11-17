@@ -4590,22 +4590,22 @@
    {
     "reporter": "AUS",
     "year": 2025,
-    "partner": "GEO",
-    "partner_name": "Georgia",
-    "million_tonnes": 0.11,
-    "share": 0.000309,
-    "rank_in_year": 30,
-    "usd_per_tonne": 122.041936
-   },
-   {
-    "reporter": "AUS",
-    "year": 2025,
     "partner": "AUT",
     "partner_name": "Austria",
     "million_tonnes": 0.11,
     "share": 0.000309,
-    "rank_in_year": 31,
+    "rank_in_year": 30,
     "usd_per_tonne": 148.016297
+   },
+   {
+    "reporter": "AUS",
+    "year": 2025,
+    "partner": "GEO",
+    "partner_name": "Georgia",
+    "million_tonnes": 0.11,
+    "share": 0.000309,
+    "rank_in_year": 31,
+    "usd_per_tonne": 122.041936
    },
    {
     "reporter": "AUS",
@@ -7070,32 +7070,22 @@
    {
     "reporter": "IDN",
     "year": 2022,
-    "partner": "LVA",
-    "partner_name": "Latvia",
-    "million_tonnes": 0.0605,
-    "share": 0.00013,
-    "rank_in_year": 30,
-    "usd_per_tonne": 169.24
-   },
-   {
-    "reporter": "IDN",
-    "year": 2022,
     "partner": "DEU",
     "partner_name": "Germany",
     "million_tonnes": 0.0605,
     "share": 0.00013,
-    "rank_in_year": 31,
+    "rank_in_year": 30,
     "usd_per_tonne": 86.0
    },
    {
     "reporter": "IDN",
     "year": 2022,
-    "partner": "MKD",
-    "partner_name": "North Macedonia",
-    "million_tonnes": 0.044,
-    "share": 9.4e-05,
-    "rank_in_year": 32,
-    "usd_per_tonne": 135.0
+    "partner": "LVA",
+    "partner_name": "Latvia",
+    "million_tonnes": 0.0605,
+    "share": 0.00013,
+    "rank_in_year": 31,
+    "usd_per_tonne": 169.24
    },
    {
     "reporter": "IDN",
@@ -7104,8 +7094,18 @@
     "partner_name": "Greece",
     "million_tonnes": 0.044,
     "share": 9.4e-05,
-    "rank_in_year": 33,
+    "rank_in_year": 32,
     "usd_per_tonne": 190.0
+   },
+   {
+    "reporter": "IDN",
+    "year": 2022,
+    "partner": "MKD",
+    "partner_name": "North Macedonia",
+    "million_tonnes": 0.044,
+    "share": 9.4e-05,
+    "rank_in_year": 33,
+    "usd_per_tonne": 135.0
    },
    {
     "reporter": "IDN",
@@ -8027,6 +8027,13 @@
     "exporter_reported_tonnes": 182220.0,
     "china_reported_tonnes": 11711974.0,
     "difference_share": 63.273812
+   },
+   {
+    "exporter": "AUS",
+    "year": 2022,
+    "exporter_reported_tonnes": null,
+    "china_reported_tonnes": 2855602.4,
+    "difference_share": null
    },
    {
     "exporter": "AUS",

@@ -89,7 +89,7 @@ def export(con, marts_dir, docs_data_dir, fetched_at=None):
             with open(marts_dir / f"{table}.csv", "w", newline="") as fh:
                 writer = csv.writer(fh)
                 writer.writerow(cols)
-                writer.writerows(rows)
+                writer.writerows([list(map(clean, row)) for row in rows])
             out[table] = [dict(zip(cols, map(clean, row))) for row in rows]
         if story == "wheat":
             _, r = query(con, "SELECT MIN(year), MAX(year) FROM mart_wheat_imports_year WHERE million_tonnes IS NOT NULL")

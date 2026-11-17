@@ -103,6 +103,11 @@ def main():
     assert 0 < gap < 1 and abs(price - expected_price) < 1e-6, r
     _, warnings = build.run_checks(con, (ROOT / "sql" / "03_checks.sql").read_text())
     assert any(name == "world_weight_missing" for name, *_ in warnings), "world_weight_missing did not fire"
+    # More than 1% of value without weight: tonnes and shares become not available, value stays.
+    _, r = build.query(con, "SELECT million_tonnes, value_usd_billion FROM mart_coal_exports_year WHERE reporter = 'IDN' AND year = 2019")
+    assert r[0][0] is None and r[0][1] > 0, r
+    _, r = build.query(con, "SELECT COUNT(*), COUNT(share) FROM mart_coal_buyers WHERE reporter = 'IDN' AND year = 2019")
+    assert r[0][0] > 0 and r[0][1] == 0, r
     con.execute("DELETE FROM stg_trade")
     con.executemany("INSERT INTO stg_trade VALUES (?,?,?,?,?,?,?,?,?,?,?)", simulated_rows())
     build.run_script(con, (ROOT / "sql" / "02_marts.sql").read_text())
