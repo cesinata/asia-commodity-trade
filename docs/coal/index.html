@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Coal exports: Australia and Indonesia | Asia commodity trade</title>
+<meta name="description" content="Coal export volumes, export values and destination markets for Australia and Indonesia, from UN Comtrade data.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;500;700;800&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body data-story="coal">
+<div class="wrap">
+<nav class="nav" aria-label="Site"><a href="../">All dashboards</a><a href="../wheat/">Indonesia’s wheat trade</a></nav>
+<header class="top">
+<div class="lede">
+<h1>Coal exports: Australia and Indonesia</h1>
+<p class="intro">Australia and Indonesia are the two largest exporters of coal. This dashboard compares their export volumes, average export values and destination markets.</p>
+<p class="meta" id="meta">Source: UN Comtrade.</p>
+</div>
+<img src="../assets/hero-coal.svg" alt="Illustration of eight coloured tiles showing a cargo ship, a coal stockpile, lumps of coal, a port crane, waves, a power station and a sun" width="560" height="280">
+</header>
+
+<div class="kpis" id="kpis" aria-label="Key figures"></div>
+
+<section>
+<h2><span class="num n1" aria-hidden="true">1</span>Export volumes and values</h2>
+<div class="grid2" id="s1"></div>
+</section>
+
+<section>
+<h2><span class="num n2" aria-hidden="true">2</span>Destination markets</h2>
+<p class="section-intro">Both countries sell most of their coal to buyers in Asia. The charts show where each country’s exports went in the latest year, and how much went to China over time.</p>
+<div class="grid2" id="s2"></div>
+</section>
+
+<section>
+<h2><span class="num n3" aria-hidden="true">3</span>Data quality</h2>
+<div class="grid2">
+<div class="card">
+<h3>Comparison of reported trade with China</h3>
+<p class="body">Each exporter records the coal it ships to China, and China records the coal it receives from each country. The two figures can differ because shipments may leave in one year and arrive in the next, and because countries attribute trade to partner countries in different ways. Differences above 10% are marked “Review”.</p>
+<p class="body"><strong id="mirror-summary"></strong></p>
+<div id="mirror"></div>
+<p class="source">Source: UN Comtrade. Difference = (China’s figure − the exporter’s figure) ÷ the exporter’s figure.</p>
+</div>
+<div class="card">
+<h3>About the data</h3>
+<dl class="about">
+<div><dt>Source</dt><dd>UN Comtrade, the United Nations database of trade statistics reported by national customs authorities.</dd></div>
+<div><dt>Products</dt><dd>Coal (HS 2701) and lignite (HS 2702), added together.</dd></div>
+<div><dt>Period</dt><dd>Calendar years, as reported by each country.</dd></div>
+<div><dt>Measures</dt><dd>Volume in tonnes. Value in US dollars at current prices, not adjusted for inflation. Average export value is total value divided by total tonnes.</dd></div>
+<div><dt>Shares</dt><dd>Each destination’s tonnes divided by the total for all destinations in that year.</dd></div>
+<div><dt>Limitations</dt><dd>The data does not separate coal used for power generation from coal used for steelmaking. The most recent year may be incomplete or revised. The charts describe what changed and do not explain why.</dd></div>
+</dl>
+</div>
+</div>
+</section>
+
+<footer><span>Prepared by Cesilia Nainggolan. Code and method: <a href="https://github.com/cesinata/asia-commodity-trade">github.com/cesinata/asia-commodity-trade</a></span><span>Contains data from UN Comtrade.</span></footer>
+</div>
+<script src="../assets/app.js"></script>
+</body>
+</html>

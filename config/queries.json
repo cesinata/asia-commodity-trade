@@ -1,0 +1,17 @@
+{
+  "first_year": 2015,
+  "queries": [
+    {"id": "wheat_idn_imports", "story": "wheat", "reporter": "360", "flow": "M", "hs": "1001", "partner": null,
+     "what": "Indonesia's wheat imports from every partner"},
+    {"id": "wheat_idn_exports", "story": "wheat", "reporter": "360", "flow": "X", "hs": "1101,190230", "partner": null,
+     "what": "Indonesia's exports of wheat flour (1101) and noodles and other prepared pasta (190230)"},
+    {"id": "wheat_aus_exports_to_idn", "story": "wheat", "reporter": "36", "flow": "X", "hs": "1001", "partner": "360",
+     "what": "Australia's wheat exports to Indonesia, for the comparison of reported trade"},
+    {"id": "coal_aus_exports", "story": "coal", "reporter": "36", "flow": "X", "hs": "2701,2702", "partner": null,
+     "what": "Australia's coal and lignite exports to every partner"},
+    {"id": "coal_idn_exports", "story": "coal", "reporter": "360", "flow": "X", "hs": "2701,2702", "partner": null,
+     "what": "Indonesia's coal and lignite exports to every partner"},
+    {"id": "coal_chn_imports", "story": "coal", "reporter": "156", "flow": "M", "hs": "2701,2702", "partner": "36,360",
+     "what": "China's coal and lignite imports from Australia and Indonesia, for the comparison of reported trade"}
+  ]
+}
